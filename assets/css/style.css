@@ -17,7 +17,7 @@ body {
   min-height: 100%;
 }
 
-.project {
+.Page {
   display: flex;
   flex-direction: column;
   height: 100%;
