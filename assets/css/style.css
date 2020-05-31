@@ -30,6 +30,13 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.Page-content {
+  flex: 1;
+}
+
+.Page-footer {
+}
+
 .header__item:hover {
   text-decoration: underline;
 }
@@ -62,10 +69,6 @@ p {
   color: rgba(0, 0, 0, 0.87);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-}
-
-.Page-content {
-  flex: 1;
 }
 
 .logo {
@@ -131,9 +134,6 @@ p {
 
 .google__text {
   justify-self: center;
-}
-
-.Page-footer {
 }
 
 .advertising {
