@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 
-.Page_header {
+.Page-header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
