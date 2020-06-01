@@ -42,11 +42,6 @@ body {
   text-decoration: underline;
 }
 
-/*HELP*/
-.header__bar:hover {
-}
-/*HELP*/
-
 .SiteNavigation {
   display: flex;
   align-items: center;
@@ -54,14 +49,6 @@ body {
 
 .SiteNavigation-item {
   padding: 10px 10px;
-}
-
-.header__join {
-  display: flex;
-  background: #4887ef;
-  padding: 7px 15px;
-  border-radius: 3px;
-  font-weight: bold;
 }
 
 a,
