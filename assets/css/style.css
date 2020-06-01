@@ -47,7 +47,7 @@ body {
 }
 /*HELP*/
 
-.Site-Navigation {
+.SiteNavigation {
   display: flex;
   align-items: center;
 }
