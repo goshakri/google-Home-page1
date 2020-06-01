@@ -47,7 +47,7 @@ body {
 }
 /*HELP*/
 
-.header__section {
+.Site-Navigation {
   display: flex;
   align-items: center;
 }
