@@ -42,7 +42,7 @@ body {
   text-decoration: underline;
 }
 
---header__join {
+.SiteNavigation-item--header__join {
   display: flex;
   background: #4887ef;
   padding: 7px 15px;
