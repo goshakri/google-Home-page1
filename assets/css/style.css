@@ -35,11 +35,20 @@ body {
 }
 
 .Page-footer {
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
+}
+
+.SiteNavigation {
+  display: flex;
+  align-items: center;
 }
 
 .SiteNavigation-item:hover {
   text-decoration: underline;
+}
+
+.SiteNavigation-item {
+  padding: 10px 10px;
 }
 
 .SiteNavigation-item--button {
@@ -48,15 +57,6 @@ body {
   padding: 7px 15px;
   border-radius: 3px;
   font-weight: bold;
-}
-
-.SiteNavigation {
-  display: flex;
-  align-items: center;
-}
-
-.SiteNavigation-item {
-  padding: 10px 10px;
 }
 
 a,
