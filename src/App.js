@@ -46,9 +46,6 @@ function App() {
 
         <p className="google__text">
           Google offered in:
-          <a href="#" style="color: blue;">
-            Russion
-          </a>
         </p>
       </div>
       <div className="Page-footer">
