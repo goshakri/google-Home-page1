@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 100%;
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Page {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+.Page-header {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Page-content {
+  flex: 1;
+}
+
+.Page-footer {
+  background-color: #f4f7ff;
+}
+
+.SiteNavigation {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.SiteNavigation-item:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SiteNavigation-item {
+  padding: 10px 10px;
+}
+
+.SiteNavigation-item--button {
+  display: flex;
+  background: #4887ef;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.logo {
+  display: flex;
+  align-self: end;
+
+  justify-self: center;
+  align-self: end;
+}
+
+.search {
+  align-self: center;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+}
+
+.search:focus {
+  box-shadow: 1px 1px 4px #d3d3d3;
+}
+
+.search:hover {
+  box-shadow: 1px 1px 4px #d3d3d3;
+}
+
+.flexbox {
+  display: flexbox;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.google__search__btn {
+  border: none;
+  font-size: 15px;
+  color: #5f6368;
+  margin-right: 25px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+}
+
+.random__search__btn {
+  border: none;
+  font-size: 15px;
+  color: #5f6368;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+}
+
+.google__search__btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.random__search__btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.google__text {
+  justify-self: center;
+}
+
+.advertising {
+}
+
+.business {
+}
+
+.allgoogle {
+}
+
+.privacy {
+}
+
+.nouname {
+}
+
+.settings {
 }
