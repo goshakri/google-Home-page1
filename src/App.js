@@ -47,22 +47,22 @@ function App() {
         </p>
       </div>
       <div className="Page-footer">
-        <a href="#" className="advertising">
+        <a href="#">
           Adveristing
         </a>
-        <a href="#" className="business">
+        <a href="#">
           Business
         </a>
-        <a href="#" className="allgoogle">
+        <a href="#">
           How Search works
         </a>
-        <a href="#" className="privacy">
+        <a href="#">
           Privacy
         </a>
-        <a href="#" className="nouname">
+        <a href="#">
           Tems
         </a>
-        <a href="#" className="settings">
+        <a href="#">
           Settings
         </a>
       </div>
