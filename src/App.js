@@ -5,30 +5,32 @@ function App() {
     <div className="Page">
       <div className="Page-header">
         <div className="SiteNavigation">
-          <div className="SiteNavigation-item"></div>
-          <div className="SiteNavigation-item">
-            <a href="#">About</a>
+          <nav>
+            <div className="SiteNavigation-item"></div>
+            <div className="SiteNavigation-item">
+              <a href="#">About</a>
+            </div>
+            <div className="SiteNavigation-item">
+              <a href="#">Store</a>
+            </div>
           </div>
-          <div className="SiteNavigation-item">
-            <a href="#">Store</a>
+          <div className="SiteNavigation">
+            <div className="SiteNavigation-item">
+              <a href="#">Gmail</a>
+            </div>
+            <div className="SiteNavigation-item">
+              <a href="#">Images</a>
+            </div>
+            <div className="SiteNavigation-item">
+              <a href="#"></a>
+              <img src="assets/images/bar.png" height="30px" width="30px" />
+            </div>
+            <div className="SiteNavigation-item SiteNavigation-item--button">
+              <a href="#">Sign In</a>
+            </div>
           </div>
         </div>
-        <div className="SiteNavigation">
-          <div className="SiteNavigation-item">
-            <a href="#">Gmail</a>
-          </div>
-          <div className="SiteNavigation-item">
-            <a href="#">Images</a>
-          </div>
-          <div className="SiteNavigation-item">
-            <a href="#"></a>
-            <img src="assets/images/bar.png" height="30px" width="30px" />
-          </div>
-          <div className="SiteNavigation-item SiteNavigation-item--button">
-            <a href="#">Sign In</a>
-          </div>
-        </div>
-      </div>
+      </nav>
       <div className="Page-content">
         <a href="#" className="logo">
           <img src="assets/images/logog.png" />
@@ -42,29 +44,15 @@ function App() {
           <button className="random__search__btn">I'm Feelling Lucky</button>
         </div>
 
-        <p className="google__text">
-          Google offered in:
-        </p>
+        <p className="google__text">Google offered in:</p>
       </div>
       <div className="Page-footer">
-        <a href="#">
-          Adveristing
-        </a>
-        <a href="#">
-          Business
-        </a>
-        <a href="#">
-          How Search works
-        </a>
-        <a href="#">
-          Privacy
-        </a>
-        <a href="#">
-          Tems
-        </a>
-        <a href="#">
-          Settings
-        </a>
+        <a href="#">Adveristing</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+        <a href="#">Privacy</a>
+        <a href="#">Tems</a>
+        <a href="#">Settings</a>
       </div>
     </div>
   );
