@@ -3,7 +3,7 @@ function App() {
   return (
     <div className="Page">
       <header className="Page-header">
-        <nav>
+        <nav className="SiteNavigation">
           <ul className="SiteNavigation">
             <li className="SiteNavigation-item">
               <a href="#">About</a>
@@ -13,7 +13,7 @@ function App() {
             </li>
           </ul>
 
-          <ul className="SiteNavigation">
+          <ul className="SiteNavigation-column">
             <li className="SiteNavigation-item">
               <a href="#">Gmail</a>
             </li>
@@ -24,7 +24,6 @@ function App() {
               <a href="#">Sign In</a>
             </li>
           </ul>
-
         </nav>
       </header>
 
