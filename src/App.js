@@ -4,7 +4,7 @@ function App() {
     <div className="Page">
       <header className="Page-header">
         <nav className="SiteNavigation">
-          <ul className="SiteNavigation">
+          <ul className="SiteNavigation-column">
             <li className="SiteNavigation-item">
               <a className="SiteNavigation-link" href="#">About</a>
             </li>
@@ -26,7 +26,6 @@ function App() {
           </ul>
         </nav>
       </header>
-
       <div className="Page-content">
         <a href="#" className="logo">
           <img src="assets/images/logog.png" />
