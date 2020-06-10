@@ -3,10 +3,9 @@ function App() {
   return (
     <div className="Page">
       <header className="Page-header">
-        <div className="SiteNavigation">
-          <nav>
-            <ul>
-              <div className="SiteNavigation-item"></div>
+        <nav>
+            <ul className="SiteNavigation">
+              <li className="SiteNavigation-item"></li>
               <li className="SiteNavigation-item">
                 <a href="#">About</a>
               </li>
@@ -14,8 +13,7 @@ function App() {
                 <a href="#">Store</a>
               </li>
             </ul>
-            <div className="SiteNavigation">
-              <ul>
+              <ul className="SiteNavigation">
                 <li className="SiteNavigation-item">
                   <a href="#">Gmail</a>
                 </li>
@@ -29,9 +27,9 @@ function App() {
                 <li className="SiteNavigation-item SiteNavigation-item--button">
                   <a href="#">Sign In</a>
                 </li>
-              </ul>
-            </div>
-          </nav>
+            </ul>
+        </nav>
+      </header>
           <div className="Page-content">
             <a href="#" className="logo">
               <img src="assets/images/logog.png" />
@@ -56,8 +54,6 @@ function App() {
             <a href="#">Settings</a>
           </div>
         </div>
-      </header>
-    </div>
   );
 }
 export default App;
