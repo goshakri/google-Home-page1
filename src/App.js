@@ -6,22 +6,22 @@ function App() {
         <nav className="SiteNavigation">
           <ul className="SiteNavigation">
             <li className="SiteNavigation-item">
-              <a href="#">About</a>
+              <a className="SiteNavigation-link" href="#">About</a>
             </li>
             <li className="SiteNavigation-item">
-              <a href="#">Store</a>
+              <a className="SiteNavigation-link" href="#">Store</a>
             </li>
           </ul>
 
           <ul className="SiteNavigation-column">
             <li className="SiteNavigation-item">
-              <a href="#">Gmail</a>
+              <a className="SiteNavigation-link" href="#">Gmail</a>
             </li>
             <li className="SiteNavigation-item">
-              <a href="#">Images</a>
+              <a className="SiteNavigation-link" href="#">Images</a>
             </li>
             <li className="SiteNavigation-item SiteNavigation-item--button">
-              <a href="#">Sign In</a>
+              <a className="SiteNavigation-link" href="#">Sign In</a>
             </li>
           </ul>
         </nav>
