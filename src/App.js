@@ -5,7 +5,6 @@ function App() {
       <header className="Page-header">
         <nav>
           <ul className="SiteNavigation">
-            <li className="SiteNavigation-item"></li>
             <li className="SiteNavigation-item">
               <a href="#">About</a>
             </li>
@@ -21,14 +20,11 @@ function App() {
             <li className="SiteNavigation-item">
               <a href="#">Images</a>
             </li>
-            <li className="SiteNavigation-item">
-              <a href="#"></a>
-              <img src="assets/images/bar.png" height="30px" width="30px" />
-            </li>
             <li className="SiteNavigation-item SiteNavigation-item--button">
               <a href="#">Sign In</a>
             </li>
           </ul>
+
         </nav>
       </header>
 
