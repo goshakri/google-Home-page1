@@ -1,6 +1,7 @@
 .SiteNavigation {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .SiteNavigation-item:hover {
@@ -17,4 +18,13 @@
   padding: 7px 15px;
   border-radius: 3px;
   font-weight: bold;
+}
+
+.SiteNavigation-column {
+  display: flex;
+  align-items: center;
+}
+
+.SiteNavigation-link {
+  color: rgba(0, 0, 0, 0.87);
 }

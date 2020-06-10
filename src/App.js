@@ -1,36 +1,31 @@
 import React from "react";
-
 function App() {
   return (
     <div className="Page">
-      <div className="Page-header">
-        <div className="SiteNavigation">
-          <nav>
-            <div className="SiteNavigation-item"></div>
-            <div className="SiteNavigation-item">
-              <a href="#">About</a>
-            </div>
-            <div className="SiteNavigation-item">
-              <a href="#">Store</a>
-            </div>
-          </div>
-          <div className="SiteNavigation">
-            <div className="SiteNavigation-item">
-              <a href="#">Gmail</a>
-            </div>
-            <div className="SiteNavigation-item">
-              <a href="#">Images</a>
-            </div>
-            <div className="SiteNavigation-item">
-              <a href="#"></a>
-              <img src="assets/images/bar.png" height="30px" width="30px" />
-            </div>
-            <div className="SiteNavigation-item SiteNavigation-item--button">
-              <a href="#">Sign In</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <header className="Page-header">
+        <nav className="SiteNavigation">
+          <ul className="SiteNavigation-column">
+            <li className="SiteNavigation-item">
+              <a className="SiteNavigation-link" href="#">About</a>
+            </li>
+            <li className="SiteNavigation-item">
+              <a className="SiteNavigation-link" href="#">Store</a>
+            </li>
+          </ul>
+
+          <ul className="SiteNavigation-column">
+            <li className="SiteNavigation-item">
+              <a className="SiteNavigation-link" href="#">Gmail</a>
+            </li>
+            <li className="SiteNavigation-item">
+              <a className="SiteNavigation-link" href="#">Images</a>
+            </li>
+            <li className="SiteNavigation-item SiteNavigation-item--button">
+              <a className="SiteNavigation-link" href="#">Sign In</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <div className="Page-content">
         <a href="#" className="logo">
           <img src="assets/images/logog.png" />
@@ -57,5 +52,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
