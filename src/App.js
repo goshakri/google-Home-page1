@@ -2,7 +2,7 @@ import React from "react";
 function App() {
   return (
     <div className="Page">
-      <header className="Page-header">
+      <header>
         <nav className="SiteNavigation">
           <ul className="SiteNavigation-column">
             <li className="SiteNavigation-item">
