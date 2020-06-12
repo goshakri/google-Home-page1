@@ -3,28 +3,42 @@ function App() {
   return (
     <div className="Page">
       <header>
-        <nav className="SiteNavigation">
-          <ul className="SiteNavigation-column">
-            <li className="SiteNavigation-item">
-              <a className="SiteNavigation-link" href="#">About</a>
-            </li>
-            <li className="SiteNavigation-item">
-              <a className="SiteNavigation-link" href="#">Store</a>
-            </li>
-          </ul>
+        <div class="Section">
+          <div class="Section-content">
+            <nav className="SiteNavigation">
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="#">
+                    About
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="#">
+                    Store
+                  </a>
+                </li>
+              </ul>
 
-          <ul className="SiteNavigation-column">
-            <li className="SiteNavigation-item">
-              <a className="SiteNavigation-link" href="#">Gmail</a>
-            </li>
-            <li className="SiteNavigation-item">
-              <a className="SiteNavigation-link" href="#">Images</a>
-            </li>
-            <li className="SiteNavigation-item SiteNavigation-item--button">
-              <a className="SiteNavigation-link" href="#">Sign In</a>
-            </li>
-          </ul>
-        </nav>
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="#">
+                    Gmail
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="#">
+                    Images
+                  </a>
+                </li>
+                <li className="SiteNavigation-item SiteNavigation-item--button">
+                  <a className="SiteNavigation-link" href="#">
+                    Sign In
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </header>
       <div className="Page-content">
         <a href="#" className="logo">

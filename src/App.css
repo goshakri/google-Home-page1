@@ -70,3 +70,13 @@ p {
 .google__text {
   justify-self: center;
 }
+
+.Section {
+  background-color: #F4F7FF;
+}
+
+.Section-content {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
