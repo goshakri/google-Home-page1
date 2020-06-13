@@ -3,7 +3,7 @@ function App() {
   return (
     <div className="Page">
       <header>
-        <div class="Section">
+        <div class="Section Section--zircon">
           <div class="Section-content">
             <nav className="SiteNavigation">
               <ul className="SiteNavigation-column">

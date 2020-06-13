@@ -1,5 +1,7 @@
 .Section {
-  background-color: #F4F7FF;
+  &--zircon {
+    background-color: #F4F7FF;
+  }
 
   &-content {
     max-width: 1200px;
