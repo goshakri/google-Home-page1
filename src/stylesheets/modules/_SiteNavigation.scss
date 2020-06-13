@@ -5,18 +5,8 @@
   justify-content: space-between;
 
   &-item {
-    padding: 10px 10px;
-
     &:hover {
       text-decoration: underline;
-    }
-
-    &--button {
-      display: flex;
-      background: #4887ef;
-      padding: 7px 15px;
-      border-radius: 3px;
-      font-weight: bold;
     }
   }
 
@@ -27,5 +17,16 @@
 
   &-link {
     color: rgba(0, 0, 0, 0.87);
+    padding: 10px;
+    font-weight: bold;
+
+    &--button {
+      display: flex;
+      background: #F4F7FF;
+      padding: 7px 15px;
+      border: 1px solid #1089F5;
+      border-radius: 5px;
+      color: #1089F5 ;
+    }
   }
 }
