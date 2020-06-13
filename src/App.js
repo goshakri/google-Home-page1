@@ -9,12 +9,12 @@ function App() {
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="#">
-                    About
+                    Search
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="#">
-                    Store
+                    Cortacts
                   </a>
                 </li>
               </ul>
@@ -22,16 +22,11 @@ function App() {
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="#">
-                    Gmail
+                    Examples
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
-                    Images
-                  </a>
-                </li>
-                <li className="SiteNavigation-item SiteNavigation-item--button">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link SiteNavigation-link--button" href="#">
                     Sign In
                   </a>
                 </li>
