@@ -53,7 +53,12 @@ function App() {
       <footer className="Page-footer">
         <div class="Section Section--zircon">
           <div class="Section-content">
-            <p>Created by <a className="link" href="https://github.com/goshakri">goshakri</a></p>
+            <div className="PageFooter">
+              <p>Created by <a className="link" href="https://github.com/goshakri">
+                  goshakri
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </footer>
