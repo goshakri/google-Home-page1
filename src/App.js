@@ -50,14 +50,13 @@ function App() {
 
         <p className="google__text">Google offered in:</p>
       </div>
-      <div className="Page-footer">
-        <a href="#">Adveristing</a>
-        <a href="#">Business</a>
-        <a href="#">How Search works</a>
-        <a href="#">Privacy</a>
-        <a href="#">Tems</a>
-        <a href="#">Settings</a>
-      </div>
+      <footer className="Page-footer">
+        <div class="Section Section--zircon">
+          <div class="Section-content">
+            <p>Created by <a className="link" href="https://github.com/goshakri">goshakri</a></p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
