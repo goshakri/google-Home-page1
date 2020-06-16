@@ -50,14 +50,11 @@ function App() {
 
         <p className="google__text">Google offered in:</p>
       </div>
-      <footer className="Page-footer">
+      <footer>
         <div class="Section Section--zircon">
           <div class="Section-content">
             <div className="PageFooter">
-              <p>Created by <a className="link" href="https://github.com/goshakri">
-                  goshakri
-                </a>
-              </p>
+              <a href="https://github.com/goshakri"><p>Created by goshakri</p></a> 
             </div>
           </div>
         </div>
