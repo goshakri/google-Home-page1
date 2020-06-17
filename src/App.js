@@ -54,7 +54,12 @@ function App() {
         <div class="Section Section--zircon">
           <div class="Section-content">
             <div className="PageFooter">
-              <p>Created by <a className="Link"href="https://github.com">goshakri</a></p>
+              <p>
+                Created by{" "}
+                <a className="Link" href="https://github.com">
+                  goshakri
+                </a>
+              </p>
             </div>
           </div>
         </div>
