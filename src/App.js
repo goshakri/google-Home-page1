@@ -1,4 +1,5 @@
 import React from "react";
+import google from './images/google.jpg';
 function App() {
   return (
     <div className="Page">
@@ -35,21 +36,22 @@ function App() {
           </div>
         </div>
       </header>
-      <div className="Page-content">
-        <a href="#" className="logo">
-          <img src="assets/images/logog.png" />
-        </a>
+      <main>
+        <div className="PageContent">
+          <a href="#" className="logo">
+          </a>
 
-        <input type="text" className="search" />
+          <input type="text" className="search" />
 
-        <div className="flexbox">
-          <button className="google__search__btn">Google Seacrh</button>
+          <div className="flexbox">
+            <button className="google__search__btn">Google Seacrh</button>
 
-          <button className="random__search__btn">I'm Feelling Lucky</button>
+            <button className="random__search__btn">I'm Feelling Lucky</button>
+          </div>
+
+          <p className="google__text">Google offered in:</p>
         </div>
-
-        <p className="google__text">Google offered in:</p>
-      </div>
+      </main>
       <footer>
         <div class="Section Section--zircon">
           <div class="Section-content">
