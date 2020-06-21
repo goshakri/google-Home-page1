@@ -36,7 +36,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="Page-сontent">
+      <main className="Page-content">
           <a href="#" className="logo">
           </a>
 
