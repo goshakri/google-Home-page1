@@ -9,7 +9,6 @@ p {
 .logo {
   display: flex;
   align-self: end;
-
   justify-self: center;
   align-self: end;
 }

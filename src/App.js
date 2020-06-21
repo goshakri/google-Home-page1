@@ -37,18 +37,20 @@ function App() {
         </div>
       </header>
       <main className="Page-content">
-          <a href="#" className="logo">
-          </a>
+        <div className="PageContent">
+            <a href="#" className="logo">
+            </a>
 
-          <input type="text" className="search" />
+            <input type="text" className="search" />
 
-          <div className="flexbox">
-            <button className="google__search__btn">Google Seacrh</button>
+           <div className="flexbox">
+              <button className="google__search__btn">Google Seacrh</button>
 
             <button className="random__search__btn">I'm Feelling Lucky</button>
-          </div>
+            </div>
 
-          <p className="google__text">Google offered in:</p>
+            <p className="google__text">Google offered in:</p>
+          </div>
       </main>
       <footer>
         <div className="Section Section--zircon">
