@@ -36,8 +36,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main>
-        <div className="Page-Content">
+      <main className="Page-Content">
           <a href="#" className="logo">
           </a>
 
@@ -50,11 +49,10 @@ function App() {
           </div>
 
           <p className="google__text">Google offered in:</p>
-        </div>
       </main>
       <footer>
-        <div class="Section Section--zircon">
-          <div class="Section-content">
+        <div className="Section Section--zircon">
+          <div className="Section-content">
             <div className="PageFooter">
               <p>
                 Created by{" "}
