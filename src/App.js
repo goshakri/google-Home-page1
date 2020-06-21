@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="Page">
       <header>
-        <div class="Section Section--zircon">
-          <div class="Section-content">
+        <div className="Section Section--zircon">
+          <div className="Section-content">
             <nav className="SiteNavigation">
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
