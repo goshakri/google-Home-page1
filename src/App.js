@@ -37,10 +37,11 @@ function App() {
         </div>
       </header>
       <main className="Page-content">
-        <div className="PageContent">
-            <img className="logo" src={google} alt="" />
-
-          <input type="text" className="search" />
+        <div className="PageLogo">
+          <img className="logo" src={google} alt="" />
+          <div className="PageSearch">
+            <input type="text" className="search" />
+          </div>
 
           <div className="flexbox">
             <button className="google__search__btn">Google Seacrh</button>

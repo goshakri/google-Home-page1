@@ -1,0 +1,24 @@
+.PageSearch {
+  padding-top: 29px;
+}
+
+.search {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+  width: 100%;
+}
+
+.search:focus {
+  box-shadow: 1px 1px 4px #d3d3d3;
+}
+
+.search:hover {
+  box-shadow: 1px 1px 4px #d3d3d3;
+}
