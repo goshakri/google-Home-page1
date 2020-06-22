@@ -39,16 +39,14 @@ function App() {
       <main className="Page-content">
         <div className="PageLogo">
           <img className="logo" src={google} alt="" />
+        </div>
           <div className="PageSearch">
             <input type="text" className="search" />
           </div>
-
-          <div className="flexbox">
+          <div className="PageButton">
             <button className="google__search__btn">Google Seacrh</button>
-
             <button className="random__search__btn">I'm Feelling Lucky</button>
           </div>
-        </div>
       </main>
       <footer>
         <div className="Section Section--zircon">
