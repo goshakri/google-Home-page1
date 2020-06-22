@@ -39,7 +39,7 @@ function App() {
       <main className="Page-content">
         <div className="PageContent">
           <div className="logo">
-            <img src="google/src/images/google.jpg" alt="" />
+            <img src={google} alt="" />
           </div>
 
           <input type="text" className="search" />
