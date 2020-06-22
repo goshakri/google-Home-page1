@@ -38,9 +38,7 @@ function App() {
       </header>
       <main className="Page-content">
         <div className="PageContent">
-          <div className="logo">
-            <img src={google} alt="" />
-          </div>
+            <img className="logo" src={google} alt="" />
 
           <input type="text" className="search" />
 
@@ -49,8 +47,6 @@ function App() {
 
             <button className="random__search__btn">I'm Feelling Lucky</button>
           </div>
-
-          <p className="google__text">Google offered in:</p>
         </div>
       </main>
       <footer>
