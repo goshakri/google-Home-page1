@@ -55,7 +55,7 @@ function App() {
             <div className="PageFooter">
               <p>
                 Created by{" "}
-                <a className="Link" href="https://github.com">
+                <a className="PageFooter-link" href="https://github.com">
                   goshakri
                 </a>
               </p>
