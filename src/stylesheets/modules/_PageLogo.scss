@@ -1,6 +1,9 @@
-.logo {
-  width: 18%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 8%;
+.PageLogo {
+
+  &-logo {
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+  }
 }
