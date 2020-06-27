@@ -1,5 +1,6 @@
 .PageSearch {
-  padding-top: 29px;
+  padding-top: 35px;
+  padding: 25px 31% .1em 31%;
 
   &-search {
     background: #fff;
@@ -9,8 +10,7 @@
     border-radius: 24px;
     z-index: 3;
     height: 44px;
-    margin: 0 auto;
-    width: 582px;
+    width: 100%;
     background-image: url(../../images/micro.jpg);
     background-repeat: no-repeat;
     background-size: 19px;
