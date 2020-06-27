@@ -1,5 +1,6 @@
 import React from "react";
 import google from "./images/google.jpg";
+
 function App() {
   return (
     <div className="Page">
