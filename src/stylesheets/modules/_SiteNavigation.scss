@@ -4,12 +4,6 @@
   padding: 10px;
   justify-content: space-between;
 
-  &-item {
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
   &-column {
     display: flex;
     align-items: center;
