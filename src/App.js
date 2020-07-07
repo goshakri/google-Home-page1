@@ -28,7 +28,7 @@ function App() {
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link PageBtn" href="#">
+                  <a className="PageBtn" href="#">
                     Sign In
                   </a>
                 </li>
