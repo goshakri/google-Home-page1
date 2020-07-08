@@ -28,7 +28,7 @@ function App() {
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="PageBtn-Test" href="#">
+                  <a className="Article" href="#">
                     Sign In
                   </a>
                 </li>
@@ -44,11 +44,9 @@ function App() {
         <div className="PageSearch">
           <input type="text" className="PageSearch-search" />
         </div>
-          <div className="PageBtn">
-            <div className="PageBtn-Pagebtntest">
-              <button className="PageBtn-Pagebtntest-Test">Google Seacrh</button>
-              <button className="PageBtn-Pagebtntest-Test">I'm Feelling Lucky</button>
-              </div>
+          <div className="Button">
+            <button className="Article Article--key">Google Seacrh</button>
+            <button className="Article">I'm Feelling Lucky</button>
           </div>
       </main>
       <footer>
