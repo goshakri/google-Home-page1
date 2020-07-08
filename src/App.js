@@ -46,7 +46,7 @@ function App() {
         </div>
           <div className="Button">
             <button className="Article Article--key">Google Seacrh</button>
-            <button className="Article">I'm Feelling Lucky</button>
+            <button className="Article Article--key">I'm Feelling Lucky</button>
           </div>
       </main>
       <footer>
