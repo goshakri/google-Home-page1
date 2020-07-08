@@ -45,8 +45,10 @@ function App() {
           <input type="text" className="PageSearch-search" />
         </div>
           <div className="PageBtn">
+            <div className="PageBtn-Pagebtntest">
               <button className="PageBtn-Pagebtntest-Test">Google Seacrh</button>
               <button className="PageBtn-Pagebtntest-Test">I'm Feelling Lucky</button>
+              </div>
           </div>
       </main>
       <footer>
