@@ -1,32 +1,14 @@
 .PageBtn {
-  display: flex;
-  background: #F4F7FF;
-  padding: 7px 15px;
-  border: 1px solid #1089F5;
-  border-radius: 5px;
-  color: #1089F5 ;
+  padding: 7px 15px 7px 7px;
 
 
-  &-button {
-    display: block;
-    padding: 19px 100px 100px 620px;
-  }
-
-  &--google__search__btn {
-    color: #1089F5;
-    margin-right: 20px;
-    padding: 7px 15px 7px 7px;
+  &-Test {
+    display: flex;
+    background: #F4F7FF;
+    padding: 7px 15px;
     border: 1px solid #1089F5;
     border-radius: 5px;
-    background-color: #fff;
-  }
-
-  &--random__search__btn {
-    font-size: 14px;
-    color: #1089F5;
-    padding: 7px 15px 7px 7px;
-    border: 1px solid #1089F5;
-    border-radius: 5px;
-    background-color: #fff;
+    color: #1089F5 ;
+    text-decoration: none;
   }
 }
