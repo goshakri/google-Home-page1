@@ -41,8 +41,8 @@ function App() {
         <div className="GoogleLogo">
           <img className="GoogleLogo-logo" src={google} alt="" />
         </div>
-        <div className="PageSearch">
-          <input type="text" className="PageSearch-search" />
+        <div className="Search">
+          <input type="text" className="Search-addition"/>
         </div>
           <div className="Addition">
             <button className="Button Button--spaced">Google Seacrh</button>
