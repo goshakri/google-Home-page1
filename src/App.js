@@ -38,14 +38,14 @@ function App() {
         </div>
       </header>
       <main className="Page-content">
-        <div className="PageLogo">
-          <img className="PageLogo-logo" src={google} alt="" />
+        <div className="GoogleLogo">
+          <img className="GoogleLogo-logo" src={google} alt="" />
         </div>
         <div className="PageSearch">
           <input type="text" className="PageSearch-search" />
         </div>
           <div className="Addition">
-            <button className="Button Button--space">Google Seacrh</button>
+            <button className="Button Button--spaced">Google Seacrh</button>
             <button className="Button">I'm Feelling Lucky</button>
           </div>
       </main>
