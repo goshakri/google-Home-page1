@@ -42,7 +42,7 @@ function App() {
           <img className="Logo" src={google} alt="" />
         </div>
         <div className="Search">
-          <input type="text" className="Search-addition"/>
+          <input type="text" className="Addition"/>
         </div>
           <div className="Btn">
             <button className="Button Button--spaced">Google Seacrh</button>
