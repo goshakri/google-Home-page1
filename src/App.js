@@ -44,7 +44,7 @@ function App() {
         <div className="Search">
           <input type="text" className="Addition"/>
         </div>
-          <div className="Btn">
+          <div className="Auxiliary">
             <button className="Button Button--spaced">Google Seacrh</button>
             <button className="Button">I'm Feelling Lucky</button>
           </div>
