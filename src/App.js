@@ -38,8 +38,8 @@ function App() {
         </div>
       </header>
       <main className="Page-content">
-        <div className="GoogleLogo">
-          <img className="GoogleLogo-logo" src={google} alt="" />
+        <div className="Picture">
+          <img className="Logo" src={google} alt="" />
         </div>
         <div className="Search">
           <input type="text" className="Search-addition"/>
