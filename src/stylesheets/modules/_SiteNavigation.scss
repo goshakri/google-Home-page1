@@ -4,28 +4,15 @@
   padding: 10px;
   justify-content: space-between;
 
-  &-item {
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   &-column {
     display: flex;
     align-items: center;
   }
 
   &-link {
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
-    padding: 10px;
-
-    &--button {
-      display: flex;
-      background: #F4F7FF;
-      padding: 7px 15px;
-      border: 1px solid #1089F5;
-      border-radius: 5px;
-      color: #1089F5 ;
-    }
+    padding: 8px;
+    font-size: 14px;
   }
 }
