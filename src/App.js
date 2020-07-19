@@ -16,7 +16,7 @@ function App() {
                 </li>
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="#">
-                    Cortacts
+                    Contacts
                   </a>
                 </li>
               </ul>
@@ -37,18 +37,28 @@ function App() {
           </div>
         </div>
       </header>
+
       <main className="Page-content">
-        <div className="Picture">
-          <img className="Logo" src={google} alt="" />
-        </div>
-        <div className="Search">
-          <input type="text" className="Addition"/>
-        </div>
-          <div className="Auxiliary">
-            <button className="Button Button--spaced">Google Seacrh</button>
-            <button className="Button">I'm Feelling Lucky</button>
+        <div className="Section">
+          <div className="Section-content">
+            <div className="SearchPage">
+              <div className="SearchPage-picture">
+                <img className="SearchPage-pictureItem" src={google} alt="" />
+              </div>
+
+              <div className="SearchPage-input">
+                <input type="text" className="Field"/>
+              </div>
+
+              <div className="SearchPage-actions">
+                <button className="Button Button--spaced">Google Seacrh</button>
+                <button className="Button">I'm Feelling Lucky</button>
+              </div>
+            </div>
           </div>
+        </div>
       </main>
+
       <footer>
         <div className="Section Section--zircon">
           <div className="Section-content">

@@ -1,4 +1,4 @@
-.Addition {
+.Field {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
@@ -13,9 +13,9 @@
 
   &:focus {
     box-shadow: 1px 1px 4px #d3d3d3;
-    }
+  }
 
   &:hover {
     box-shadow: 1px 1px 4px #d3d3d3;
-    }
   }
+}

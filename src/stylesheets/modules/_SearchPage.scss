@@ -1,0 +1,20 @@
+.SearchPage {
+  &-picture {
+    padding:120px 0px 0px 0px;
+    text-align: center;
+  }
+
+  &-pictureItem {
+    width: 265px;
+  }
+
+  &-input {
+    padding: 25px 310px;
+  }
+
+  &-actions {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 25px;
+  }
+}
