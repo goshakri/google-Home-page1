@@ -48,19 +48,19 @@ function Contacts() {
               <form className="ContactsPage-block">
                 <label for="name">Name:</label>
                 <br />
-                <input className="" type="text" name="username" />
+                <input type="text" name="username" />
                 <br />
                 <label for="gmail">Email:</label>
                 <br />
-                <input className="" type="gmail" name="email" />
+                <input type="gmail" name="email" />
                 <br />
                 <label for="city">City:</label>
                 <br />
-                <input className="" type="city" name="city" />
+                <input type="city" name="city" />
                 <br />
                 <label for="massage">Massage:</label>
                 <br />
-                <input className="" type="massage" name="massage" />
+                <input type="massage" name="massage" />
                 <br />
               </form>
             </div>
