@@ -15,7 +15,7 @@ function App() {
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="Contacts">
                     Contacts
                   </a>
                 </li>
