@@ -41,26 +41,26 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
-              <div className="Text">
+              <div className="ContactsPage-text">
                 <p>Please fill the from to make it filled.</p>
               </div>
 
               <form className="ContactsPage-block">
-                <label for="name">Name:</label>
+                <label className="" for="name">Name:</label>
                 <br />
-                <input type="text" name="username" />
+                <input className="ContactsPage-zalupa" type="text" id="name" name="username" />
                 <br />
-                <label for="gmail">Email:</label>
+                <label className="" for="gmail">Email:</label>
                 <br />
-                <input type="gmail" name="email" />
+                <input className="ContactsPage-zalupa" type="gmail" id="gmail" name="email" />
                 <br />
-                <label for="city">City:</label>
+                <label className="" for="city">City:</label>
                 <br />
-                <input type="city" name="city" />
+                <input className="ContactsPage-zalupa" type="city" id="city" name="city" />
                 <br />
-                <label for="massage">Massage:</label>
+                <label className="" for="massage">Massage:</label>
                 <br />
-                <input type="massage" name="massage" />
+                <input className="ContactsPage-zalupa" type="massage" id="massage" name="massage" />
                 <br />
               </form>
             </div>

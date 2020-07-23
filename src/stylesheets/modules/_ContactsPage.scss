@@ -2,4 +2,20 @@
   display: flex;
   justify-content: space-between;
   padding: 50px 423px 0px 10px;
+
+  &-block {
+  display: inline-block;
+  position: relative;
+  padding-left: 10em;
+  margin-bottom: .5 em;
+  }
+
+  &-zalupa {
+    border: 1px solid rgba(#1089F5, .5);
+    box-shadow: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 300%;
+    margin: 10px;
+  }
 }
