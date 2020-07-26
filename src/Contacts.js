@@ -41,13 +41,13 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
+
               <div className="ContactsPage-text">
                 <p>Please fill the from to make it filled.</p>
               </div>
 
               <form className="Form">
                 <div className="ContactsPage-block">
-
                   <div className="ContactsPage-one">
                     <label className="ContactsPage-pizza" for="name">
                       Name:

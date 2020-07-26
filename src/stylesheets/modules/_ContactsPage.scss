@@ -1,14 +1,17 @@
 .ContactsPage {
   display: flex;
-  padding: 50px 415px 0px 10px;
-  position: absolute;
+  justify-content: space-between;
+
+  &-block {
+    padding: 50px 415px 0 0;
+  }
+
+  &-text {
+    padding: 52px 10px 0 10px;
+  }
 
   &-pizza {
     padding: 10px;
-  }
-
-  &-block {
-
   }
 
   &-test {
