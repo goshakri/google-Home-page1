@@ -46,19 +46,19 @@ function Contacts() {
                   Name:
                 </label>
                 <br />
-                <input className="ContactsPage-zalupa" type="text" id="name" name="username" />
+                <input className="ContactsPage-test" type="text" id="name" name="username" />
                 <br />
                 <label className="ContactsPage-pizza" for="gmail">
                   Email:
                 </label>
                 <br />
-                <input className="ContactsPage-zalupa" type="gmail" id="gmail" name="email" />
+                <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
                 <br />
                 <label className="ContactsPage-pizza" for="city">
                   City:
                 </label>
                 <br />
-                <input className="ContactsPage-zalupa" type="city" id="city" name="city" />
+                <input className="ContactsPage-test" type="city" id="city" name="city" />
                 <br />
 
                 <label className="ContactsPage-pizza" for="sex">

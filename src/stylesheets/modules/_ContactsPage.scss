@@ -1,13 +1,17 @@
 .ContactsPage {
   display: flex;
-  justify-content: space-between;
   padding: 50px 415px 0px 10px;
+  position: absolute;
 
   &-pizza {
     padding: 10px;
   }
 
-  &-zalupa {
+  &-block {
+
+  }
+
+  &-test {
     border: 1px solid rgba(#1089F5, .5);
     box-shadow: none;
     border-radius: 8px;
