@@ -41,46 +41,53 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
-              <form className="ContactsPage-block">
-                <label className="ContactsPage-pizza" for="name">
-                  Name:
-                </label>
-                <br />
-                <input className="ContactsPage-test" type="text" id="name" name="username" />
-                <br />
-                <label className="ContactsPage-pizza" for="gmail">
-                  Email:
-                </label>
-                <br />
-                <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
-                <br />
-                <label className="ContactsPage-pizza" for="city">
-                  City:
-                </label>
-                <br />
-                <input className="ContactsPage-test" type="city" id="city" name="city" />
-                <br />
-
-                <label className="ContactsPage-pizza" for="sex">
-                  Sex:
-                </label>
-                <br />
-                <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
-                <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
-                <br />
-
-                <label className="" for="massage">
-                  Massage:
-                </label>
-                <br />
-                <textarea className="" id="massage" name="massage"></textarea>
-                <br />
-              </form>
-
               <div className="ContactsPage-text">
                 <p>Please fill the from to make it filled.</p>
               </div>
 
+              <form className="Form">
+                <div className="ContactsPage-block">
+
+                  <div className="ContactsPage-one">
+                    <label className="ContactsPage-pizza" for="name">
+                      Name:
+                    </label>
+                    <br />
+                    <input className="ContactsPage-test" type="text" id="name" name="username" />
+                    <br />
+                    <label className="ContactsPage-pizza" for="gmail">
+                      Email:
+                    </label>
+                    <br />
+                    <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
+                    <br />
+                    <label className="ContactsPage-pizza" for="city">
+                      City:
+                    </label>
+                    <br />
+                    <input className="ContactsPage-test" type="city" id="city" name="city" />
+                    <br />
+                  </div>
+
+                  <div className="ContactsPage-two">
+                    <label className="ContactsPage-pizza" for="sex">
+                      Sex:
+                    </label>
+                    <br />
+                    <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
+                    <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
+                    <br />
+
+                    <label className="" for="massage">
+                      Massage:
+                    </label>
+                    <br />
+                    <textarea className="" id="massage" name="massage"></textarea>
+                    <br />
+                  </div>
+
+                </div>
+              </form>
             </div>
           </div>
         </div>
