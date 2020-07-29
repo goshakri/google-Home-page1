@@ -84,6 +84,15 @@ function Contacts() {
                     <br />
                     <textarea className="" id="massage" name="massage"></textarea>
                     <br />
+                    <label for="agree"> Agree
+                    </label>
+                    <br />
+                    <input type="checkbox" id="agree" name="agree" value="agree" />
+                    <br />
+                  </div>
+
+                  <div className="ContactsPage-btn">
+                    <button className="Button Button-send">Send</button>
                   </div>
 
                 </div>
