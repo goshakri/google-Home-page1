@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
 
+  &-formblock {
+    margin: 50px 10px;
+  }
+
+  &-textblock {
+    margin: 50px 10px;
+  }
+
   &-block {
-    padding: 50px 415px 0 0;
-  }
 
-  &-text {
-    padding: 52px 10px 0 10px;
-  }
-
-  &-pizza {
-    padding: 10px;
   }
 
   &-test {
@@ -20,5 +20,7 @@
     border-radius: 8px;
     height: 40px;
     width: 100%;
+    display: block;
+    padding: 10px 210px;
   }
 }
