@@ -10,8 +10,14 @@
     margin: 50px 10px;
   }
 
-  &-block {
-
+  &--area {
+    border: 1px solid rgba(#1089F5, .5);
+    box-shadow: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    display: block;
+    padding: 50px 210px;
   }
 
   &-test {

@@ -86,7 +86,7 @@ function Contacts() {
                         Massage:
                       </label>
                       <br />
-                      <textarea className="" id="massage" name="massage"></textarea>
+                      <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
                       <br />
                       <label for="agree"> Agree</label>
                       <br />
