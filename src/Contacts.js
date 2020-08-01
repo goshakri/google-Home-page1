@@ -74,15 +74,16 @@ function Contacts() {
                     </div>
 
                     <div className="ContactsPage-two">
-                      <label className="ContactsPage-pizza" for="sex">
-                        Sex:
+                      <label for="sex">
+                      Sex:
+                        <input type="radio" value="male" name="gender" />
+                        Male
+                        <input type="radio" value="female" name="gender" />
+                        Female
                       </label>
                       <br />
-                      <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
-                      <input className="ContactsPage ContactsPage--" type="radio" id="sex" name="sex" />
-                      <br />
 
-                      <label className="" for="massage">
+                      <label for="massage">
                         Massage:
                       </label>
                       <br />
