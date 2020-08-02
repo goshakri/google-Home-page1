@@ -41,7 +41,6 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
-
               <div className="ContactsPage-textblock">
                 <div className="ContactsPage-text">
                   <p>Please fill the from to make it filled.</p>
@@ -68,24 +67,19 @@ function Contacts() {
                         City:
                       </label>
                       <br />
-                      <select className="ContactsPage-test" name="city" id="city">
-                      </select>
+                      <select className="ContactsPage-test" name="city" id="city"></select>
                       <br />
                     </div>
 
                     <div className="ContactsPage-two">
-                      <label for="sex">
-                      Sex:
-                        <input type="radio" value="male" name="gender" />
-                        Male
-                        <input type="radio" value="female" name="gender" />
-                        Female
-                      </label>
+                      <p>Sex:</p>
+                      <input type="radio" value="male" name="gender" />
+                      <label for="male">Male:</label>
+                      <input type="radio" value="female" name="gender" />
+                      <label for="female">Female:</label>
                       <br />
 
-                      <label for="massage">
-                        Massage:
-                      </label>
+                      <label for="massage">Massage:</label>
                       <br />
                       <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
                       <br />
