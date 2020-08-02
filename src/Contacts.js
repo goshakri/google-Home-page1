@@ -89,16 +89,20 @@ function Contacts() {
                       <br />
                       <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
                       <br />
-                      <label for="agree"> Agree</label>
-                      <br />
-                      <input type="checkbox" id="agree" name="agree" value="agree" />
-                      <br />
 
-                      <div className="ContactsPage-btn">
-                        <button className="Button Button-send">Send</button>
+                      <div className="ContactsPage-blockbtn">
+                        <div className="ContactsPage-agree">
+                          <label for="agree"> Agree</label>
+                          <br />
+                          <input type="checkbox" id="agree" name="agree" value="agree" />
+                          <br />
+                        </div>
+
+                        <div className="ContactsPage-btn">
+                          <button className="Button Button-send">Send</button>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </form>
               </div>

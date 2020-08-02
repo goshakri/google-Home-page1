@@ -10,8 +10,9 @@
     margin: 50px 10px;
   }
 
-  &-one {
-
+  &-blockbtn {
+    display: flex;
+    justify-content: space-between;
   }
 
   &--area {
