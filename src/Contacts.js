@@ -41,6 +41,7 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
+
               <div className="ContactsPage-textblock">
                 <div className="ContactsPage-text">
                   <p>Please fill the from to make it filled.</p>
@@ -51,50 +52,49 @@ function Contacts() {
                 <form className="Form">
                   <div className="ContactsPage-block">
                     <div className="ContactsPage-one">
-                      <label className="ContactsPage-pizza" for="name">
-                        Name:
-                      </label>
-                      <br />
-                      <input className="ContactsPage-test" type="text" id="name" name="username" />
-                      <br />
-                      <label className="ContactsPage-pizza" for="gmail">
-                        Email:
-                      </label>
-                      <br />
-                      <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
-                      <br />
-                      <label className="ContactsPage-pizza" for="city">
-                        City:
-                      </label>
-                      <br />
-                      <select className="ContactsPage-test" name="city" id="city"></select>
-                      <br />
-                    </div>
+                      <div className="ContactsPage-name">
+                        <label className="ContactsPage-pizza" for="name">
+                          Name:
+                        </label>
+                        <input className="ContactsPage-test" type="text" id="name" name="username" />
+                      </div>
 
-                    <div className="ContactsPage-two">
+                      <div className="ContactsPage-email">
+                        <label className="ContactsPage-pizza" for="gmail">
+                          Email:
+                        </label>
+                        <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
+                      </div>
+
+                      <div className="city">
+                        <label for="city">City:</label>
+                        <select className="ContactsPage-test" name="city" id="city"></select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="ContactsPage-two">
+                    <div className="ContactsPage-sex">
                       <p>Sex:</p>
                       <input type="radio" value="male" name="gender" />
                       <label for="male">Male:</label>
                       <input type="radio" value="female" name="gender" />
                       <label for="female">Female:</label>
-                      <br />
+                    </div>
 
+                    <div className="ContactsPage-massage">
                       <label for="massage">Massage:</label>
-                      <br />
                       <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
-                      <br />
+                    </div>
 
-                      <div className="ContactsPage-blockbtn">
-                        <div className="ContactsPage-agree">
-                          <label for="agree"> Agree</label>
-                          <br />
-                          <input type="checkbox" id="agree" name="agree" value="agree" />
-                          <br />
-                        </div>
+                    <div className="ContactsPage-blockbtn">
+                      <div className="ContactsPage-agree">
+                        <input type="checkbox" id="agree" name="agree" value="agree" />
+                        <label for="agree"> Agree</label>
+                      </div>
 
-                        <div className="ContactsPage-btn">
-                          <button className="Button Button-send">Send</button>
-                        </div>
+                      <div className="ContactsPage-btn">
+                        <button className="Button Button-send">Send</button>
                       </div>
                     </div>
                   </div>

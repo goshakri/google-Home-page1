@@ -11,8 +11,25 @@
   }
 
   &-blockbtn {
+    padding: 30px 0 0 0;
     display: flex;
     justify-content: space-between;
+  }
+
+  &-name {
+    padding: 0 0 20px 0;
+  }
+
+  &-email {
+    padding: 0 0 20px 0;
+  }
+
+  &-city {
+
+  }
+
+  &-sex {
+    padding: 0 0 40px 0;
   }
 
   &--area {
