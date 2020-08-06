@@ -1,5 +1,6 @@
 import React from "react";
 import google from "./images/google.jpg";
+
 function Contacts() {
   return (
     <div className="Page">
@@ -41,7 +42,6 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
-
               <div className="ContactsPage-textblock">
                 <div className="ContactsPage-text">
                   <p>Please fill the from to make it filled.</p>
