@@ -43,9 +43,7 @@ function Contacts() {
           <div className="Section-content">
             <div className="ContactsPage">
               <div className="ContactsPage-textblock">
-                <div className="ContactsPage-text">
-                  <p>Please fill the from to make it filled.</p>
-                </div>
+                <p className="ContactsPage-text">Please fill the from to make it filled.</p>
               </div>
 
               <div className="ContactsPage-formblock">
@@ -59,7 +57,7 @@ function Contacts() {
                         <input className="ContactsPage-test" type="text" id="name" name="username" />
                       </div>
 
-                      <div className="ContactsPage-email">
+                      <div className="ContactsPage-name">
                         <label className="ContactsPage-pizza" for="gmail">
                           Email:
                         </label>
