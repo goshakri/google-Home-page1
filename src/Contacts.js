@@ -58,10 +58,10 @@ function Contacts() {
                       </div>
 
                       <div className="ContactsPage-name">
-                        <label for="gmail">
+                        <label for="email">
                           Email:
                         </label>
-                        <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
+                        <input className="ContactsPage-test" type="email" id="email" name="email" />
                       </div>
 
                       <div className="city">
