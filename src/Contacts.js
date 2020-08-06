@@ -64,7 +64,7 @@ function Contacts() {
                         <input className="ContactsPage-test" type="email" id="email" name="email" />
                       </div>
 
-                      <div className="city">
+                      <div className="ContactsPage-name">
                         <label for="city">City:</label>
                         <select className="ContactsPage-test" name="city" id="city"></select>
                       </div>
@@ -72,7 +72,7 @@ function Contacts() {
                   </div>
 
                   <div className="ContactsPage-two">
-                    <div className="ContactsPage-sex">
+                    <div className="ContactsPage-name">
                       <p>Sex:</p>
                       <input type="radio" value="male" name="gender" />
                       <label for="male">Male:</label>
