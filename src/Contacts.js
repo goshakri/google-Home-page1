@@ -51,14 +51,14 @@ function Contacts() {
                   <div className="ContactsPage-block">
                     <div className="ContactsPage-one">
                       <div className="ContactsPage-name">
-                        <label className="ContactsPage-pizza" for="name">
+                        <label for="name">
                           Name:
                         </label>
                         <input className="ContactsPage-test" type="text" id="name" name="username" />
                       </div>
 
                       <div className="ContactsPage-name">
-                        <label className="ContactsPage-pizza" for="gmail">
+                        <label for="gmail">
                           Email:
                         </label>
                         <input className="ContactsPage-test" type="gmail" id="gmail" name="email" />
