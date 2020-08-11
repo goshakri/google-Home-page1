@@ -10,12 +10,12 @@ function App() {
             <nav className="SiteNavigation">
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="/">
                     Search
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="Contacts">
+                  <a className="SiteNavigation-link" href="/сontacts">
                     Contacts
                   </a>
                 </li>
