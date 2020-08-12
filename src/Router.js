@@ -9,7 +9,7 @@ export default function Routes() {
       <Route exact path="/">
         <App />
       </Route>
-      <Route exact path="/contacts">
+      <Route exact path="/Contacts">
         <Contacts />
       </Route>
     </Switch>
