@@ -76,7 +76,7 @@ function Contacts() {
 
                     <div className="Form-massage">
                       <label for="massage">Massage:</label>
-                      <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
+                      <textarea className="Field-area" id="massage" name="massage"></textarea>
                     </div>
 
                     <div className="Form-blockbtn">
