@@ -43,36 +43,30 @@ function Contacts() {
           <div className="Section-content">
             <div className="ContactsPage">
               <div className="ContactsPage-textblock">
-                <p className="ContactsPage-text">Please fill the from to make it filled.</p>
+                <p>Please fill the from to make it filled.</p>
               </div>
 
               <div className="ContactsPage-formblock">
                 <form className="Form">
-                  <div className="ContactsPage-block">
-                    <div className="ContactsPage-one">
-                      <div className="ContactsPage-name">
-                        <label for="name">
-                          Name:
-                        </label>
-                        <input className="ContactsPage-test" type="text" id="name" name="username" />
-                      </div>
+                  <div className="Form-blockone">
+                    <div className="Form-name">
+                      <label for="name">Name:</label>
+                      <input className="ContactsPage-test" type="text" id="name" name="username" />
+                    </div>
 
-                      <div className="ContactsPage-name">
-                        <label for="email">
-                          Email:
-                        </label>
-                        <input className="ContactsPage-test" type="email" id="email" name="email" />
-                      </div>
+                    <div className="Form-name">
+                      <label for="email">Email:</label>
+                      <input className="ContactsPage-test" type="email" id="email" name="email" />
+                    </div>
 
-                      <div className="ContactsPage-name">
-                        <label for="city">City:</label>
-                        <select className="ContactsPage-test" name="city" id="city"></select>
-                      </div>
+                    <div className="Form-name">
+                      <label for="city">City:</label>
+                      <select className="ContactsPage-test" name="city" id="city"></select>
                     </div>
                   </div>
 
-                  <div className="ContactsPage-two">
-                    <div className="ContactsPage-name">
+                  <div className="Form-blocktwo">
+                    <div className="Form-name">
                       <p>Sex:</p>
                       <input type="radio" value="male" name="gender" />
                       <label for="male">Male:</label>
@@ -80,18 +74,18 @@ function Contacts() {
                       <label for="female">Female:</label>
                     </div>
 
-                    <div className="ContactsPage-massage">
+                    <div className="Form-massage">
                       <label for="massage">Massage:</label>
                       <textarea className="ContactsPage ContactsPage--area" id="massage" name="massage"></textarea>
                     </div>
 
-                    <div className="ContactsPage-blockbtn">
-                      <div className="ContactsPage-agree">
+                    <div className="Form-blockbtn">
+                      <div className="Form-agree">
                         <input type="checkbox" id="agree" name="agree" value="agree" />
                         <label for="agree"> Agree</label>
                       </div>
 
-                      <div className="ContactsPage-btn">
+                      <div className="Form-btn">
                         <button className="Button Button-send">Send</button>
                       </div>
                     </div>
