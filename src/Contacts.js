@@ -51,17 +51,17 @@ function Contacts() {
                   <div className="Form-blockone">
                     <div className="Form-name">
                       <label for="name">Name:</label>
-                      <input className="ContactsPage-test" type="text" id="name" name="username" />
+                      <input className="Field-test" type="text" id="name" name="username" />
                     </div>
 
                     <div className="Form-name">
                       <label for="email">Email:</label>
-                      <input className="ContactsPage-test" type="email" id="email" name="email" />
+                      <input className="Field-test" type="email" id="email" name="email" />
                     </div>
 
                     <div className="Form-name">
                       <label for="city">City:</label>
-                      <select className="ContactsPage-test" name="city" id="city"></select>
+                      <select className="Field-test" name="city" id="city"></select>
                     </div>
                   </div>
 
