@@ -49,17 +49,17 @@ function Contacts() {
               <div className="ContactsPage-formblock">
                 <form className="Form">
                   <div className="Form-name">
-                    <label for="name">Name:</label>
+                    <label className="Form-indent" for="name">Name:</label>
                     <input className="Field-test" type="text" id="name" name="username" />
                   </div>
 
                   <div className="Form-name">
-                    <label for="email">Email:</label>
+                    <label className="Form-indent" for="email">Email:</label>
                     <input className="Field-test" type="email" id="email" name="email" />
                   </div>
 
                   <div className="Form-name">
-                    <label for="city">City:</label>
+                    <label className="Form-indent" for="city">City:</label>
                     <select className="Field-test" name="city" id="city"></select>
                   </div>
 
@@ -72,19 +72,17 @@ function Contacts() {
                   </div>
 
                   <div className="Form-massage">
-                    <label for="massage">Massage:</label>
+                    <label className="Form-indent" for="massage">Massage:</label>
                     <textarea className="Field-area" id="massage" name="massage"></textarea>
                   </div>
 
-                  <div className="Form-blockbtn">
+                  <div className="Form-blockbutton">
                     <div className="Form-agree">
                       <input type="checkbox" id="agree" name="agree" value="agree" />
-                      <label for="agree"> Agree</label>
+                      <label  for="agree"> Agree</label>
                     </div>
 
-                    <div className="Form-btn">
-                      <button className="Button Button-send">Send</button>
-                    </div>
+                    <button className="Button Button--send">Send</button>
                   </div>
                 </form>
               </div>

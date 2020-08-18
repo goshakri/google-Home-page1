@@ -1,12 +1,17 @@
 .Form {
 
-  &-blockbtn {
-    padding: 30px 0 0 0;
+  &-blockbutton {
+    padding: 20px 0 0 0;
     display: flex;
     justify-content: space-between;
   }
 
   &-name {
     padding: 0 0 20px 0;
+  }
+
+  &-indent {
+    display: inline-block;
+    padding: 0 5px 4px 0;
   }
 }
