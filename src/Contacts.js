@@ -48,46 +48,42 @@ function Contacts() {
 
               <div className="ContactsPage-formblock">
                 <form className="Form">
-                  <div className="Form-blockone">
-                    <div className="Form-name">
-                      <label for="name">Name:</label>
-                      <input className="Field-test" type="text" id="name" name="username" />
-                    </div>
-
-                    <div className="Form-name">
-                      <label for="email">Email:</label>
-                      <input className="Field-test" type="email" id="email" name="email" />
-                    </div>
-
-                    <div className="Form-name">
-                      <label for="city">City:</label>
-                      <select className="Field-test" name="city" id="city"></select>
-                    </div>
+                  <div className="Form-name">
+                    <label for="name">Name:</label>
+                    <input className="Field-test" type="text" id="name" name="username" />
                   </div>
 
-                  <div className="Form-blocktwo">
-                    <div className="Form-name">
-                      <p>Sex:</p>
-                      <input type="radio" value="male" name="gender" />
-                      <label for="male">Male:</label>
-                      <input type="radio" value="female" name="gender" />
-                      <label for="female">Female:</label>
+                  <div className="Form-name">
+                    <label for="email">Email:</label>
+                    <input className="Field-test" type="email" id="email" name="email" />
+                  </div>
+
+                  <div className="Form-name">
+                    <label for="city">City:</label>
+                    <select className="Field-test" name="city" id="city"></select>
+                  </div>
+
+                  <div className="Form-name">
+                    <p>Sex:</p>
+                    <input type="radio" value="male" name="gender" />
+                    <label for="male">Male:</label>
+                    <input type="radio" value="female" name="gender" />
+                    <label for="female">Female:</label>
+                  </div>
+
+                  <div className="Form-massage">
+                    <label for="massage">Massage:</label>
+                    <textarea className="Field-area" id="massage" name="massage"></textarea>
+                  </div>
+
+                  <div className="Form-blockbtn">
+                    <div className="Form-agree">
+                      <input type="checkbox" id="agree" name="agree" value="agree" />
+                      <label for="agree"> Agree</label>
                     </div>
 
-                    <div className="Form-massage">
-                      <label for="massage">Massage:</label>
-                      <textarea className="Field-area" id="massage" name="massage"></textarea>
-                    </div>
-
-                    <div className="Form-blockbtn">
-                      <div className="Form-agree">
-                        <input type="checkbox" id="agree" name="agree" value="agree" />
-                        <label for="agree"> Agree</label>
-                      </div>
-
-                      <div className="Form-btn">
-                        <button className="Button Button-send">Send</button>
-                      </div>
+                    <div className="Form-btn">
+                      <button className="Button Button-send">Send</button>
                     </div>
                   </div>
                 </form>
