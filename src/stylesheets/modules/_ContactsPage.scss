@@ -3,10 +3,14 @@
   justify-content: space-between;
 
   &-formblock {
-    margin: 50px 10px;
+    width: 50%;
+    display: flex;
+    padding:50px 0 20px 0;
   }
 
   &-textblock {
-    margin: 50px 10px;
+    width: 50%;
+    display: flex;
+    padding:50px 10px 50px 10px;
   }
 }
