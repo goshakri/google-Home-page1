@@ -2,17 +2,17 @@
   padding: 50px 10px 0 0;
 
   &-blockbutton {
-    padding: 20px 0 0 0;
+    padding: 18px 0 0 5px;
     display: flex;
     justify-content: space-between;
   }
 
   &-name {
-    padding: 0 0 20px 0;
+    padding: 0 0 19px 0;
   }
 
   &-indent {
     display: inline-block;
-    padding: 0 5px 4px 0;
+    padding: 0 5px 5px 0;
   }
 }
