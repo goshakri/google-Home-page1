@@ -42,49 +42,51 @@ function Contacts() {
         <div className="Section">
           <div className="Section-content">
             <div className="ContactsPage">
-              <div className="ContactsPage-textblock">
-                <p>Please fill the from to make it filled.</p>
-              </div>
+              <div className="Row">
+                <div className="Row-item">
+                  <p>Please fill the from to make it filled.</p>
+                </div>
 
-              <div className="ContactsPage-formblock">
-                <form className="Form">
-                  <div className="Form-name">
-                    <label className="Form-indent" for="name">Name:</label>
-                    <input className="Field-test" type="text" id="name" name="username" />
-                  </div>
-
-                  <div className="Form-name">
-                    <label className="Form-indent" for="email">Email:</label>
-                    <input className="Field-test" type="email" id="email" name="email" />
-                  </div>
-
-                  <div className="Form-name">
-                    <label className="Form-indent" for="city">City:</label>
-                    <select className="Field-test" name="city" id="city"></select>
-                  </div>
-
-                  <div className="Form-name">
-                    <p>Sex:</p>
-                    <input type="radio" value="male" name="gender" />
-                    <label for="male">Male:</label>
-                    <input type="radio" value="female" name="gender" />
-                    <label for="female">Female:</label>
-                  </div>
-
-                  <div className="Form-massage">
-                    <label className="Form-indent" for="massage">Massage:</label>
-                    <textarea rows="7" className="Field-area" id="massage" name="massage" ></textarea>
-                  </div>
-
-                  <div className="Form-blockbutton">
-                    <div className="Form-agree">
-                      <input type="checkbox" id="agree" name="agree" value="agree" />
-                      <label  for="agree"> Agree</label>
+                <div className="Row-item">
+                  <form className="Form">
+                    <div className="Form-name">
+                      <label className="Form-indent" for="name">Name:</label>
+                      <input className="Field-test" type="text" id="name" name="username" />
                     </div>
 
-                    <button className="Button Button--send">Send</button>
-                  </div>
-                </form>
+                    <div className="Form-name">
+                      <label className="Form-indent" for="email">Email:</label>
+                      <input className="Field-test" type="email" id="email" name="email" />
+                    </div>
+
+                    <div className="Form-name">
+                      <label className="Form-indent" for="city">City:</label>
+                      <select className="Field-test" name="city" id="city"></select>
+                    </div>
+
+                    <div className="Form-name">
+                      <p>Sex:</p>
+                      <input type="radio" value="male" name="gender" />
+                      <label for="male">Male:</label>
+                      <input type="radio" value="female" name="gender" />
+                      <label for="female">Female:</label>
+                    </div>
+
+                    <div className="Form-massage">
+                      <label className="Form-indent" for="massage">Massage:</label>
+                      <textarea rows="7" className="Field-area" id="massage" name="massage" ></textarea>
+                    </div>
+
+                    <div className="Form-blockbutton">
+                      <div className="Form-agree">
+                        <input type="checkbox" id="agree" name="agree" value="agree" />
+                        <label  for="agree"> Agree</label>
+                      </div>
+
+                      <button className="Button Button--send">Send</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>

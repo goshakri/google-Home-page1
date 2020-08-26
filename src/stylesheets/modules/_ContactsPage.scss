@@ -1,16 +1,4 @@
 .ContactsPage {
   display: flex;
   justify-content: space-between;
-
-  &-formblock {
-    width: 50%;
-    display: flex;
-    padding:50px 0 20px 0;
-  }
-
-  &-textblock {
-    width: 50%;
-    display: flex;
-    padding:50px 10px 50px 10px;
-  }
 }
