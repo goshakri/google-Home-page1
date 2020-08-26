@@ -44,7 +44,7 @@ function Contacts() {
             <div className="ContactsPage">
               <div className="Row">
                 <div className="Row-item">
-                  <p>Please fill the from to make it filled.</p>
+                  <p className="Text">Please fill the from to make it filled.</p>
                 </div>
 
                 <div className="Row-item">
