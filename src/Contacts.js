@@ -67,9 +67,9 @@ function Contacts() {
                     <div className="Form-name">
                       <p>Sex:</p>
                       <input type="radio" value="male" name="gender" />
-                      <label for="male">Male:</label>
+                      <label className="Form-sex" for="male">Male:</label>
                       <input type="radio" value="female" name="gender" />
-                      <label for="female">Female:</label>
+                      <label className="Form-sex" for="female">Female:</label>
                     </div>
 
                     <div className="Form-massage">
