@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
 
 function Contacts() {
   return (
@@ -72,20 +73,7 @@ function Contacts() {
         </div>
       </main>
 
-      <footer>
-        <div className="Section Section--zircon">
-          <div className="Section-content">
-            <div className="PageFooter">
-              <p>
-                Created by{" "}
-                <a className="Link" href="https://github.com">
-                  goshakri
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
