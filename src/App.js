@@ -23,12 +23,12 @@ function App() {
 
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="/">
                     Examples
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="Button" href="#">
+                  <a className="Button" href="/">
                     Sign In
                   </a>
                 </li>
