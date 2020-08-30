@@ -83,7 +83,7 @@ function Contacts() {
                     </div>
 
                     <div className="Form-group">
-                      <label className="Form-label" htmlFor="massage">Megssage:</label>
+                      <label className="Form-label" htmlFor="massage">Message:</label>
                       <textarea rows="5" className="Field Field--regular Field--textarea" id="massage" name="massage" ></textarea>
                     </div>
 
