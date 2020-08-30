@@ -78,7 +78,7 @@ function Contacts() {
 
                     <div className="Form-blockbutton">
                       <div className="Form-agree">
-                        <input type="checkbox" id="agree" name="agree" value="agree" />
+                        <input className="Form-checkbox" type="checkbox" id="agree" name="agree" value="agree" />
                         <label  htmlFor="agree"> Agree</label>
                       </div>
 
