@@ -1,5 +1,4 @@
 import React from "react";
-import google from "./images/google.jpg";
 
 function Contacts() {
   return (
