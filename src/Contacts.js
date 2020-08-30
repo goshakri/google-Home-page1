@@ -43,24 +43,24 @@ function Contacts() {
             <div className="ContactsPage">
               <div className="Row">
                 <div className="Row-item">
-                  <p className="Text">Please fill the form to make it filled.</p>
+                  <p className="ContactsPage-description">Please fill the form to make it filled.</p>
                 </div>
 
                 <div className="Row-item">
                   <form className="Form">
-                    <div className="Form-name">
-                      <label className="Form-indent" htmlFor="name">Name:</label>
-                      <input className="Field-test" type="text" id="name" name="username" />
+                    <div className="Form-group">
+                      <label className="Form-label" htmlFor="name">Name:</label>
+                      <input className="Field Field--regular" type="text" id="name" name="username" />
                     </div>
 
-                    <div className="Form-name">
-                      <label className="Form-indent" htmlFor="email">Email:</label>
-                      <input className="Field-test" type="email" id="email" name="email" />
+                    <div className="Form-group">
+                      <label className="Form-label" htmlFor="email">Email:</label>
+                      <input className="Field Field--regular" type="email" id="email" name="email" />
                     </div>
 
-                    <div className="Form-name">
-                      <label className="Form-indent" htmlFor="city">City:</label>
-                      <select className="Field-test" name="city" id="city">
+                    <div className="Form-group">
+                      <label className="Form-label" htmlFor="city">City:</label>
+                      <select className="Field Field--regular" name="city" id="city">
                         <option>
                           123
                         </option>
@@ -71,25 +71,25 @@ function Contacts() {
                       </select>
                     </div>
 
-                    <div className="Form-name">
-                      <p className="Form-indent">Sex:</p>
+                    <div className="Form-group">
+                      <p className="Form-label">Sex:</p>
                       <div className="Form-gender">
-                        <input id="male" className="Form-radiobutton" type="radio" value="male" name="gender" checked/>
+                        <input id="male" className="Form-control" type="radio" value="male" name="gender" checked/>
                         <label className="Form-sex" htmlFor="male">Male</label>
 
-                        <input id="female" className="Form-radiobutton" type="radio" value="female" name="gender" />
+                        <input id="female" className="Form-control" type="radio" value="female" name="gender" />
                         <label className="Form-sex" htmlFor="female">Female</label>
                       </div>
                     </div>
 
-                    <div className="Form-name">
-                      <label className="Form-indent" htmlFor="massage">Message:</label>
-                      <textarea rows="5" className="Field-test Field-test--textarea" id="massage" name="massage" ></textarea>
+                    <div className="Form-group">
+                      <label className="Form-label" htmlFor="massage">Megssage:</label>
+                      <textarea rows="5" className="Field Field--regular Field--textarea" id="massage" name="massage" ></textarea>
                     </div>
 
                     <div className="Form-blockbutton">
                       <div className="Form-agree">
-                        <input className="Form-checkbox" type="checkbox" id="agree" name="agree" value="agree" />
+                        <input className="Form-control" type="checkbox" id="agree" name="agree" value="agree" />
                         <label  htmlFor="agree"> Agree</label>
                       </div>
 

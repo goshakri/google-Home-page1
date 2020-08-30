@@ -1,25 +1,27 @@
 .Field {
-  background: #fff;
-  display: flex;
-  border: 1px solid #dfe1e5;
-  box-shadow: none;
-  border-radius: 24px;
-  height: 44px;
-  width: 100%;
-  background-image: url(../../images/micro.jpg);
-  background-repeat: no-repeat;
-  background-size: 19px;
-  background-position: center right 24px;
+  &--search {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 100%;
+    background-image: url(../../images/micro.jpg);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: center right 24px;
 
-  &:focus {
-    box-shadow: 1px 1px 4px #d3d3d3;
+    &:focus {
+      box-shadow: 1px 1px 4px #d3d3d3;
+    }
+
+    &:hover {
+      box-shadow: 1px 1px 4px #d3d3d3;
+    }
   }
 
-  &:hover {
-    box-shadow: 1px 1px 4px #d3d3d3;
-  }
-
-  &-test {
+  &--regular {
     border: 1px solid rgba(#1089F5, .5);
     box-shadow: none;
     border-radius: 5px;
@@ -27,9 +29,9 @@
     height: 34px;
     padding: 7px 15px;
     width: 100%;
+  }
 
-    &--textarea {
-      height: initial;
-    }
+  &--textarea {
+    height: initial;
   }
 }

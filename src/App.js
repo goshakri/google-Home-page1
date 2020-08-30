@@ -47,7 +47,7 @@ function App() {
               </div>
 
               <div className="SearchPage-input">
-                <input type="text" className="Field"/>
+                <input type="text" className="Field Field--search"/>
               </div>
 
               <div className="SearchPage-actions">
