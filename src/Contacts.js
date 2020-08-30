@@ -50,37 +50,37 @@ function Contacts() {
                 <div className="Row-item">
                   <form className="Form">
                     <div className="Form-name">
-                      <label className="Form-indent" for="name">Name:</label>
+                      <label className="Form-indent" htmlFor="name">Name:</label>
                       <input className="Field-test" type="text" id="name" name="username" />
                     </div>
 
                     <div className="Form-name">
-                      <label className="Form-indent" for="email">Email:</label>
+                      <label className="Form-indent" htmlFor="email">Email:</label>
                       <input className="Field-test" type="email" id="email" name="email" />
                     </div>
 
                     <div className="Form-name">
-                      <label className="Form-indent" for="city">City:</label>
+                      <label className="Form-indent" htmlFor="city">City:</label>
                       <select className="Field-test" name="city" id="city"></select>
                     </div>
 
                     <div className="Form-name">
                       <p>Sex:</p>
                       <input type="radio" value="male" name="gender" />
-                      <label className="Form-sex" for="male">Male:</label>
+                      <label className="Form-sex" htmlFor="male">Male:</label>
                       <input type="radio" value="female" name="gender" />
-                      <label className="Form-sex" for="female">Female:</label>
+                      <label className="Form-sex" htmlFor="female">Female:</label>
                     </div>
 
                     <div className="Form-massage">
-                      <label className="Form-indent" for="massage">Massage:</label>
+                      <label className="Form-indent" htmlFor="massage">Massage:</label>
                       <textarea rows="7" className="Field-area" id="massage" name="massage" ></textarea>
                     </div>
 
                     <div className="Form-blockbutton">
                       <div className="Form-agree">
                         <input type="checkbox" id="agree" name="agree" value="agree" />
-                        <label  for="agree"> Agree</label>
+                        <label  htmlFor="agree"> Agree</label>
                       </div>
 
                       <button className="Button Button--send">Send</button>
