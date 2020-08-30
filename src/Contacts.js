@@ -90,7 +90,7 @@ function Contacts() {
                     <div className="Form-blockbutton">
                       <div className="Form-agree">
                         <input className="Form-control" type="checkbox" id="agree" name="agree" value="agree" />
-                        <label  htmlFor="agree"> Agree</label>
+                        <label htmlFor="agree">Agree</label>
                       </div>
 
                       <button className="Button Button--send">Send</button>
