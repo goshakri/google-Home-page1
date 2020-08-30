@@ -71,7 +71,7 @@ function Contacts() {
                       <label className="Form-sex" htmlFor="female">Female:</label>
                     </div>
 
-                    <div className="Form-massage">
+                    <div className="Form-name">
                       <label className="Form-indent" htmlFor="massage">Massage:</label>
                       <textarea rows="7" className="Field-test Field-test--textarea" id="massage" name="massage" ></textarea>
                     </div>
