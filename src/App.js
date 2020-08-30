@@ -10,12 +10,12 @@ function App() {
             <nav className="SiteNavigation">
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="/">
                     Search
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="/contacts">
                     Contacts
                   </a>
                 </li>
@@ -23,12 +23,12 @@ function App() {
 
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="#">
+                  <a className="SiteNavigation-link" href="/">
                     Examples
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="Button" href="#">
+                  <a className="Button" href="/">
                     Sign In
                   </a>
                 </li>
@@ -47,7 +47,7 @@ function App() {
               </div>
 
               <div className="SearchPage-input">
-                <input type="text" className="Field"/>
+                <input type="text" className="Field Field--search"/>
               </div>
 
               <div className="SearchPage-actions">

@@ -1,0 +1,35 @@
+.Form {
+  padding: 50px 10px 50px 0;
+
+  &-blockbutton {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-group {
+    padding: 0 0 20px 0;
+  }
+
+  &-label {
+    display: inline-block;
+    padding: 0 5px 5px 0;
+  }
+
+  &-agree {
+    display: flex;
+  }
+
+  &-sex {
+    margin: 0 5px 0 0;
+  }
+
+  &-control {
+    margin: 0 3px 0 0;
+  }
+
+  &-gender {
+    align-items: center;
+    display: flex;
+  }
+}
