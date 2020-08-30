@@ -66,7 +66,7 @@ function Contacts() {
                     <div className="Form-name">
                       <p className="Form-indent">Sex:</p>
                       <div className="Form-gender">
-                        <input id="male" className="Form-radiobutton" type="radio" value="male" name="gender" />
+                        <input id="male" className="Form-radiobutton" type="radio" value="male" name="gender" checked/>
                         <label className="Form-sex" htmlFor="male">Male</label>
 
                         <input id="female" className="Form-radiobutton" type="radio" value="female" name="gender" />
