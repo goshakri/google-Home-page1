@@ -60,7 +60,15 @@ function Contacts() {
 
                     <div className="Form-name">
                       <label className="Form-indent" htmlFor="city">City:</label>
-                      <select className="Field-test" name="city" id="city"></select>
+                      <select className="Field-test" name="city" id="city">
+                        <option>
+                          123
+                        </option>
+
+                        <option>
+                          312
+                        </option>
+                      </select>
                     </div>
 
                     <div className="Form-name">
