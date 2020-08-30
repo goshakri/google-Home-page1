@@ -73,7 +73,7 @@ function Contacts() {
 
                     <div className="Form-massage">
                       <label className="Form-indent" htmlFor="massage">Massage:</label>
-                      <textarea rows="7" className="Field-area" id="massage" name="massage" ></textarea>
+                      <textarea rows="7" className="Field-test Field-test--textarea" id="massage" name="massage" ></textarea>
                     </div>
 
                     <div className="Form-blockbutton">
