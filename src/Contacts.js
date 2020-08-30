@@ -64,11 +64,14 @@ function Contacts() {
                     </div>
 
                     <div className="Form-name">
-                      <p>Sex:</p>
-                      <input type="radio" value="male" name="gender" />
-                      <label className="Form-sex" htmlFor="male">Male:</label>
-                      <input type="radio" value="female" name="gender" />
-                      <label className="Form-sex" htmlFor="female">Female:</label>
+                      <p className="Form-indent">Sex:</p>
+                      <div className="Form-gender">
+                        <input className="Form-radiobutton" type="radio" value="male" name="gender" />
+                        <label className="Form-sex" htmlFor="male">Male</label>
+
+                        <input className="Form-radiobutton" type="radio" value="female" name="gender" />
+                        <label className="Form-sex" htmlFor="female">Female</label>
+                      </div>
                     </div>
 
                     <div className="Form-name">

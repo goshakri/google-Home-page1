@@ -21,11 +21,19 @@
   }
 
   &-sex {
-    display: inline;
-    padding: 8px 1px 0 .1px;
+    margin: 0 5px 0 0;
   }
 
   &-checkbox {
     margin: 0 3px 0 0;
+  }
+
+  &-radiobutton {
+    margin: 0 3px 0 0;
+  }
+
+  &-gender {
+    align-items: center;
+    display: flex;
   }
 }
