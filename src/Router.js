@@ -13,7 +13,7 @@ export default function Routes() {
       <Route exact path="/Contacts">
         <Contacts />
       </Route>
-      <Route exact path="SignIn">
+      <Route exact path="/SignIn">
         <SignIn />
       </Route>
     </Switch>
