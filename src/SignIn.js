@@ -4,7 +4,7 @@ import Header from "./components/Header.js";
 function SignIn() {
   return (
     <div>
-      <h1> Hay</h1>
+    <Header />
     </div>
   )
 }
