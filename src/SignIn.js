@@ -1,17 +1,36 @@
 import React from "react";
-import Header from "./components/Header.js";
 
 function SignIn() {
   return (
-  <div className="dawdwad">
-    <Header />
+   <div className="Page">
 
-    <div>
-      <h1>dad</h1>
+
+
+      <form className="Register">
+
+      <h1>Welcom</h1>
+
+        <div className="textblock">
+          <input type="text" placeholder="Username" name="" value="">
+          </input>
+        </div>
+
+        <div className="textblock">
+          <input type="text" placeholder="Username" name="" value="">
+          </input>
+        </div>
+
+        <div className="textblock">
+          <input type="text" placeholder="Username" name="" value="">
+          </input>
+        </div>
+
+        <input className="Button" type="button" name="" value="Sign In">
+        </input>
+
+      </form>
+
     </div>
-
-  </div>
-
   )
 }
 export default SignIn;
