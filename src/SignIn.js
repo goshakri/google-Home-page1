@@ -1,35 +1,17 @@
 import React from "react";
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
 
 function SignIn() {
   return (
-   <div className="Page">
+    <div className="Page">
+      <Header />
 
+      <main className="Page-content">
 
+      </main>
 
-      <form className="Register">
-
-      <h1>Welcom</h1>
-
-        <div className="textblock">
-          <input type="text" placeholder="Username" name="" value="">
-          </input>
-        </div>
-
-        <div className="textblock">
-          <input type="text" placeholder="Username" name="" value="">
-          </input>
-        </div>
-
-        <div className="textblock">
-          <input type="text" placeholder="Username" name="" value="">
-          </input>
-        </div>
-
-        <input className="Button" type="button" name="" value="Sign In">
-        </input>
-
-      </form>
-
+      <Footer />
     </div>
   )
 }
