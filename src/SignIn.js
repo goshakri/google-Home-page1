@@ -11,30 +11,31 @@ function SignIn() {
         <div className="Section">
           <div className="Section-content">
             <div className="Register">
-              <div className="Register">
+
+              <div className="">
+                <h1 className="Text">Welcome</h1>
+              </div>
 
                 <form className="Form">
 
-                  <div className="Register-text u-pb-50">
-                    <h1 className="Text">Welcome</h1>
-                  </div>
-
                   <div className="u-pb-20">
                     <label className="Form-label" htmlFor="email">Email</label>
-                    <input className="Field Field--regular"type="email" id="email" name="email" />
+                    <input className="Field"type="email" id="email" name="email" />
                   </div>
 
                   <div className="u-pb-20">
                     <label className="Form-label" htmlFor="email">Password</label>
-                    <input className="Field Field--line" type="password" id="password" name="password" />
+                    <input className="Field" type="password" id="password" name="password" />
                   </div>
 
-                  <button> LOGIN </button>
+                  <div className="u-pb-20">
+                    <button>LOGIN</button>
+                  </div>
 
                   <p>Don't have an account? Sign In</p>
+
                 </form>
 
-              </div>
             </div>
           </div>
         </div>
