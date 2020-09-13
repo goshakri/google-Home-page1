@@ -32,6 +32,12 @@
     width: 100%;
   }
 
+  &--line {
+    display: block;
+    border-bottom: 1px solid rgba(#1089F5, 0.5);
+
+  }
+
   &--textarea {
     height: initial;
   }

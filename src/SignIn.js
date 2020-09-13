@@ -11,23 +11,27 @@ function SignIn() {
         <div className="Section">
           <div className="Section-content">
             <div className="Register">
-              <div className="Register u-pt-50 u-pb-50 u-pl-10">
-
-                <h1>Welcome</h1>
+              <div className="Register">
 
                 <form className="Form">
-                  <div className="">
+
+                  <div className="Register-text u-pb-50">
+                    <h1 className="Text">Welcome</h1>
+                  </div>
+
+                  <div className="u-pb-20">
                     <label className="Form-label" htmlFor="email">Email</label>
                     <input className="Field Field--regular"type="email" id="email" name="email" />
                   </div>
 
-                  <div className="">
+                  <div className="u-pb-20">
                     <label className="Form-label" htmlFor="email">Password</label>
-                    <input className="Field Field--regular" type="password" id="password" name="password" />
+                    <input className="Field Field--line" type="password" id="password" name="password" />
                   </div>
 
                   <button> LOGIN </button>
 
+                  <p>Don't have an account? Sign In</p>
                 </form>
 
               </div>
