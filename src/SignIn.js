@@ -19,12 +19,12 @@ function SignIn() {
                 <form className="Form-supplement">
                   <div className="Form-possition">
                     <div className="u-pb-20">
-                      <label className="Form-label" htmlFor="email">Email</label>
+                      <label className="Form-rgba" htmlFor="email">Email</label>
                       <input className="Field-line"type="email" id="email" name="email" />
                     </div>
 
                     <div className="u-pb-20">
-                      <label className="Form-label" htmlFor="email">Password</label>
+                      <label className="Form-rgba" htmlFor="email">Password</label>
                       <input className="Field-line" type="password" id="password" name="password" />
                     </div>
 
