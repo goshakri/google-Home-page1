@@ -18,7 +18,7 @@ function Contacts() {
               <div className="Row-item u-pt-50 u-pb-50 u-pr-10">
                 <form className="Form">
                   <div className="u-pb-20">
-                    <label className="Form-label" htmlFor="name">Name:</label>
+                    <label className="Form-space" htmlFor="name">Name:</label>
                     <input className="Field Field--regular" type="text" id="name" name="username" />
                   </div>
 

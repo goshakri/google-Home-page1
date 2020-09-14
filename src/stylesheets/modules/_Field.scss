@@ -21,6 +21,16 @@
     }
   }
 
+    &-line {
+      width: 100%;
+      padding: 0 5px;
+      height: 40px;
+      border: none;
+      background: none;
+      outline: none;
+
+  }
+
   &--regular {
     display: block;
     border: 1px solid rgba(#1089F5, 0.5);
@@ -34,7 +44,7 @@
 
   &--line {
     display: block;
-    border-bottom: 1px solid rgba(#1089F5, 0.5);
+    border-bottom: 1px solid rgba(#FFF, 0.5);
 
   }
 
