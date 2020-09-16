@@ -14,25 +14,19 @@ function SignIn() {
 
               <div className="">
                 <h1 className="Text">Welcome</h1>
+                <p>Don't have an account? Sign In</p>
               </div>
 
                 <form className="Form-supplement">
                   <div className="Form-possition">
-                    <div className="u-pb-20">
-                      <label className="Form-rgba" htmlFor="email">Email</label>
-                      <input className="Field-line"type="email" id="email" name="email" />
-                    </div>
 
-                    <div className="u-pb-20">
-                      <label className="Form-rgba" htmlFor="email">Password</label>
-                      <input className="Field-line" type="password" id="password" name="password" />
-                    </div>
+                      <input className="Field-line"type="email" placeholder="Email" required />
+                      <input className="Field-line" type="password" placeholder="Password" required />
 
                     <div className="u-pb-20">
                       <button>LOGIN</button>
                     </div>
 
-                    <p>Don't have an account? Sign In</p>
                   </div>
                 </form>
 
