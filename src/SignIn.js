@@ -11,7 +11,6 @@ function SignIn() {
         <div className="Section">
           <div className="Section-content">
             <div className="Register">
-
               <form className="Form">
 
                 <div className="Text">
@@ -19,28 +18,27 @@ function SignIn() {
                 </div>
 
                 <div className="Form-supplement">
-                  <input className="Field-line"type="email" placeholder="Email" required />
+                  <input className="Field-line" type="email" placeholder="Email" required />
                   <input className="Field-line" type="password" placeholder="Password" required />
-
-                  <div className="">
-                    <button>LOGIN</button>
-                  </div>
-
-                  <div className="">
-                    <p>Don't have an account? Sign In</p>
-                  </div>
-
                 </div>
+
+                <div className="">
+                  <button>LOGIN</button>
+                </div>
+
+                <div className="">
+                  <p>Don't have an account? Sign In</p>
+                </div>
+
+
               </form>
-
             </div>
-
           </div>
         </div>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
 export default SignIn;
