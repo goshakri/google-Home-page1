@@ -12,25 +12,29 @@ function SignIn() {
           <div className="Section-content">
             <div className="Register">
 
-              <div className="">
-                <h1 className="Text">Welcome</h1>
-                <p>Don't have an account? Sign In</p>
-              </div>
+              <form className="Form">
 
-                <form className="Form-supplement">
-                  <div className="Form-possition">
+                <div className="Text">
+                  <h1>Welcome</h1>
+                </div>
 
-                      <input className="Field-line"type="email" placeholder="Email" required />
-                      <input className="Field-line" type="password" placeholder="Password" required />
+                <div className="Form-supplement">
+                  <input className="Field-line"type="email" placeholder="Email" required />
+                  <input className="Field-line" type="password" placeholder="Password" required />
 
-                    <div className="u-pb-20">
-                      <button>LOGIN</button>
-                    </div>
-
+                  <div className="">
+                    <button>LOGIN</button>
                   </div>
-                </form>
+
+                  <div className="">
+                    <p>Don't have an account? Sign In</p>
+                  </div>
+
+                </div>
+              </form>
 
             </div>
+
           </div>
         </div>
       </main>

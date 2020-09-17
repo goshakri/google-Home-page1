@@ -21,13 +21,6 @@
     }
   }
 
-    &-line {
-      width: 100%;
-      padding: 0 5px;
-      outline: none;
-
-  }
-
   &--regular {
     display: block;
     border: 1px solid rgba(#1089F5, 0.5);
@@ -39,13 +32,17 @@
     width: 100%;
   }
 
-  &--line {
-    display: block;
-    border-bottom: 1px solid rgba(#FFF, 0.5);
-
-  }
-
   &--textarea {
     height: initial;
+  }
+
+    &-line {
+    padding: 10px;
+    background:transparent;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border-bottom: 1px solid rgba(black, 0.5);
   }
 }
