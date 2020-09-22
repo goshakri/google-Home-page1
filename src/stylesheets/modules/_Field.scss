@@ -35,4 +35,11 @@
   &--textarea {
     height: initial;
   }
+
+  &--email {
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+  }
 }

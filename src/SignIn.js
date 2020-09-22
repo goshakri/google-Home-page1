@@ -17,7 +17,7 @@ function SignIn() {
                   <h1 className="Logo">Welcome</h1>
                 </div>
 
-                <div className="">
+                <div className="Register-inputr">
                   <input className="Field Field--email" type="text" placeholder="Email" required></input>
                 </div>
 
@@ -30,7 +30,7 @@ function SignIn() {
                 </div>
 
                 <div className="">
-                  <p>
+                  <p className="Text">
                     Don't have an accoutn? <a href="#">Sign Up</a>
                   </p>
                 </div>
