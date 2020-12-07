@@ -43,4 +43,15 @@
     background: none;
     padding-bottom: 10px;
   }
+
+  &--register {
+    border-radius: 31px;
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    height: 56px;
+    padding: 0 51px;
+    border: 1px solid #dfe1e5;
+  }
 }
