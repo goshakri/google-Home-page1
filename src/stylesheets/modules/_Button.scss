@@ -16,4 +16,44 @@
   &--spaced {
     margin: 0px 15px 0px 0;
   }
+
+  &--linkbgone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    border-radius: 25px;
+    width: 100%;
+    line-height: 1.2;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3b5998;
+    font-weight: bold;
+
+    background-image: url(../../images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: center left 30px;
+  }
+
+  &--linkbgtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    border-radius: 25px;
+    width: 100%;
+    line-height: 1.2;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1da1f2;
+    font-weight: bold;
+
+    background-image: url(../../images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: center left 30px;
+  }
 }
