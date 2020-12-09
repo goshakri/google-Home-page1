@@ -21,12 +21,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     height: 45px;
     border-radius: 25px;
     width: 100%;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     background-color: #3b5998;
     font-weight: bold;
@@ -34,19 +35,26 @@
     background-image: url(../../images/facebook.png);
     background-repeat: no-repeat;
     background-size: 26px;
-    background-position: center left 30px;
+    background-position: center left 37px;
+  }
+
+  &--linkbgone:hover {
+    background-color:#212529;
+    border: none;
+    transition: all .4s;
   }
 
   &--linkbgtwo {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     height: 45px;
     border-radius: 25px;
     width: 100%;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     background-color: #1da1f2;
     font-weight: bold;
@@ -54,6 +62,12 @@
     background-image: url(../../images/twitter.png);
     background-repeat: no-repeat;
     background-size: 26px;
-    background-position: center left 30px;
+    background-position: center left 38px;
+  }
+
+  &--linkbgtwo:hover {
+    background-color:#212529;
+    border: none;
+    transition: all .4s;
   }
 }
