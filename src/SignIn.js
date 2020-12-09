@@ -22,10 +22,14 @@ function SignIn() {
                   <a className="Button Button--linkbgtwo" href="#">Login with Twitter</a>
                 </div>
 
-                <span className="Text Text--loginwithemail">Login with email</span>
+                <span className="Text Text--loginwithemail u-pt-50">Login with email</span>
 
-                <div className="Input">
+                <div className="Input u-pt-20">
                   <input className="Field Field--register" type="text" name="email" placeholder="Email" ></input>
+                </div>
+
+                <div className="Input u-pt-10">
+                  <input className="Field Field--register" type="password" name="password" placeholder="Password" ></input>
                 </div>
 
               </form>
