@@ -9,4 +9,13 @@
     color: #43383e;
     line-height: 1.2;
   }
+
+  &--loginwithemail {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+  }
 }

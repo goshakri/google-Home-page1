@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: none;
 
     height: 45px;
     border-radius: 25px;
@@ -40,7 +41,6 @@
 
   &--linkbgone:hover {
     background-color:#212529;
-    border: none;
     transition: all .4s;
   }
 
@@ -49,6 +49,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: none;
+
 
     height: 45px;
     border-radius: 25px;
@@ -67,7 +69,6 @@
 
   &--linkbgtwo:hover {
     background-color:#212529;
-    border: none;
     transition: all .4s;
   }
 }

@@ -10,7 +10,7 @@ function SignIn() {
       <main className="Page-content">
         <div className="Section">
           <div className="Section-content">
-            <div className="WrapLogin u-pt-90">
+            <div className="WrapLogin u-pt-60">
               <form className="Form">
                 <span className="Text Text--login u-pb-40">Login</span>
 
@@ -18,9 +18,11 @@ function SignIn() {
                   <a className="Button Button--linkbgone" href="#">Login with Facebook</a>
                 </div>
 
-                <div className="u-pt-5">
+                <div className="u-pt-10">
                   <a className="Button Button--linkbgtwo" href="#">Login with Twitter</a>
                 </div>
+
+                <span className="Text Text--loginwithemail">Login with email</span>
 
                 <div className="Input">
                   <input className="Field Field--register" type="text" name="email" placeholder="Email" ></input>
