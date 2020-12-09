@@ -16,6 +16,8 @@ function App() {
                 <img className="SearchPage-pictureItem" src={google} alt="" />
               </div>
 
+              <i className="fa fa-500px" />
+
               <div className="SearchPage-input">
                 <input type="text" className="Field Field--search"/>
               </div>
