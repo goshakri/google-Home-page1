@@ -15,11 +15,20 @@ function SignIn() {
                 <span className="Text Text--login u-pb-40">Login</span>
 
                 <div className="u-pt-5">
-                  <a className="Button Button--linkbgone" href="#">Login with Facebook</a>
+                  <a className="Button Button--linkbgone" href="#">
+                  <div className="FontAwesome FontAwesome--socialnetwork">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  </div>
+                  Login with Facebook</a>
                 </div>
 
                 <div className="u-pt-10">
-                  <a className="Button Button--linkbgtwo" href="#">Login with Twitter</a>
+                  <a className="Button Button--linkbgtwo" href="#">
+                  <div className="FontAwesome FontAwesome--socialnetwork">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </div>
+                  Login with Twitter
+                  </a>
                 </div>
 
                 <span className="Text Text--loginwithemail u-pt-50">Login with email</span>
@@ -30,6 +39,9 @@ function SignIn() {
 
                 <div className="Input u-pt-10">
                   <input className="Field Field--register" type="password" name="password" placeholder="Password" ></input>
+                  <div className="FontAwesome FontAwesome--eye">
+                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  </div>
                 </div>
 
               </form>
