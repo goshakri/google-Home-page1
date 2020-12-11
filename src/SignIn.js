@@ -16,17 +16,17 @@ function SignIn() {
 
                 <div className="u-pt-5">
                   <a className="Button Button--linkbgone" href="#">
-                  <div className="FontAwesome FontAwesome--socialnetwork">
+                  <span className="FontAwesome FontAwesome--socialnetwork">
                     <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                  </div>
+                  </span>
                   Login with Facebook</a>
                 </div>
 
                 <div className="u-pt-10">
                   <a className="Button Button--linkbgtwo" href="#">
-                  <div className="FontAwesome FontAwesome--socialnetwork">
+                  <span className="FontAwesome FontAwesome--socialnetwork">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </div>
+                  </span>
                   Login with Twitter
                   </a>
                 </div>
