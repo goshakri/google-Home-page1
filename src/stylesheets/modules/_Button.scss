@@ -59,4 +59,18 @@
     background-color:#212529;
     transition: all .4s;
   }
+
+  &--fontawesome {
+    color: #aaaaaa;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 220px;
+    cursor: pointer;
+  }
+
+  &--fontawesome:hover {
+    color: black;
+  }
 }

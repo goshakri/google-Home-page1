@@ -38,10 +38,10 @@ function SignIn() {
                 </div>
 
                 <div className="Input u-pt-10">
-                  <input className="Field Field--register" type="password" name="password" placeholder="Password" ></input>
-                  <div className="FontAwesome FontAwesome--eye">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
-                  </div>
+                  <span className="FontAwesome FontAwesome--eye">
+                    <input className="Field Field--register" type="password" name="password" placeholder="Password"></input>
+                    <button className="Button Button--fontawesome"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                  </span>
                 </div>
 
               </form>
