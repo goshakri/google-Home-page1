@@ -27,8 +27,8 @@
 
     height: 45px;
     border-radius: 25px;
-    width: 100%;
-    font-size: 16px;
+    width: 296px;
+    font-size: 15px;
     color: #fff;
     background-color: #3b5998;
   }
@@ -49,8 +49,8 @@
 
     height: 45px;
     border-radius: 25px;
-    width: 100%;
-    font-size: 16px;
+    width: 296px;
+    font-size: 15px;
     color: #fff;
     background-color: #1da1f2;
   }
@@ -60,17 +60,39 @@
     transition: all .4s;
   }
 
-  &--fontawesome {
+  &--passwordIcon {
     color: #aaaaaa;
     border: none;
     position: absolute;
     z-index: 1;
     top: 15px;
-    left: 220px;
+    right: -280px;
     cursor: pointer;
   }
 
   &--fontawesome:hover {
     color: black;
+  }
+
+  &--login {
+    height: 59px;
+    border-radius: 31px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #111111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  &--login:hover {
+    background-color: black;
   }
 }

@@ -45,14 +45,15 @@
   }
 
   &--register {
+    font-family: 'Oswald', sans-serif;
     border-radius: 31px;
     background-color: #fff;
     width: 100%;
     display: block;
     box-shadow: none;
-    height: 56px;
-    padding: 0 51px;
+    height: 57px;
+    padding: 0 33px;
     border: 1px solid #dfe1e5;
-    color: #43383e;
+    color: black;
   }
 }

@@ -26,4 +26,11 @@
     align-items: center;
     display: flex;
   }
+
+  &-center {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }

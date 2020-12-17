@@ -17,7 +17,7 @@ function SignIn() {
                 <div className="u-pt-5">
                   <a className="Button Button--linkbgone" href="#">
                   <span className="FontAwesome FontAwesome--socialnetwork">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
                   </span>
                   Login with Facebook</a>
                 </div>
@@ -25,7 +25,7 @@ function SignIn() {
                 <div className="u-pt-10">
                   <a className="Button Button--linkbgtwo" href="#">
                   <span className="FontAwesome FontAwesome--socialnetwork">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
                   </span>
                   Login with Twitter
                   </a>
@@ -33,15 +33,19 @@ function SignIn() {
 
                 <span className="Text Text--loginwithemail u-pt-50">Login with email</span>
 
-                <div className="Input u-pt-20">
+                <div className="u-pt-25">
                   <input className="Field Field--register" type="text" name="email" placeholder="Email" ></input>
                 </div>
 
-                <div className="Input u-pt-10">
+                <div className="Input u-pt-20">
                   <span className="FontAwesome FontAwesome--eye">
                     <input className="Field Field--register" type="password" name="password" placeholder="Password"></input>
-                    <button className="Button Button--fontawesome"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    <button className="Button Button--passwordIcon"><i class="fa fa-eye" aria-hidden="true"></i></button>
                   </span>
+                </div>
+
+                <div className="Form-center ">
+                  <button className="Button Button--login">Login</button>
                 </div>
 
               </form>
