@@ -1,0 +1,21 @@
+.Text {
+  font-size: 13px;
+
+  &--login {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    color: #43383e;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  &--loginwithemail {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+  }
+}

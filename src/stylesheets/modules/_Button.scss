@@ -16,4 +16,83 @@
   &--spaced {
     margin: 0px 15px 0px 0;
   }
+
+  &--linkbgone {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+    height: 45px;
+    border-radius: 25px;
+    width: 296px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3b5998;
+  }
+
+  &--linkbgone:hover {
+    background-color:#212529;
+    transition: all .4s;
+  }
+
+  &--linkbgtwo {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+
+    height: 45px;
+    border-radius: 25px;
+    width: 296px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #1da1f2;
+  }
+
+  &--linkbgtwo:hover {
+    background-color:#212529;
+    transition: all .4s;
+  }
+
+  &--passwordIcon {
+    color: #aaaaaa;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: -280px;
+    cursor: pointer;
+  }
+
+  &--fontawesome:hover {
+    color: black;
+  }
+
+  &--login {
+    height: 59px;
+    border-radius: 31px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #111111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  &--login:hover {
+    background-color: black;
+  }
 }

@@ -1,11 +1,19 @@
 .u {
   &-pb {
+    &-5 {
+      padding-bottom: 5px;
+    }
+
     &-10 {
       padding-bottom: 10px;
     }
 
     &-20 {
       padding-bottom: 20px;
+    }
+
+    &-25 {
+      padding-bottom: 25px;
     }
 
     &-30 {
@@ -19,15 +27,39 @@
     &-50 {
       padding-bottom: 50px;
     }
+
+    &-60 {
+      padding-bottom: 60px;
+    }
+
+    &-70 {
+      padding-bottom: 70px;
+    }
+
+    &-80 {
+      padding-bottom: 80px;
+    }
+
+    &-90 {
+      padding-bottom: 90px;
+    }
   }
 
   &-pt {
+    &-5 {
+      padding-top: 5px;
+    }
+
     &-10 {
       padding-top: 10px;
     }
 
     &-20 {
       padding-top: 20px;
+    }
+
+    &-25 {
+      padding-top: 25px;
     }
 
     &-30 {
@@ -40,6 +72,22 @@
 
     &-50 {
       padding-top: 50px;
+    }
+
+    &-60 {
+      padding-top: 60px;
+    }
+
+    &-70 {
+      padding-top: 70px;
+    }
+
+    &-80 {
+      padding-top: 80px;
+    }
+
+    &-90 {
+      padding-top: 90px;
     }
   }
 

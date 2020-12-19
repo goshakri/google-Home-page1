@@ -35,4 +35,25 @@
   &--textarea {
     height: initial;
   }
+
+  &--email {
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding-bottom: 10px;
+  }
+
+  &--register {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 31px;
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    height: 57px;
+    padding: 0 33px;
+    border: 1px solid #dfe1e5;
+    color: black;
+  }
 }

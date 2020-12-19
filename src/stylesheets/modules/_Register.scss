@@ -1,0 +1,23 @@
+.Register {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+  background: #f1f1f1;
+  width: 317px;
+  height: 525px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 70px;
+
+  &-rh1 {
+    padding-bottom: 80px;
+  }
+
+  &-inputr {
+    border-bottom: 1px solid #adadad;
+    position: relative;
+    margin: 40px 0;
+    width: 230px  ;
+  }
+}
