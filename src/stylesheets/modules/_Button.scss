@@ -1,4 +1,5 @@
 .Button {
+  font-weight: 600;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   display: flex;
@@ -18,10 +19,6 @@
     background-color: #007537;
     border-color: #007537;
     color: #fff;
-  }
-
-  &--signin {
-
   }
 
   &--tituleblock {
