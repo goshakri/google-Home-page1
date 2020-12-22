@@ -70,10 +70,10 @@ function SignIn() {
                 </div>
 
                 <div className="Input u-pt-20">
-                  <span className="FontAwesome FontAwesome--eye">
+                  <div className="FontAwesome FontAwesome--eye">
                     <input className="Field Field--register" type="password" name="password" placeholder="Password"></input>
                     <button className="Button Button--passwordIcon"><i class="fa fa-eye" aria-hidden="true"></i></button>
-                  </span>
+                  </div>
                 </div>
 
                 <div className="Form-center ">
