@@ -94,7 +94,7 @@ function Contacts() {
                       <label htmlFor="agree">Agree</label>
                     </div>
 
-                    <button className="Button Button--send">Send</button>
+                    <button className="Button">Send</button>
                   </div>
                 </form>
               </div>

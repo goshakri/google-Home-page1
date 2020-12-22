@@ -53,8 +53,8 @@ function App() {
               </div>
 
               <div className="SearchPage-actions">
-                <button className="Button Button--spaced Button--tituleblock">Google Seacrh</button>
-                <button className="Button Button--tituleblock">I'm Feelling Lucky</button>
+                <button className="Button Button--spaced">Google Seacrh</button>
+                <button className="Button">I'm Feelling Lucky</button>
               </div>
             </div>
           </div>

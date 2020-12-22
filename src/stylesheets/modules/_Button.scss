@@ -15,7 +15,7 @@
   background-color: #3b5998;
   cursor: pointer;
 
-  &--send:hover {
+  &:hover {
     background-color:#212529;
     transition: all .4s;
   }
@@ -24,41 +24,19 @@
     font-size: 14px;
   }
 
-  &--tituleblock:hover {
-    background-color:#212529;
-    transition: all .4s;
-  }
-
   &--spaced {
     margin: 0px 15px 0px 0;
   }
 
   &--linkbgone {
-    height: 45px;
-    border-radius: 25px;
     width: 296px;
     font-size: 15px;
-    color: #fff;
-    background-color: #3b5998;
-  }
-
-  &--linkbgone:hover {
-    background-color:#212529;
-    transition: all .4s;
   }
 
   &--linkbgtwo {
-    height: 45px;
-    border-radius: 25px;
     width: 296px;
     font-size: 15px;
-    color: #fff;
     background-color: #1da1f2;
-  }
-
-  &--linkbgtwo:hover {
-    background-color:#212529;
-    transition: all .4s;
   }
 
   &--passwordIcon {
@@ -81,9 +59,9 @@
     width: 150px;
     background-color: #111111;
     font-size: 13px;
-  }
 
-  &--login:hover {
-    background-color: black;
+      &:hover {
+      background-color: black;
+    }
   }
 }
