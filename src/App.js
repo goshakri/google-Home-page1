@@ -6,7 +6,39 @@ import Footer from "./components/Footer.js";
 function App() {
   return (
     <div className="Page">
-      <Header />
+      <header>
+        <div className="Section Section--zircon">
+          <div className="Section-content">
+            <nav className="SiteNavigation">
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link isActive" href="/">
+                    Search
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/contacts">
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/">
+                    Examples
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/signin">
+                    Sign In
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
 
       <main className="Page-content">
         <div className="Section">

@@ -27,7 +27,7 @@ function Header() {
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="Button" href="/signin">
+                  <a className="SiteNavigation-link" href="/signin">
                     Sign In
                   </a>
                 </li>

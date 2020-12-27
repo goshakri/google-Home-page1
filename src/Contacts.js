@@ -5,7 +5,39 @@ import Footer from "./components/Footer.js";
 function Contacts() {
   return (
     <div className="Page">
-      <Header />
+      <header>
+        <div className="Section Section--zircon">
+          <div className="Section-content">
+            <nav className="SiteNavigation">
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/">
+                    Search
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link isActive" href="/contacts">
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/">
+                    Examples
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/signin">
+                    Sign In
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
 
       <main className="Page-content">
         <div className="Section">
@@ -18,7 +50,7 @@ function Contacts() {
               <div className="Row-item u-pt-50 u-pb-50 u-pr-10">
                 <form className="Form">
                   <div className="u-pb-20">
-                    <label className="Form-space" htmlFor="name">Name:</label>
+                    <label className="Form-label" htmlFor="name">Name:</label>
                     <input className="Field Field--regular" type="text" id="name" name="username" />
                   </div>
 
@@ -62,7 +94,7 @@ function Contacts() {
                       <label htmlFor="agree">Agree</label>
                     </div>
 
-                    <button className="Button Button--send">Send</button>
+                    <button className="Button">Send</button>
                   </div>
                 </form>
               </div>

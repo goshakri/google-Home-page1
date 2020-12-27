@@ -1,16 +1,27 @@
 .Button {
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
   text-decoration: none;
   display: flex;
   background: transparent;
-  padding: 7px 15px;
-  border: 1px solid #1089F5;
-  border-radius: 5px;
-  color: #1089F5;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  height: 45px;
+  border-radius: 25px;
+  width: 180px;
+  color: #fff;
+  background-color: #3b5998;
+  cursor: pointer;
 
-  &--send {
-    background-color: #007537;
-    border-color: #007537;
-    color: #fff;
+  &:hover {
+    background-color:#212529;
+    transition: all .4s;
+  }
+
+  &--tituleblock {
+    font-size: 14px;
   }
 
   &--spaced {
@@ -18,46 +29,14 @@
   }
 
   &--linkbgone {
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: none;
-
-    height: 45px;
-    border-radius: 25px;
     width: 296px;
     font-size: 15px;
-    color: #fff;
-    background-color: #3b5998;
-  }
-
-  &--linkbgone:hover {
-    background-color:#212529;
-    transition: all .4s;
   }
 
   &--linkbgtwo {
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: none;
-
-
-    height: 45px;
-    border-radius: 25px;
     width: 296px;
     font-size: 15px;
-    color: #fff;
     background-color: #1da1f2;
-  }
-
-  &--linkbgtwo:hover {
-    background-color:#212529;
-    transition: all .4s;
   }
 
   &--passwordIcon {
@@ -65,34 +44,24 @@
     border: none;
     position: absolute;
     z-index: 1;
-    top: 15px;
-    right: -280px;
+    top: 6px;
+    right: 25px;
     cursor: pointer;
-  }
-
-  &--fontawesome:hover {
-    color: black;
+    background: transparent;
+    width: 0;
   }
 
   &--login {
     height: 59px;
     border-radius: 31px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
     text-transform: uppercase;
     line-height: 1.2;
-    justify-content: center;
-    align-items: center;
     width: 150px;
     background-color: #111111;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 13px;
-  }
 
-  &--login:hover {
-    background-color: black;
+      &:hover {
+      background-color: black;
+    }
   }
 }

@@ -5,7 +5,39 @@ import Footer from "./components/Footer.js";
 function SignIn() {
   return (
     <div className="Page">
-      <Header />
+      <header>
+        <div className="Section Section--zircon">
+          <div className="Section-content">
+            <nav className="SiteNavigation">
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/">
+                    Search
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/contacts">
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/">
+                    Examples
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link isActive" href="/signin">
+                    Sign In
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
 
       <main className="Page-content">
         <div className="Section">
@@ -38,10 +70,10 @@ function SignIn() {
                 </div>
 
                 <div className="Input u-pt-20">
-                  <span className="FontAwesome FontAwesome--eye">
+                  <div className="FontAwesome FontAwesome--eye">
                     <input className="Field Field--register" type="password" name="password" placeholder="Password"></input>
                     <button className="Button Button--passwordIcon"><i class="fa fa-eye" aria-hidden="true"></i></button>
-                  </span>
+                  </div>
                 </div>
 
                 <div className="Form-center ">
