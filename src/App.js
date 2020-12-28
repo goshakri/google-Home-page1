@@ -10,6 +10,11 @@ function App() {
         <div className="Section Section--zircon">
           <div className="Section-content">
             <nav className="SiteNavigation">
+
+              <div className="HeaderPage-picture">
+                <img className="HeaderPage-pictureItem" src="images/logo.png" alt=""/>
+              </div>
+
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link isActive" href="/">
