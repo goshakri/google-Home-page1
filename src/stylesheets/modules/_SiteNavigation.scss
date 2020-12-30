@@ -1,10 +1,7 @@
 .SiteNavigation {
   display: flex;
   align-items: center;
-  padding: 15px;
-  justify-content: space-between;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
+  padding: 20px;
 
   &-column {
     display: flex;
@@ -12,19 +9,17 @@
   }
 
   &-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     text-decoration: none;
     color: #fff;
-    padding: 8px;
-    font-size: 15px;
+    padding-left: 20px;
+    font-size: 14px;
   }
 
   &-link:hover {
-    text-decoration: underline;
-
-    &.isActive {
-      background-color:rgba(0,255,0,0.3);
-      color: black;
-      text-decoration: none;
-    }
+    border-bottom: 2px solid #c44747;
+    color: #c44747;
+    padding: 3px;
   }
 }

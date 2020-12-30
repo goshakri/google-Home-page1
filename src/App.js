@@ -10,20 +10,28 @@ function App() {
         <div className="Section Section--zircon">
           <div className="Section-content">
             <nav className="SiteNavigation">
-
               <div className="HeaderPage-picture">
-                <img className="HeaderPage-pictureItem" src="images/logo.png" alt=""/>
+                <img className="HeaderPage-pictureItem" src="images/logogo.jpg" alt="" />
               </div>
-
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link isActive" href="/">
-                    Search
+                  <a className="SiteNavigation-link" href="/">
+                    HOME
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/aboutus">
+                    ABOUT US
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/contacts">
-                    Contacts
+                    PORTFOLIO
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-link" href="/contacts">
+                    OUR BLOGS
                   </a>
                 </li>
               </ul>
@@ -31,12 +39,12 @@ function App() {
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/">
-                    Examples
+                    SERVICES
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="/signin">
-                    Sign In
+                  <a className="SiteNavigation-link" href="/contacts">
+                    Contacts
                   </a>
                 </li>
               </ul>
