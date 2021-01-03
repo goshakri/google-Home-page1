@@ -48,6 +48,24 @@ function App() {
                   </a>
                 </li>
               </ul>
+
+              <ul className="SiteNavigation-column">
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-fonts">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-fonts">
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li className="SiteNavigation-item">
+                  <a className="SiteNavigation-fonts">
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
             </nav>
           </div>
         </div>
