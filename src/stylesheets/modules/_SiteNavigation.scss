@@ -13,13 +13,13 @@
     font-weight: 400;
     text-decoration: none;
     color: #fff;
-    padding-left: 20px;
     font-size: 14px;
+    padding: 3px;
+    margin-left: 20px;
   }
 
   &-link:hover {
     border-bottom: 2px solid #c44747;
     color: #c44747;
-    padding: 3px;
   }
 }

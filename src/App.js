@@ -44,7 +44,7 @@ function App() {
                 </li>
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/contacts">
-                    Contacts
+                    CONTACTS
                   </a>
                 </li>
               </ul>
