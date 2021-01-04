@@ -1,6 +1,6 @@
 .Button {
-  font-weight: 600;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   text-decoration: none;
   display: flex;
   background: transparent;
@@ -9,15 +9,17 @@
   text-align: center;
   border: none;
   height: 45px;
-  border-radius: 25px;
+  border-radius: 1px;
   width: 180px;
   color: #fff;
-  background-color: #3b5998;
+  background-color: #c44747;
   cursor: pointer;
+  font-size: 12px;
 
   &:hover {
-    background-color:#212529;
-    transition: all .4s;
+    background-color:#fff;
+    color: #c44747;
+    transition: .4s;
   }
 
   &--tituleblock {
@@ -26,42 +28,5 @@
 
   &--spaced {
     margin: 0px 15px 0px 0;
-  }
-
-  &--linkbgone {
-    width: 296px;
-    font-size: 15px;
-  }
-
-  &--linkbgtwo {
-    width: 296px;
-    font-size: 15px;
-    background-color: #1da1f2;
-  }
-
-  &--passwordIcon {
-    color: #aaaaaa;
-    border: none;
-    position: absolute;
-    z-index: 1;
-    top: 6px;
-    right: 25px;
-    cursor: pointer;
-    background: transparent;
-    width: 0;
-  }
-
-  &--login {
-    height: 59px;
-    border-radius: 31px;
-    text-transform: uppercase;
-    line-height: 1.2;
-    width: 150px;
-    background-color: #111111;
-    font-size: 13px;
-
-      &:hover {
-      background-color: black;
-    }
   }
 }

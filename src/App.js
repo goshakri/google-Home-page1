@@ -34,9 +34,6 @@ function App() {
                     OUR BLOGS
                   </a>
                 </li>
-              </ul>
-
-              <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/">
                     SERVICES
@@ -47,9 +44,6 @@ function App() {
                     CONTACTS
                   </a>
                 </li>
-              </ul>
-
-              <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-fonts">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -67,6 +61,27 @@ function App() {
                 </li>
               </ul>
             </nav>
+
+            <div className="SliderSection">
+              <div className="SliderSection-name">
+                <h1 className="SliderSection-text SliderSection-text--one">GOOD <basefont className="SliderSection-text SliderSection-text--red"> BUSINNES </basefont> INSIDE YOU </h1>
+                <h1 className="SliderSection-text">FIMILIA <basefont className="SliderSection-text SliderSection-text--red"> STUDIO </basefont></h1>
+              </div>
+              <div className="SliderSection-item">
+                <a className="Button Button--spaced">BUY NOW</a>
+                <a className="Button">START A PROJECT</a>
+              </div>
+
+
+              <div className="SliderSection-radio">
+                <div className="">
+                  <input className="" type="radio" value="male" name="gender" checked/>
+                  <input className="" type="radio" value="female" name="gender" />
+                  <input className="" type="radio" value="female" name="gender" />
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </header>
@@ -74,20 +89,7 @@ function App() {
       <main className="Page-content">
         <div className="Section">
           <div className="Section-content">
-            <div className="SearchPage">
-              <div className="SearchPage-picture">
-                <img className="SearchPage-pictureItem" src={google} alt="" />
-              </div>
 
-              <div className="SearchPage-input">
-                <input type="text" className="Field Field--search"/>
-              </div>
-
-              <div className="SearchPage-actions">
-                <button className="Button Button--spaced">Google Seacrh</button>
-                <button className="Button">I'm Feelling Lucky</button>
-              </div>
-            </div>
           </div>
         </div>
       </main>

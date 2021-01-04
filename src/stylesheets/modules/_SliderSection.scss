@@ -1,0 +1,30 @@
+.SliderSection {
+  padding-top: 170px;
+  padding-bottom: 185px;
+
+  &-item {
+    display: flex;
+    padding-top: 20px;
+  }
+
+  &-radio {
+
+  }
+
+  &-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 20px;
+
+    &--one {
+      font-size: 45px;
+      font-weight: 400;
+    }
+
+    &--red {
+      color: #c44747;
+    }
+  }
+}
