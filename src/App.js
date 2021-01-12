@@ -66,24 +66,31 @@ function App() {
 
         <div className="Section Section--slider">
           <div className="Section-content">
-            <div className="SliderSection">
-              <div className="SliderSection-name">
-                <h1 className="SliderSection-text SliderSection-text--one">GOOD <basefont className="SliderSection-text SliderSection-text--red"> BUSINNES </basefont> INSIDE YOU </h1>
-                <h1 className="SliderSection-text">FIMILIA <basefont className="SliderSection-text SliderSection-text--red"> STUDIO </basefont></h1>
-              </div>
-              <div className="SliderSection-item">
-                <a className="Button Button--spaced">BUY NOW</a>
-                <a className="Button">START A PROJECT</a>
-              </div>
+            <div className="Slider">
+              <div className="Slider-content">
+                <div className="Slider-item isActive">
+                  <div className="Slider-title">
+                    <h1 className="Slider-title Slider-title--one">GOOD <basefont className="Slider-title Slider-title--red"> BUSINNES </basefont> INSIDE YOU </h1>
+                    <h1 className="Slider-title  Slider-title--too">FIMILIA <basefont className="Slider-title Slider-title--red"> STUDIO </basefont></h1>
+                  </div>
 
-
-              <div className="SliderSection-radio">
-                <div className="">
-                  <input className="" type="radio" value="male" name="gender" checked/>
-                  <input className="" type="radio" value="female" name="gender" />
-                  <input className="" type="radio" value="female" name="gender" />
+                  <div className="Slider-btn">
+                    <a className="Button Button--spaced">BUY NOW</a>
+                    <a className="Button">START A PROJECT</a>
+                  </div>
                 </div>
               </div>
+              <ul className="Slider-navigation">
+                <li className="Slider-navigationItem">
+                  <input className="" type="radio" value="male" name="gender" checked/>
+                </li>
+                <li className="Slider-navigationItem isActive">
+                  <input className="" type="radio" value="male" name="gender" />
+                </li>
+                <li className="Slider-navigationItem">
+                  <input className="" type="radio" value="male" name="gender" />
+                </li>
+              </ul>
             </div>
           </div>
         </div>
