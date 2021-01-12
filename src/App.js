@@ -1,5 +1,5 @@
 import React from "react";
-import logogo from "./images/logogo.jpg";
+import logo from "./images/logo.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -11,7 +11,7 @@ function App() {
           <div className="Section-content">
             <nav className="SiteNavigation">
               <div className="HeaderPage-picture">
-                <img className="HeaderPage-pictureItem" src={logogo} alt="" />
+                <img className="HeaderPage-pictureItem" src={logo} alt="" />
               </div>
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
