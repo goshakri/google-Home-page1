@@ -61,7 +61,11 @@ function App() {
                 </li>
               </ul>
             </nav>
+          </div>
+        </div>
 
+        <div className="Section Section--slider">
+          <div className="Section-content">
             <div className="SliderSection">
               <div className="SliderSection-name">
                 <h1 className="SliderSection-text SliderSection-text--one">GOOD <basefont className="SliderSection-text SliderSection-text--red"> BUSINNES </basefont> INSIDE YOU </h1>
@@ -80,10 +84,10 @@ function App() {
                   <input className="" type="radio" value="female" name="gender" />
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+
       </header>
 
       <main className="Page-content">
