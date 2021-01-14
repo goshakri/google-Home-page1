@@ -17,8 +17,25 @@
   }
 
   &-wrappers {
-    padding-top: 90px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
+  }
+
+  &-blocknews {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+    &--text {
+      padding-top: 30px;
+      font-size: 20px;
+    }
+  }
+
+  &-textp {
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #878787;
   }
 }

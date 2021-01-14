@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "./images/logo.png";
+import iconone from "./images/iconone.png";
+import icontoo from "./images/icontoo.png";
+import iconthree from "./images/iconthree.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -11,7 +14,7 @@ function App() {
           <div className="Section-content">
             <nav className="SiteNavigation">
               <div className="HeaderPage-picture">
-                <img className="HeaderPage-pictureItem" src={logo} alt="" />
+                <img src={logo} alt="" />
               </div>
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
@@ -108,21 +111,21 @@ function App() {
                     <h2 className="AboutSection-title AboutSection-title--text"> <basefont className="Slider-title Slider-title--red"> Fimilia </basefont> Studio</h2>
                   </div>
 
-                  <div className="AboutSection-wrappers">
+                  <div className="AboutSection-wrappers u-pt-100">
                     <div className="AboutSection-blocknews">
-                      <img src="" alt="" />
-                      <h2></h2>
-                      <p></p>
+                      <img src={iconone} alt="" />
+                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h2>
+                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                     <div className="AboutSection-blocknews">
-                      <img src="" alt="" />
-                      <h2></h2>
-                      <p></p>
+                      <img src={icontoo} alt="" />
+                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h2>
+                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                     <div className="AboutSection-blocknews">
-                      <img src="" alt="" />
-                      <h2></h2>
-                      <p></p>
+                      <img src={iconthree} alt="" />
+                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h2>
+                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                   </div>
 
