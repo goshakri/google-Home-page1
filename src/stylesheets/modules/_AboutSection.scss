@@ -1,0 +1,24 @@
+.AboutSection {
+
+  &-content {
+    padding-top: 120px;
+    text-align: center;
+  }
+
+  &-title {
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
+    &--text {
+      font-size: 25px;
+    }
+  }
+
+  &-wrappers {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between
+  }
+}

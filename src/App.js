@@ -82,13 +82,13 @@ function App() {
               </div>
               <ul className="Slider-navigation">
                 <li className="Slider-navigationItem">
-                  <input className="" type="radio" value="male" name="gender" checked/>
+                  <input className="Form-input" type="radio" value="male" name="slide" checked/>
                 </li>
                 <li className="Slider-navigationItem isActive">
-                  <input className="" type="radio" value="male" name="gender" />
+                  <input className="Form-input" type="radio" value="male" name="slide" />
                 </li>
                 <li className="Slider-navigationItem">
-                  <input className="" type="radio" value="male" name="gender" />
+                  <input className="Form-input" type="radio" value="male" name="slide" />
                 </li>
               </ul>
             </div>
@@ -100,7 +100,35 @@ function App() {
       <main className="Page-content">
         <div className="Section">
           <div className="Section-content">
+            <div className="AboutSection">
+              <div className="AboutSection-content">
+                <div className="AboutSection-item">
+                  <div className="AboutSection-title">
+                    <h2 className="AboutSection-title">WHO WE ARE</h2>
+                    <h2 className="AboutSection-title AboutSection-title--text"> <basefont className="Slider-title Slider-title--red"> Fimilia </basefont> Studio</h2>
+                  </div>
 
+                  <div className="AboutSection-wrappers">
+                    <div className="AboutSection-blocknews">
+                      <img src="" alt="" />
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                    <div className="AboutSection-blocknews">
+                      <img src="" alt="" />
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                    <div className="AboutSection-blocknews">
+                      <img src="" alt="" />
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
