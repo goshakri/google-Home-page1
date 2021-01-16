@@ -3,6 +3,7 @@ import logo from "./images/logo.png";
 import iconone from "./images/iconone.png";
 import icontoo from "./images/icontoo.png";
 import iconthree from "./images/iconthree.png";
+import noneimage from "./images/noneimage.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -128,7 +129,20 @@ function App() {
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div className="Section Section--bgimage u-pt-490">
+          <div className="Section-content">
+            <div className="AboutSection">
+              <div className="AboutSection-content">
+                <div className="AboutSection-item">
+                  <div className="AboutSection-photo">
+                    <img src={noneimage} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
