@@ -86,13 +86,13 @@ function App() {
               </div>
               <ul className="Slider-navigation">
                 <li className="Slider-navigationItem">
-                  <input className="Form-input" type="radio" value="male" name="slide" checked/>
+                  <input className="Form-input" id="radio-1" type="radio" name="radio" value="1" checked />
                 </li>
                 <li className="Slider-navigationItem isActive">
-                  <input className="Form-input" type="radio" value="male" name="slide" />
+                  <input className="Form-input" id="radio-2" type="radio" name="radio" value="2" checked />
                 </li>
                 <li className="Slider-navigationItem">
-                  <input className="Form-input" type="radio" value="male" name="slide" />
+                  <input className="Form-input" id="radio-3" type="radio" name="radio" value="3" checked />
                 </li>
               </ul>
             </div>
@@ -135,7 +135,7 @@ function App() {
           </div>
         </div>
 
-        <div className="Section Section--bgimage u-pt-200">
+        <div className="Section Section--bgimage u-pt-490">
           <div className="Section-content">
             <div className="AboutSection">
               <div className="AboutSection-content">
