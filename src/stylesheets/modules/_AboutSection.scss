@@ -7,7 +7,8 @@
 
   &-photo {
     display: flex;
-
+    position: relative;
+    bottom: 200px;
   }
 
   &-title {
@@ -18,6 +19,10 @@
 
     &--text {
       font-size: 25px;
+    }
+
+    &--txt {
+
     }
   }
 

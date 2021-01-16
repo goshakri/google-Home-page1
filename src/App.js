@@ -135,13 +135,18 @@ function App() {
           </div>
         </div>
 
-        <div className="Section Section--bgimage u-pt-490">
+        <div className="Section Section--bgimage u-pt-200">
           <div className="Section-content">
             <div className="AboutSection">
               <div className="AboutSection-content">
                 <div className="AboutSection-item">
                   <div className="AboutSection-photo">
                     <img src={noneimage} alt="" />
+                  </div>
+
+                  <div className="">
+                    <h2>Fimilia Studio is Creative PSD Theme Design & Development</h2>
+                    <p></p>
                   </div>
                 </div>
               </div>
