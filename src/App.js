@@ -135,20 +135,32 @@ function App() {
           </div>
         </div>
 
-        <div className="Section Section--bgimage u-pt-490">
+        <div className="Section Section--bgimage ">
           <div className="Section-content">
-            <div className="AboutSection">
-              <div className="AboutSection-content">
-                <div className="AboutSection-item">
-                  <div className="AboutSection-photo">
-                    <img src={noneimage} alt="" />
-                  </div>
-
-                  <div className="">
-                    <h2>Fimilia Studio is Creative PSD Theme Design & Development</h2>
-                    <p></p>
-                  </div>
+            <div className="Row">
+              <div className="Row-item">
+                <div className="u-pb-50">
+                  <img class="Row-images" src={noneimage} alt=""/>
                 </div>
+
+                <p className="Text-familiastuido u-pb-90">
+                <basefont className="Text-familiastuido Text-familiastuido--red" >Fimilia </basefont> Studio is Creative PSD Theme
+                Design & <basefont className="Text-familiastuido Text-familiastuido--red"> Development</basefont>
+                </p>
+              </div>
+
+              <div className="Row-item u-pl-10">
+                <h3 className="Text-aboutstudio u-pt-80 u-pb-30">
+                  <basefont className="Text-aboutstudio Text-aboutstudio--red"> About </basefont> Fimilia Studio
+                </h3>
+
+                <p className="Text-familiastudiop u-pb-40">
+                  Duis molestie sapien et nunc blandit elementum. Nunc in mi sit amet mi molestie sodales. Etiam a porta nisi, vel vulputate felis. Nulla tincidunt sagittis dui eget sodales.
+                </p>
+
+                <p className="Text-familiastudiop u-pb-40">
+                  Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
+                </p>
               </div>
             </div>
           </div>

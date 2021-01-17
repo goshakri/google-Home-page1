@@ -5,6 +5,10 @@
     text-align: center;
   }
 
+  &-txt {
+
+  }
+
   &-photo {
     display: flex;
     position: relative;
@@ -20,10 +24,6 @@
     &--text {
       font-size: 25px;
     }
-
-    &--txt {
-
-    }
   }
 
   &-wrappers {
@@ -36,7 +36,6 @@
     font-weight: 700;
 
     &--text {
-
       padding-top: 30px;
       font-size: 20px;
     }

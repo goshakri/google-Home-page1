@@ -1,21 +1,36 @@
 .Text {
-  font-size: 13px;
+  font-family: 'Lato', sans-serif;
 
-  &--login {
-    font-size: 25px;
-    display: block;
-    text-align: center;
-    color: #43383e;
-    line-height: 1.2;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  &--loginwithemail {
+  &-familiastuido {
     font-size: 20px;
-    color: #333;
-    line-height: 1.2;
+    font-weight: 700;
     text-align: center;
-    display: block;
-    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+
+      &--red {
+        color: #c44747;
+      }
   }
+
+  &-aboutstudio {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+
+    &--red {
+      color: #c44747;
+    }
+  }
+
+  &-familiastudiop {
+    font-size: 14px;
+    font-weight: 400;
+    color: #878787;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+  }
+
+
 }
