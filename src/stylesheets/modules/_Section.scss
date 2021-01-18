@@ -12,8 +12,13 @@
     max-height: 490px;
   }
 
+  &--bgstats {
+    background-image: url(../../images/statsbg.png);
+  }
+
   &-content {
     max-width: 1170px;
     margin: 0 auto;
   }
+
 }

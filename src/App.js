@@ -118,11 +118,13 @@ function App() {
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h2>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
+
                     <div className="AboutSection-blocknews">
                       <img src={icontoo} alt="" />
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h2>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
+
                     <div className="AboutSection-blocknews">
                       <img src={iconthree} alt="" />
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h2>
@@ -161,6 +163,54 @@ function App() {
                 <p className="Text-familiastudiop u-pb-40">
                   Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Section Section--bgstats">
+          <div className="Section-content">
+            <div className="AboutSection">
+              <div className="AboutSection-itemstats u-pt-100">
+                <div className="AboutSection-blockstats">
+                  <p className="Text-number u-pb-40">
+                    402
+                  </p>
+
+                  <h3 className="Text-statsh3 u-pb-100">
+                    Completed Projects
+                  </h3>
+                </div>
+
+                <div className="AboutSection-blockstats">
+                  <p className="Text-number u-pb-40">
+                    122
+                  </p>
+
+                  <h3 className="Text-statsh3 u-pb-100">
+                    Happy Clients
+                  </h3>
+                </div>
+
+                <div className="AboutSection-blockstats">
+                  <p className="Text-number u-pb-40">
+                    5471
+                  </p>
+
+                  <h3 className="Text-statsh3 u-pb-100">
+                    Working Hours
+                  </h3>
+                </div>
+
+                <div className="AboutSection-blockstats">
+                  <p className="Text-number u-pb-40">
+                    395
+                  </p>
+
+                  <h3 className="Text-statsh3 u-pb-100">
+                    Cups Of Coffee
+                  </h3>
+                </div>
               </div>
             </div>
           </div>

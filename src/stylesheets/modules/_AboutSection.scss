@@ -1,11 +1,15 @@
 .AboutSection {
-
   &-content {
     padding-top: 120px;
     text-align: center;
   }
 
-  &-txt {
+  &-itemstats {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-blockstats {
 
   }
 
