@@ -1,0 +1,31 @@
+.PortfolioSection {
+
+  &-box {
+    display: flex;
+    align-items:space-between;
+  }
+
+  &-boxone {
+    flex: 1;
+  }
+
+  &-boxtoo {
+    flex: 1;
+  }
+
+  &-boxthree {
+    flex: 1;
+  }
+
+  &-boxfor {
+    flex: 1;
+  }
+
+  &-boxfive {
+    flex: 1;
+  }
+
+  &-boxsix {
+    flex: 1;
+  }
+}

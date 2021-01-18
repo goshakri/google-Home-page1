@@ -4,6 +4,12 @@ import iconone from "./images/iconone.png";
 import icontoo from "./images/icontoo.png";
 import iconthree from "./images/iconthree.png";
 import noneimage from "./images/noneimage.png";
+import blackone from "./images/blackone.png";
+import graytwoo from "./images/graytwoo.png";
+import grayblackthree from "./images/grayblackthree.png";
+import whitefour from "./images/whitefour.png";
+import graygrayfive from "./images/graygrayfive.png";
+import whiregray from "./images/whiregray.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -211,6 +217,54 @@ function App() {
                     Cups Of Coffee
                   </h3>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="PortfolioSection">
+          <div className="PortfolioSection-item">
+            <div className="PortfolioSection-title">
+              <p>
+                Our Portfolio
+              </p>
+
+              <h3>
+                Recent Works
+              </h3>
+            </div>
+
+            <div className="PortfolioSection-box">
+              <div className="PortfolioSection-boxone">
+                <img src={blackone} alt="" />
+              </div>
+
+              <div className="PortfolioSection-boxtoo">
+                <img src={graytwoo} alt="" />
+
+                <h3>
+                  Project Title
+                </h3>
+
+                <p>
+                  Design, Branding & Development
+                </p>
+              </div>
+
+              <div className="PortfolioSection-boxthree">
+                <img src={grayblackthree} alt="" />
+              </div>
+
+              <div className="PortfolioSection-boxfor">
+                <img src={whitefour} alt="" />
+              </div>
+
+              <div className="PortfolioSection-boxfive">
+                <img src={graygrayfive} alt="" />
+              </div>
+
+              <div className="PortfolioSection-boxsix">
+                <img src={whiregray} alt="" />
               </div>
             </div>
           </div>
