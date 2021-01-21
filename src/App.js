@@ -222,50 +222,29 @@ function App() {
           </div>
         </div>
 
-        <div className="PortfolioSection">
-          <div className="PortfolioSection-item">
-            <div className="PortfolioSection-title">
-              <p>
-                Our Portfolio
-              </p>
+        <div className="Row u-w-100">
+          <div className="Row-item u-w-50">
+            <div className="d-flex u-w-100">
+              <div className="d-flex u-w-50">
+                <div className="u-h-680 u-bg-black u-w-100">
+                </div>
+              </div>
 
-              <h3>
-                Recent Works
-              </h3>
+              <div className="d-flex flex-column u-w-50">
+                <div className="d-flex u-w-100 u-h-50 u-bg-gray"/>
+                <div className="d-flex u-w-100 u-h-50 u-bg-red"/>
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex u-w-50 flex-column">
+            <div className="d-flex u-w-100 u-h-50">
+              <div className="d-flex u-w-50 u-bg-blue"></div>
+              <div className="d-flex u-w-50 u-bg-yellow"></div>
             </div>
 
-            <div className="PortfolioSection-box">
-              <div className="PortfolioSection-boxone">
-                <img src={blackone} alt="" />
-              </div>
-
-              <div className="PortfolioSection-boxtoo">
-                <img src={graytwoo} alt="" />
-
-                <h3>
-                  Project Title
-                </h3>
-
-                <p>
-                  Design, Branding & Development
-                </p>
-              </div>
-
-              <div className="PortfolioSection-boxthree">
-                <img src={grayblackthree} alt="" />
-              </div>
-
-              <div className="PortfolioSection-boxfor">
-                <img src={whitefour} alt="" />
-              </div>
-
-              <div className="PortfolioSection-boxfive">
-                <img src={graygrayfive} alt="" />
-              </div>
-
-              <div className="PortfolioSection-boxsix">
-                <img src={whiregray} alt="" />
-              </div>
+            <div className="d-flex u-w-100 u-h-50">
+              <div className="d-flex u-w-100 u-bg-gray" />
             </div>
           </div>
         </div>
