@@ -1,31 +1,40 @@
 .PortfolioSection {
+  display: flex;
+  width: 100;
 
-  &-box {
-    display: flex;
-    align-items:space-between;
+  &-about {
+    width: 50%;
   }
 
-  &-boxone {
-    flex: 1;
+  &-items {
+    width: 100%
   }
 
-  &-boxtoo {
-    flex: 1;
+  &-blockone {
+    width: 50%;
+    flex-direction: column;
   }
 
-  &-boxthree {
-    flex: 1;
+  &-blocktwoo {
+    width: 100%;
+    max-height: 50%;
   }
 
-  &-boxfor {
-    flex: 1;
+  &-coltwo {
+    width: 50%;
   }
 
-  &-boxfive {
-    flex: 1;
+  &-colthre {
+    width: 100%;
   }
 
-  &-boxsix {
-    flex: 1;
+  &-black {
+    max-height: 680px;
+    width: 100%;
+  }
+
+  &-graytwoo {
+    width: 100%;
+    max-height: 50%;
   }
 }

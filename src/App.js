@@ -222,32 +222,44 @@ function App() {
           </div>
         </div>
 
-        <div className="Row u-w-100">
-          <div className="Row-item u-w-50">
-            <div className="d-flex u-w-100">
-              <div className="d-flex u-w-50">
-                <div className="u-h-680 u-bg-black u-w-100">
+        <div class="PortfolioSection u-w-100">
+          <div class="PortfolioSection-about u-w-50">
+            <div class="PortfolioSection-items u-w-100">
+              <div class="PortfolioSection-blockone u-w-50">
+                <div class="PortfolioSection-black u-h-680 u-bg-black u-w-100">
+                  <img src={blackone} alt="" />
                 </div>
               </div>
 
-              <div className="d-flex flex-column u-w-50">
-                <div className="d-flex u-w-100 u-h-50 u-bg-gray"/>
-                <div className="d-flex u-w-100 u-h-50 u-bg-red"/>
+              <div class="PortfolioSection-blockone flex-column u-w-50">
+                <div class="PortfolioSection-graytwoo u-w-100 u-h-50 u-bg-gray">
+                  <img src={graytwoo} alt="" />
+                </div>
+                <div class="PortfolioSection-graytwoo u-w-100 u-h-50 u-bg-red">
+                  <img src={grayblackthree} alt="" />
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="d-flex u-w-50 flex-column">
-            <div className="d-flex u-w-100 u-h-50">
-              <div className="d-flex u-w-50 u-bg-blue"></div>
-              <div className="d-flex u-w-50 u-bg-yellow"></div>
+          <div class="PortfolioSection-blockone u-w-50 flex-column">
+            <div class="PortfolioSection-blocktwoo u-w-100 u-h-50">
+              <div class="PortfolioSection-coltwo u-w-50 u-bg-blue">
+                <img src={whitefour} alt="" />
+              </div>
+              <div class="PortfolioSection-coltwo u-w-50 u-bg-yellow">
+                <img src={graygrayfive} alt="" />
+              </div>
             </div>
 
-            <div className="d-flex u-w-100 u-h-50">
-              <div className="d-flex u-w-100 u-bg-gray" />
+            <div class="PortfolioSection-blocktwoo u-w-100 u-h-50">
+              <div class="PortfolioSection-colthre u-w-100 u-bg-gray" >
+                <img src={whiregray} alt="" />
+              </div>
             </div>
           </div>
         </div>
+
       </main>
 
       <Footer />
