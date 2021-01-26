@@ -1,6 +1,6 @@
 .PortfolioSection {
   display: flex;
-  width: 100;
+  width: 100%;
 
   &-about {
     width: 50%;
@@ -11,30 +11,17 @@
   }
 
   &-blockone {
-    width: 50%;
     flex-direction: column;
-  }
-
-  &-blocktwoo {
-    width: 100%;
-    max-height: 50%;
-  }
-
-  &-coltwo {
     width: 50%;
-  }
-
-  &-colthre {
-    width: 100%;
   }
 
   &-black {
-    max-height: 680px;
+    height: 680px;
     width: 100%;
   }
 
   &-graytwoo {
     width: 100%;
-    max-height: 50%;
+    height: 50%;
   }
 }
