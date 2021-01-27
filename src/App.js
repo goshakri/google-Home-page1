@@ -244,7 +244,7 @@ function App() {
                     <img src={graytwoo} alt="" />
 
                     <div className="PortfolioSection-text">
-                      <h3 className="Text-ourportfolio Text-ourportfolio--color">Project Title</h3>
+                      <h3 className="Text-ourportfolio Text-ourportfolio--color u-pb-20">Project Title</h3>
                       <p className="Text-design">Design, Branding & Development</p>
                     </div>
                   </div>
@@ -276,7 +276,19 @@ function App() {
 
         <div className="Section Section--bgprice">
           <div className="Section-content">
+            <div className="PricingSection">
+              <div className="PricingSection-title">
+                <h2 className="">Pricing Table</h2>
 
+                <h2 className="">Suitable Plan</h2>
+              </div>
+
+              <div className="PricingSection-pricingtable">
+                <div className="PricingSection-pricingcard">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
