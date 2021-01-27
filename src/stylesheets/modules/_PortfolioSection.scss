@@ -4,6 +4,11 @@
     display: flex;
   }
 
+  &-text {
+    position: absolute;
+    padding: 50px 0px 0px 40px;
+  }
+
   &-title {
     text-align: center;
   }

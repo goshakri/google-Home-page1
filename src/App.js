@@ -10,6 +10,7 @@ import grayblackthree from "./images/grayblackthree.png";
 import whitefour from "./images/whitefour.png";
 import graygrayfive from "./images/graygrayfive.png";
 import whiregray from "./images/whiregray.png";
+import pricebg from "./images/pricebg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -241,6 +242,11 @@ function App() {
                 <div className="PortfolioSection-item flex-column u-w-50">
                   <div className="PortfolioSection-item u-w-100 u-h-50">
                     <img src={graytwoo} alt="" />
+
+                    <div className="PortfolioSection-text">
+                      <h3 className="Text-ourportfolio Text-ourportfolio--color">Project Title</h3>
+                      <p className="Text-design">Design, Branding & Development</p>
+                    </div>
                   </div>
                   <div className="d-flex u-w-100 u-h-50">
                     <img src={grayblackthree} alt="" />
@@ -265,6 +271,12 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="Section Section--bgprice">
+          <div className="Section-content">
+
           </div>
         </div>
       </main>

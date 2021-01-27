@@ -62,5 +62,16 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    &--color {
+      color: #fff;
+    }
+  }
+
+  &-design {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
   }
 }
