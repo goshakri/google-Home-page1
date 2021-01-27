@@ -1,6 +1,10 @@
 .Text {
   font-family: 'Lato', sans-serif;
 
+  &--red {
+    color: #c44747;
+  }
+
   &-familiastuido {
     font-size: 20px;
     font-weight: 700;
@@ -43,6 +47,19 @@
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &-recentworks {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &-ourportfolio {
+    font-size: 35px;
+    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
   }

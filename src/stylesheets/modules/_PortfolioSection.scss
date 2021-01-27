@@ -1,27 +1,31 @@
 .PortfolioSection {
-  display: flex;
-  width: 100%;
 
-  &-about {
+  &-item {
+    display: flex;
+  }
+
+  &-title {
+    text-align: center;
+  }
+
+  .u-w-100 {
+    width: 100%;
+  }
+
+  .u-w-50 {
     width: 50%;
   }
 
-  &-items {
-    width: 100%
-  }
-
-  &-blockone {
-    flex-direction: column;
-    width: 50%;
-  }
-
-  &-black {
+  .u-h-680 {
     height: 680px;
-    width: 100%;
   }
 
-  &-graytwoo {
-    width: 100%;
+  .u-h-50 {
     height: 50%;
   }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
 }

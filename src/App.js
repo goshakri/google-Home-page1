@@ -222,45 +222,51 @@ function App() {
           </div>
         </div>
 
-        <div className="PortfolioSection u-w-100">
-          <div className="PortfolioSection-about u-w-50">
-            <div className="PortfolioSection-items u-w-100">
-              <div className="PortfolioSection-about u-w-50">
-                <div className="PortfolioSection-black u-h-680 u-bg-black u-w-100">
-                  <img src={blackone} alt="" />
-                </div>
-              </div>
+        <div className="PortfolioSection u-pt-130 u-pb-130">
+          <div className="PortfolioSection-title">
+            <h3 className="Text-ourportfolio u-pb-20">Our Portfolio</h3>
 
-              <div className="PortfolioSection-blockone flex-column u-w-50">
-                <div className="PortfolioSection-graytwoo u-w-100 u-h-50 u-bg-gray">
-                  <img src={graytwoo} alt="" />
-                </div>
-
-                <div className="PortfolioSection-graytwoo u-w-100 u-h-50 u-bg-red">
-                  <img src={grayblackthree} alt="" />
-                </div>
-              </div>
-            </div>
+            <h3 className="Text-recentworks u-pb-100"> <basefont className=" Text Text--red"> Recent </basefont> Works</h3>
           </div>
 
-          <div className="PortfolioSection-blockone u-w-50 flex-column">
-            <div className="PortfolioSection-graytwoo u-w-100 u-h-50">
-              <div className="PortfolioSection-about u-w-50 u-bg-blue">
-                <img src={whitefour} alt="" />
-              </div>
-              <div className="PortfolioSection-about u-w-50 u-bg-yellow">
-                <img src={graygrayfive} alt="" />
+          <div className="PortfolioSection-item u-w-100">
+            <div className="PortfolioSection-item u-w-50">
+              <div className="PortfolioSection-item u-w-100">
+                <div className="PortfolioSection-item u-w-50">
+                  <div className="u-h-680 u-w-100">
+                    <img src={blackone} alt="" />
+                  </div>
+                </div>
+
+                <div className="PortfolioSection-item flex-column u-w-50">
+                  <div className="PortfolioSection-item u-w-100 u-h-50">
+                    <img src={graytwoo} alt="" />
+                  </div>
+                  <div className="d-flex u-w-100 u-h-50">
+                    <img src={grayblackthree} alt="" />
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="PortfolioSection-graytwoo u-w-100 u-h-50">
-              <div className="PortfolioSection-items u-w-100 u-bg-gray">
-                <img src={whiregray} alt="" />
+            <div className="PortfolioSection-item u-w-50 flex-column">
+              <div className="PortfolioSection-item u-w-100 u-h-50">
+                <div className="PortfolioSection-item u-w-50">
+                  <img src={whitefour} alt="" />
+                </div>
+                <div className="PortfolioSection-item u-w-50">
+                  <img src={graygrayfive} alt="" />
+                </div>
+              </div>
+
+              <div className="PortfolioSectionu-item u-w-100 u-h-50">
+                <div className="PortfolioSection-item u-w-100">
+                  <img src={whiregray} alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </main>
 
       <Footer />
