@@ -286,9 +286,7 @@ function App() {
               <div className="PricingSection-pricingtable">
                 <div className="PricingSection-pricingcard">
                   <h3>Basic</h3>
-
                   <div><sup>$</sup>19<span>/MO</span></div>
-
                   <ul>
                     <li>1 Website</li>
                     <li>1 GB Storage</li>
@@ -297,58 +295,48 @@ function App() {
                     <li>Unlimited Sub-Domains</li>
                     <li>5 Database</li>
                   </ul>
-
                   <a className="Button" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Basic</h3>
-
-                  <div><sup>$</sup>19<span>/MO</span></div>
-
+                  <h3>Standard</h3>
+                  <div><sup>$</sup>49<span>/MO</span></div>
                   <ul>
-                    <li>1 Website</li>
-                    <li>1 GB Storage</li>
-                    <li>10GB Bandwidth</li>
-                    <li>3 Month Support</li>
+                    <li>5 Website</li>
+                    <li>5 GB Storage</li>
+                    <li>500GB Bandwidth</li>
+                    <li>6 Month Support</li>
                     <li>Unlimited Sub-Domains</li>
-                    <li>5 Database</li>
+                    <li>10 Database</li>
                   </ul>
-
                   <a className="Button" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Basic</h3>
-
-                  <div><sup>$</sup>19<span>/MO</span></div>
-
+                  <h3>Premium</h3>
+                  <div><sup>$</sup>69<span>/MO</span></div>
                   <ul>
-                    <li>1 Website</li>
-                    <li>1 GB Storage</li>
-                    <li>10GB Bandwidth</li>
-                    <li>3 Month Support</li>
+                    <li>20 Website</li>
+                    <li>20 GB Storage</li>
+                    <li>200GB Bandwidth</li>
+                    <li>9 Month Support</li>
                     <li>Unlimited Sub-Domains</li>
-                    <li>5 Database</li>
+                    <li>50 Database</li>
                   </ul>
-
                   <a className="Button" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Basic</h3>
-
-                  <div><sup>$</sup>19<span>/MO</span></div>
-
+                  <h3>Professional</h3>
+                  <div><sup>$</sup>99<span>/MO</span></div>
                   <ul>
-                    <li>1 Website</li>
-                    <li>1 GB Storage</li>
-                    <li>10GB Bandwidth</li>
-                    <li>3 Month Support</li>
-                    <li>Unlimited Sub-Domains</li>
-                    <li>5 Database</li>
+                    <li>Unlimited Website</li>
+                    <li>100 GB Storage</li>
+                    <li>Unlimited Bandwidth</li>
+                    <li>1 Year Support</li>
+                    <li>Unlimited Domains</li>
+                    <li>Unlimited Database</li>
                   </ul>
-
                   <a className="Button" href="#">Buy Now</a>
                 </div>
               </div>
