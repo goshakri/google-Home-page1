@@ -258,10 +258,10 @@ function App() {
             <div className="PortfolioSection-item u-w-50 flex-column">
               <div className="PortfolioSection-item u-w-100 u-h-50">
                 <div className="PortfolioSection-item u-w-50">
-                  <img src={whitefour} alt="" />
+                  <img src={graygrayfive} alt="" />
                 </div>
                 <div className="PortfolioSection-item u-w-50">
-                  <img src={graygrayfive} alt="" />
+                  <img src={whitefour} alt="" />
                 </div>
               </div>
 
