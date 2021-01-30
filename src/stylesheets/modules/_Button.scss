@@ -22,6 +22,22 @@
     transition: .4s;
   }
 
+  &--price {
+    letter-spacing: 1px;
+    width: 270px;
+    height: 50px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+
+
+    &:hover {
+      background-color: #c44747;
+      color: #fff;
+    }
+  }
+
   &--tituleblock {
     font-size: 14px;
   }

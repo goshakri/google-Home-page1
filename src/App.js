@@ -285,7 +285,7 @@ function App() {
 
               <div className="PricingSection-pricingtable">
                 <div className="PricingSection-pricingcard">
-                  <h3>Basic</h3>
+                  <h3 className="Text-prcietext" >Basic</h3>
                   <div><sup>$</sup>19<span>/MO</span></div>
                   <ul>
                     <li>1 Website</li>
@@ -295,11 +295,11 @@ function App() {
                     <li>Unlimited Sub-Domains</li>
                     <li>5 Database</li>
                   </ul>
-                  <a className="Button" href="#">Buy Now</a>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Standard</h3>
+                  <h3 className="Text-prcietext" >Standard</h3>
                   <div><sup>$</sup>49<span>/MO</span></div>
                   <ul>
                     <li>5 Website</li>
@@ -309,11 +309,11 @@ function App() {
                     <li>Unlimited Sub-Domains</li>
                     <li>10 Database</li>
                   </ul>
-                  <a className="Button" href="#">Buy Now</a>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Premium</h3>
+                  <h3 className="Text-prcietext" >Premium</h3>
                   <div><sup>$</sup>69<span>/MO</span></div>
                   <ul>
                     <li>20 Website</li>
@@ -323,11 +323,11 @@ function App() {
                     <li>Unlimited Sub-Domains</li>
                     <li>50 Database</li>
                   </ul>
-                  <a className="Button" href="#">Buy Now</a>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
 
                 <div className="PricingSection-pricingcard">
-                  <h3>Professional</h3>
+                  <h3 className="Text-prcietext" >Professional</h3>
                   <div><sup>$</sup>99<span>/MO</span></div>
                   <ul>
                     <li>Unlimited Website</li>
@@ -337,7 +337,7 @@ function App() {
                     <li>Unlimited Domains</li>
                     <li>Unlimited Database</li>
                   </ul>
-                  <a className="Button" href="#">Buy Now</a>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
               </div>
             </div>
