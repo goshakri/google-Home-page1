@@ -277,7 +277,7 @@ function App() {
         <div className="Section Section--bgprice">
           <div className="Section-content">
             <div className="PricingSection u-pt-130">
-              <div className="PricingSection-title">
+              <div className="PricingSection-title u-pb-100">
                 <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
 
                 <h2 className="Text-suitableplan"><basefont className="Text--red">Suitable</basefont> Plan</h2>
@@ -286,7 +286,11 @@ function App() {
               <div className="PricingSection-pricingtable">
                 <div className="PricingSection-pricingcard">
                   <h3 className="Text-prcietext" >Basic</h3>
-                  <div><sup>$</sup>19<span>/MO</span></div>
+                  <div>
+                    <span>$19/MO</span>
+                   <img src={pricebg} alt="" />
+                  </div>
+
                   <ul>
                     <li>1 Website</li>
                     <li>1 GB Storage</li>
@@ -300,7 +304,10 @@ function App() {
 
                 <div className="PricingSection-pricingcard">
                   <h3 className="Text-prcietext" >Standard</h3>
-                  <div><sup>$</sup>49<span>/MO</span></div>
+                  <div>
+                    <sup>$</sup>49<span>/MO</span>
+                  </div>
+
                   <ul>
                     <li>5 Website</li>
                     <li>5 GB Storage</li>
@@ -314,7 +321,10 @@ function App() {
 
                 <div className="PricingSection-pricingcard">
                   <h3 className="Text-prcietext" >Premium</h3>
-                  <div><sup>$</sup>69<span>/MO</span></div>
+                  <div>
+                    <sup>$</sup>69<span>/MO</span>
+                  </div>
+
                   <ul>
                     <li>20 Website</li>
                     <li>20 GB Storage</li>
@@ -328,7 +338,10 @@ function App() {
 
                 <div className="PricingSection-pricingcard">
                   <h3 className="Text-prcietext" >Professional</h3>
-                  <div><sup>$</sup>99<span>/MO</span></div>
+                  <div>
+                    <sup>$</sup>99<span>/MO</span>
+                  </div>
+
                   <ul>
                     <li>Unlimited Website</li>
                     <li>100 GB Storage</li>
