@@ -10,7 +10,6 @@ import grayblackthree from "./images/grayblackthree.png";
 import whitefour from "./images/whitefour.png";
 import graygrayfive from "./images/graygrayfive.png";
 import whiregray from "./images/whiregray.png";
-import pricebg from "./images/pricebg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
