@@ -109,4 +109,15 @@
     letter-spacing: 2px;
     padding-top: 18px;
   }
+
+  &-number {
+    font-size: 40px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
+    &--mo {
+      font-size: 16px;
+    }
+  }
 }
