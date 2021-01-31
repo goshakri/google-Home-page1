@@ -290,8 +290,8 @@ function App() {
                   </div>
 
                   <div className="Figure">
-                    <p className="Text-number">$19</p>
-                    <p className="Text-number Text-number--mo">/mo</p>
+                    <p className="Text-numeral">$19</p>
+                    <p className="Text-numeral Text-numeral--mo">/mo</p>
                   </div>
 
                   <ul className="PricingSection-column">
@@ -311,8 +311,8 @@ function App() {
                   </div>
 
                   <div className="Figure">
-                    <p className="Text-number">$49</p>
-                    <p className="Text-number Text-number--mo">/mo</p>
+                    <p className="Text-numeral">$49</p>
+                    <p className="Text-numeral Text-numeral--mo">/mo</p>
                   </div>
 
                   <ul className="PricingSection-column">
@@ -332,8 +332,8 @@ function App() {
                   </div>
 
                   <div className="Figure">
-                    <p className="Text-number">$69</p>
-                    <p className="Text-number Text-number--mo">/mo</p>
+                    <p className="Text-numeral">$69</p>
+                    <p className="Text-numeral Text-numeral--mo">/mo</p>
                   </div>
 
                   <ul className="PricingSection-column">
@@ -353,8 +353,8 @@ function App() {
                   </div>
 
                  <div className="Figure">
-                   <p className="Text-number">$99</p>
-                   <p className="Text-number Text-number--mo">/mo</p>
+                   <p className="Text-numeral">$99</p>
+                   <p className="Text-numeral Text-numeral--mo">/mo</p>
                  </div>
 
                   <ul className="PricingSection-column">
