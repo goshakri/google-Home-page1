@@ -290,7 +290,7 @@ function App() {
 
                   <div className="Figure">
                     <p className="Text-numeral">$19</p>
-                    <p className="Text-numeral Text-numeral--mo">/mo</p>
+                    <p className="Text-number Text-numeral--mo">/mo</p>
                   </div>
 
                   <ul className="PricingSection-column">
