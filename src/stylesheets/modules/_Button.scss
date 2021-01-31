@@ -12,13 +12,13 @@
   border-radius: 1px;
   width: 180px;
   color: #fff;
-  background-color: #c44747;
+  background-color: #ff5552;
   cursor: pointer;
   font-size: 12px;
 
   &:hover {
     background-color:#fff;
-    color: #c44747;
+    color: #ff5552;
     transition: .4s;
   }
 
@@ -33,7 +33,7 @@
 
 
     &:hover {
-      background-color: #c44747;
+      background-color: #ff5552;
       color: #fff;
     }
   }
