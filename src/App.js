@@ -276,95 +276,99 @@ function App() {
         <div className="Section Section--bgprice">
           <div className="Section-content">
             <div className="PricingSection u-pt-130">
-              <div className="PricingSection-title u-pb-100">
-                <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
+              <div className="PricingSection-column">
+                <div className="PricingCard">
+                  <div className="PricingSection-title u-pb-100">
+                    <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
 
-                <h2 className="Text-suitableplan"><basefont className="Text--red">Suitable</basefont> Plan</h2>
-              </div>
-
-              <div className="PricingSection-pricingtable">
-                <div className="PricingSection-pricingcard">
-                  <div className="u-pb-40">
-                    <h3 className="Text-prcietext">Basic</h3>
+                    <h2 className="Text-suitableplan"><basefont className="Text--red">Suitable</basefont> Plan</h2>
                   </div>
 
-                  <div className="Figure">
-                    <p className="Text-numeral">$19</p>
-                    <p className="Text-number Text-numeral--mo">/mo</p>
+                  <div className="PricingSection-pricingtable">
+                    <div className="PricingSection-pricingcard">
+                      <div className="u-pb-40">
+                        <h3 className="Text-prcietext">Basic</h3>
+                      </div>
+
+                      <div className="Figure">
+                        <p className="Text-numeral">$19</p>
+                        <p className="Text-number Text-numeral--mo">/mo</p>
+                      </div>
+
+                      <ul className="PricingSection-column">
+                        <li className="PricingSection-item">1 Website</li>
+                        <li className="PricingSection-item">1 GB Storage</li>
+                        <li className="PricingSection-item">10GB Bandwidth</li>
+                        <li className="PricingSection-item">3 Month Support</li>
+                        <li className="PricingSection-item">Unlimited Sub-Domains</li>
+                        <li className="PricingSection-item">5 Database</li>
+                      </ul>
+                      <a className="Button Button--price" href="#">Buy Now</a>
+                    </div>
+
+                    <div className="PricingSection-pricingcard">
+                      <div className="u-pb-40">
+                        <h3 className="Text-prcietext" >Standard</h3>
+                      </div>
+
+                      <div className="Figure">
+                        <p className="Text-numeral">$49</p>
+                        <p className="Text-numeral Text-numeral--mo">/mo</p>
+                      </div>
+
+                      <ul className="PricingSection-column">
+                        <li className="PricingSection-item">5 Website</li>
+                        <li className="PricingSection-item">5 GB Storage</li>
+                        <li className="PricingSection-item">500GB Bandwidth</li>
+                        <li className="PricingSection-item">6 Month Support</li>
+                        <li className="PricingSection-item">Unlimited Sub-Domains</li>
+                        <li className="PricingSection-item">10 Database</li>
+                      </ul>
+                      <a className="Button Button--price" href="#">Buy Now</a>
+                    </div>
+
+                    <div className="PricingSection-pricingcard">
+                      <div className="u-pb-40">
+                        <h3 className="Text-prcietext" >Premium</h3>
+                      </div>
+
+                      <div className="Figure">
+                        <p className="Text-numeral">$69</p>
+                        <p className="Text-numeral Text-numeral--mo">/mo</p>
+                      </div>
+
+                      <ul className="PricingSection-column">
+                        <li className="PricingSection-item">20 Website</li>
+                        <li className="PricingSection-item">20 GB Storage</li>
+                        <li className="PricingSection-item">200GB Bandwidth</li>
+                        <li className="PricingSection-item">9 Month Support</li>
+                        <li className="PricingSection-item">Unlimited Sub-Domains</li>
+                        <li className="PricingSection-item">50 Database</li>
+                      </ul>
+                      <a className="Button Button--price" href="#">Buy Now</a>
+                    </div>
+
+                    <div className="PricingSection-pricingcard">
+                      <div className="u-pb-40">
+                        <h3 className="Text-prcietext" >Professional</h3>
+                      </div>
+
+                     <div className="Figure">
+                       <p className="Text-numeral">$99</p>
+                       <p className="Text-numeral Text-numeral--mo">/mo</p>
+                     </div>
+
+                      <ul className="PricingSection-column">
+                        <li className="PricingSection-item">Unlimited Website</li>
+                        <li className="PricingSection-item">100 GB Storage</li>
+                        <li className="PricingSection-item">Unlimited Bandwidth</li>
+                        <li className="PricingSection-item">1 Year Support</li>
+                        <li className="PricingSection-item">Unlimited Domains</li>
+                        <li className="PricingSection-item">Unlimited Database</li>
+                      </ul>
+                      <a className="Button Button--price" href="#">Buy Now</a>
+                    </div>
                   </div>
-
-                  <ul className="PricingSection-column">
-                    <li className="PricingSection-item">1 Website</li>
-                    <li className="PricingSection-item">1 GB Storage</li>
-                    <li className="PricingSection-item">10GB Bandwidth</li>
-                    <li className="PricingSection-item">3 Month Support</li>
-                    <li className="PricingSection-item">Unlimited Sub-Domains</li>
-                    <li className="PricingSection-item">5 Database</li>
-                  </ul>
-                  <a className="Button Button--price" href="#">Buy Now</a>
-                </div>
-
-                <div className="PricingSection-pricingcard">
-                  <div className="u-pb-40">
-                    <h3 className="Text-prcietext" >Standard</h3>
-                  </div>
-
-                  <div className="Figure">
-                    <p className="Text-numeral">$49</p>
-                    <p className="Text-numeral Text-numeral--mo">/mo</p>
-                  </div>
-
-                  <ul className="PricingSection-column">
-                    <li className="PricingSection-item">5 Website</li>
-                    <li className="PricingSection-item">5 GB Storage</li>
-                    <li className="PricingSection-item">500GB Bandwidth</li>
-                    <li className="PricingSection-item">6 Month Support</li>
-                    <li className="PricingSection-item">Unlimited Sub-Domains</li>
-                    <li className="PricingSection-item">10 Database</li>
-                  </ul>
-                  <a className="Button Button--price" href="#">Buy Now</a>
-                </div>
-
-                <div className="PricingSection-pricingcard">
-                  <div className="u-pb-40">
-                    <h3 className="Text-prcietext" >Premium</h3>
-                  </div>
-
-                  <div className="Figure">
-                    <p className="Text-numeral">$69</p>
-                    <p className="Text-numeral Text-numeral--mo">/mo</p>
-                  </div>
-
-                  <ul className="PricingSection-column">
-                    <li className="PricingSection-item">20 Website</li>
-                    <li className="PricingSection-item">20 GB Storage</li>
-                    <li className="PricingSection-item">200GB Bandwidth</li>
-                    <li className="PricingSection-item">9 Month Support</li>
-                    <li className="PricingSection-item">Unlimited Sub-Domains</li>
-                    <li className="PricingSection-item">50 Database</li>
-                  </ul>
-                  <a className="Button Button--price" href="#">Buy Now</a>
-                </div>
-
-                <div className="PricingSection-pricingcard">
-                  <div className="u-pb-40">
-                    <h3 className="Text-prcietext" >Professional</h3>
-                  </div>
-
-                 <div className="Figure">
-                   <p className="Text-numeral">$99</p>
-                   <p className="Text-numeral Text-numeral--mo">/mo</p>
-                 </div>
-
-                  <ul className="PricingSection-column">
-                    <li className="PricingSection-item">Unlimited Website</li>
-                    <li className="PricingSection-item">100 GB Storage</li>
-                    <li className="PricingSection-item">Unlimited Bandwidth</li>
-                    <li className="PricingSection-item">1 Year Support</li>
-                    <li className="PricingSection-item">Unlimited Domains</li>
-                    <li className="PricingSection-item">Unlimited Database</li>
-                  </ul>
-                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
               </div>
             </div>
