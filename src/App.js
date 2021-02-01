@@ -233,14 +233,14 @@ function App() {
             <div className="PortfolioSection-item u-w-50">
               <div className="PortfolioSection-item u-w-100">
                 <div className="PortfolioSection-item u-w-50">
-                  <div className="u-h-680 u-w-100">
-                    <img src={blackone} alt="" />
+                  <div className="u-w-100">
+                    <img className="PortfolioSection-images" src={blackone} alt="" />
                   </div>
                 </div>
 
                 <div className="PortfolioSection-item flex-column u-w-50">
                   <div className="PortfolioSection-item u-w-100 u-h-50">
-                    <img src={graytwoo} alt="" />
+                    <img className="PortfolioSection-images" src={graytwoo} alt="" />
 
                     <div className="PortfolioSection-text">
                       <h3 className="Text-ourportfolio Text-ourportfolio--color u-pb-20">Project Title</h3>
@@ -248,7 +248,7 @@ function App() {
                     </div>
                   </div>
                   <div className="d-flex u-w-100 u-h-50">
-                    <img src={grayblackthree} alt="" />
+                    <img className="PortfolioSection-images" src={grayblackthree} alt="" />
                   </div>
                 </div>
               </div>
@@ -257,16 +257,16 @@ function App() {
             <div className="PortfolioSection-item u-w-50 flex-column">
               <div className="PortfolioSection-item u-w-100 u-h-50">
                 <div className="PortfolioSection-item u-w-50">
-                  <img src={graygrayfive} alt="" />
+                  <img className="PortfolioSection-images" src={graygrayfive} alt="" />
                 </div>
                 <div className="PortfolioSection-item u-w-50">
-                  <img src={whitefour} alt="" />
+                  <img className="PortfolioSection-images" src={whitefour} alt="" />
                 </div>
               </div>
 
               <div className="PortfolioSectionu-item u-w-100 u-h-50">
                 <div className="PortfolioSection-item u-w-100">
-                  <img src={whiregray} alt="" />
+                  <img className="PortfolioSection-images" src={whiregray} alt="" />
                 </div>
               </div>
             </div>
