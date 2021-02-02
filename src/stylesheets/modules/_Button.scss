@@ -19,7 +19,7 @@
   &:hover {
     background-color:#fff;
     color: #ff5552;
-    transition: .4s;
+    transition: .2s;
   }
 
   &--price {
@@ -30,12 +30,6 @@
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
-
-
-    &:hover {
-      background-color: #ff5552;
-      color: #fff;
-    }
   }
 
   &--tituleblock {
