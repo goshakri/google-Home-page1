@@ -10,6 +10,8 @@ import grayblackthree from "./images/grayblackthree.png";
 import whitefour from "./images/whitefour.png";
 import graygrayfive from "./images/graygrayfive.png";
 import whiregray from "./images/whiregray.png";
+import imageourteam from "./images/imageourteam.png";
+import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -369,6 +371,37 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Section-content">
+          <div className="OurteamSection u-pt-130">
+            <div className="OurteamSection-title">
+              <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
+              <h2 className="Text-suitableplan"><basefont className="Text--red">Fimilia </basefont> Plan</h2>
+            </div>
+
+            <div className="MemberCard">
+              <div className="MemberCard-images">
+                <img className="MemberCard-img" src={imageourteam} alt="" />
+
+                <div className="MemberCard-overlay">
+                  <div className="MemberCard-content">
+                    <i class="fa fa-behance" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  </div>
+                </div>
+
+                <div className="MemberCard-figure"></div>
+              </div>
+
+              <div className="MemberCard-text">
+                <img src={textbg} alt="" />
+              </div>
+
+
             </div>
           </div>
         </div>
