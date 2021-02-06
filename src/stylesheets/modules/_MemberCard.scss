@@ -1,13 +1,58 @@
 .MemberCard {
-  display: inline;
-  float: left;
 
-  &-img {
+  &:hover {
+    .MemberCard-content {
+      opacity: 1;
+    }
+    .MemberCard-overlay {
+      opacity: 1;
+    }
+  }
+
+  &-column {
+    display: block;
+    float: left;
     position: relative;
   }
 
   &-content {
     position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 330px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1f1f1f;
+  }
+
+  &-item {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  &-fonts {
+    padding-left: 10px;
+    color: #fff;
+
+    &:hover {
+      color: #ff5552;
+      transition: .3s;
+    }
   }
 
   &-figure {
@@ -18,5 +63,9 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-bottom: 27px solid #f3f3f3;
+  }
+
+  &-text{
+
   }
 }

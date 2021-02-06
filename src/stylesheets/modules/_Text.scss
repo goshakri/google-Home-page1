@@ -106,4 +106,22 @@
       font-size: 16px;
     }
   }
+
+  &-ourteam {
+    text-align: center;
+    margin-top: -75px;
+  }
+
+  &-timjones {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &-develover {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+  }
 }

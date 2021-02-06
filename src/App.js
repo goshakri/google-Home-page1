@@ -382,26 +382,162 @@ function App() {
               <h2 className="Text-suitableplan"><basefont className="Text--red">Fimilia </basefont> Plan</h2>
             </div>
 
-            <div className="MemberCard">
-              <div className="MemberCard-images">
-                <img className="MemberCard-img" src={imageourteam} alt="" />
+            <div className="OurteamSection-cardflex u-pt-100 u-pb-130">
+              <div className="MemberCard">
+                <div className="MemberCard-column">
+                  <img src={imageourteam} alt="" />
 
-                <div className="MemberCard-overlay">
-                  <div className="MemberCard-content">
-                    <i class="fa fa-behance" aria-hidden="true"></i>
-                    <i class="fa fa-dribbble" aria-hidden="true"></i>
-                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  <div className="MemberCard-overlay">
+                    <div className="MemberCard-content">
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="MemberCard-figure"></div>
+
+                  <div className="MemberCard-text">
+                    <img src={textbg} alt="" />
+
+                    <div className="Text-ourteam">
+                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">TIM </basefont> JONES</h3>
+                      <h3 className="Text-develover">Html Developer</h3>
+                    </div>
                   </div>
                 </div>
-
-                <div className="MemberCard-figure"></div>
               </div>
 
-              <div className="MemberCard-text">
-                <img src={textbg} alt="" />
+              <div className="MemberCard">
+                <div className="MemberCard-column">
+                  <img src={imageourteam} alt="" />
+
+                  <div className="MemberCard-overlay">
+                    <div className="MemberCard-content">
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="MemberCard-figure"></div>
+
+                  <div className="MemberCard-text">
+                    <img src={textbg} alt="" />
+
+                    <div className="Text-ourteam">
+                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Johnathan </basefont> Doe</h3>
+                      <h3 className="Text-develover">Front End Developer</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
 
+              <div className="MemberCard">
+                <div className="MemberCard-column">
+                  <img src={imageourteam} alt="" />
 
+                  <div className="MemberCard-overlay">
+                    <div className="MemberCard-content">
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="MemberCard-figure"></div>
+
+                  <div className="MemberCard-text">
+                    <img src={textbg} alt="" />
+
+                    <div className="Text-ourteam">
+                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Nina </basefont> Adams</h3>
+                      <h3 className="Text-develover">Marketing Manager</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="MemberCard">
+                <div className="MemberCard-column">
+                  <img src={imageourteam} alt="" />
+
+                  <div className="MemberCard-overlay">
+                    <div className="MemberCard-content">
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="MemberCard-figure"></div>
+
+                  <div className="MemberCard-text">
+                    <img src={textbg} alt="" />
+
+                    <div className="Text-ourteam">
+                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Alexia </basefont> Doe</h3>
+                      <h3 className="Text-develover">CEO</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
