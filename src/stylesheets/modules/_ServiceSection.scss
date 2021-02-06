@@ -1,0 +1,33 @@
+.ServiceSection {
+
+  &-title {
+    text-align: center;
+  }
+
+  &-figure {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    border: none;
+  }
+
+  &-item {
+    display: flex;
+  }
+
+  &-textposition {
+    padding-left: 30px;
+  }
+
+  &-infoblock {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  &-images{
+    padding: 20px 21px;
+  }
+}

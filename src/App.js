@@ -11,6 +11,12 @@ import whitefour from "./images/whitefour.png";
 import graygrayfive from "./images/graygrayfive.png";
 import whiregray from "./images/whiregray.png";
 import imageourteam from "./images/imageourteam.png";
+import sizars from "./images/sizars.png";
+import globus from "./images/globus.png";
+import sintezator from "./images/sintezator.png";
+import iphone from "./images/iphone.png";
+import telegram from "./images/telegram.png";
+import safari from "./images/safari.png";
 import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -535,6 +541,125 @@ function App() {
                       <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Alexia </basefont> Doe</h3>
                       <h3 className="Text-develover">CEO</h3>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Section-content">
+          <div className="ServiceSection">
+            <div className="ServiceSection-column">
+              <div className="ServiceSection-title">
+                <h2 className="Text-pricingtable">Why Choose Us</h2>
+                <h2 className="Text-suitableplan"><basefont className="Text--red">Our </basefont> Services</h2>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ServiceSection-infoblock">
+                <div className="ServiceSection-item">
+                  <div className="ServiceSection-figure">
+                    <img className="ServiceSection-images" src={sizars} alt="" />
+                  </div>
+
+                  <div className="ServiceSection-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <basefont className="Text--red">Print </basefont> Design
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
               </div>
