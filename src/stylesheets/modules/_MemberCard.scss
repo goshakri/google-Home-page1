@@ -32,6 +32,18 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #1f1f1f;
+
+    &:before {
+      content: "";
+      opacity: 1;
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 27px solid #f3f3f3;
+      display: inline-block;
+      margin: 305px 120px;
+    }
   }
 
   &-item {
