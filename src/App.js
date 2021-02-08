@@ -88,8 +88,8 @@ function App() {
               <div className="Slider-content">
                 <div className="Slider-item isActive">
                   <div className="Slider-title">
-                    <h1 className="Slider-title Slider-title--one">GOOD <basefont className="Slider-title Slider-title--red"> BUSINNES </basefont> INSIDE YOU </h1>
-                    <h1 className="Slider-title  Slider-title--too">FIMILIA <basefont className="Slider-title Slider-title--red"> STUDIO </basefont></h1>
+                    <h1 className="Slider-title Slider-title--one">GOOD <color className="Slider-title Slider-title--red"> BUSINNES </color> INSIDE YOU </h1>
+                    <h1 className="Slider-title  Slider-title--too">FIMILIA <color className="Slider-title Slider-title--red"> STUDIO </color></h1>
                   </div>
 
                   <div className="Slider-btn">
@@ -123,7 +123,7 @@ function App() {
                 <div className="AboutSection-item">
                   <div className="AboutSection-title">
                     <h2 className="AboutSection-title">WHO WE ARE</h2>
-                    <h2 className="AboutSection-title AboutSection-title--text"> <basefont className="Slider-title Slider-title--red"> Fimilia </basefont> Studio</h2>
+                    <h2 className="AboutSection-title AboutSection-title--text"> <color className="Slider-title Slider-title--red"> Fimilia </color> Studio</h2>
                   </div>
 
                   <div className="AboutSection-wrappers u-pt-100">
@@ -160,8 +160,8 @@ function App() {
                 </div>
 
                 <p className="Text-familiastuido u-pb-90">
-                <basefont className="Text-familiastuido Text-familiastuido--red" >Fimilia </basefont> Studio is Creative PSD Theme
-                Design & <basefont className="Text-familiastuido Text-familiastuido--red"> Development</basefont>
+                <color className="Text-familiastuido Text-familiastuido--red" >Fimilia </color> Studio is Creative PSD Theme
+                Design & <color className="Text-familiastuido Text-familiastuido--red"> Development</color>
                 </p>
               </div>
 
@@ -234,7 +234,7 @@ function App() {
           <div className="PortfolioSection-title">
             <h3 className="Text-ourportfolio u-pb-20">Our Portfolio</h3>
 
-            <h3 className="Text-recentworks u-pb-100"> <basefont className=" Text Text--red"> Recent </basefont> Works</h3>
+            <h3 className="Text-recentworks u-pb-100"><color className=" Text Text--red"> Recent </color> Works</h3>
           </div>
 
           <div className="PortfolioSection-item u-w-100">
@@ -288,7 +288,7 @@ function App() {
 
                 <div className="PricingSection-title u-pb-100">
                   <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
-                  <h2 className="Text-suitableplan"><basefont className="Text--red">Suitable</basefont> Plan</h2>
+                  <h2 className="Text-suitableplan"><color className="u-color-red">Suitable</color> Plan</h2>
                 </div>
 
                 <div className="PricingSection-pricingtable">
@@ -386,7 +386,7 @@ function App() {
             <div className="OurteamSection u-pt-130">
               <div className="OurteamSection-title">
                 <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
-                <p className="Text-suitableplan"><basefont className="Text--red">Fimilia </basefont> Plan</p>
+                <p className="Text-suitableplan"><color className="u-color-red">Fimilia </color> Plan</p>
               </div>
 
               <div className="OurteamSection-cardflex u-pt-100 u-pb-130">
@@ -418,7 +418,7 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">TIM </basefont> JONES</h3>
+                    <h3 className="Text-timjones u-pb-15"><color className="u-color-red">TIM </color> JONES</h3>
                     <p className="Text-develover">Html Developer</p>
                   </div>
                 </div>
@@ -451,7 +451,7 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Johnathan </basefont> Doe</h3>
+                    <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Johnathan </basefont> Doe</h3>
                     <p className="Text-develover">Front End Developer</p>
                   </div>
                 </div>
@@ -484,7 +484,7 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Nina </basefont> Adams</h3>
+                    <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Nina </basefont> Adams</h3>
                     <p className="Text-develover">Marketing Manager</p>
                   </div>
 
@@ -518,7 +518,7 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Alexia </basefont> Doe</h3>
+                    <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Alexia </basefont> Doe</h3>
                     <p className="Text-develover">CEO</p>
                   </div>
                 </div>
@@ -527,118 +527,120 @@ function App() {
           </div>
         </div>
 
-        <div className="Section-content">
-          <div className="ServiceSection">
-            <div className="ServiceSection-column">
-              <div className="ServiceSection-title">
-                <h2 className="Text-pricingtable">Why Choose Us</h2>
-                <h2 className="Text-suitableplan"><basefont className="Text--red">Our </basefont> Services</h2>
-              </div>
+        <div className="Section">
+          <div className="Section-content">
+            <div className="ServiceSection">
+              <div className="ServiceSection-column">
+                <div className="ServiceSection-title">
+                  <h2 className="Text-pricingtable">Why Choose Us</h2>
+                  <h2 className="Text-suitableplan"><basefont className="u-color-red">Our </basefont> Services</h2>
+                </div>
 
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
-                  </div>
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
 
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
-                  </div>
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
 
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
-                  </div>
-
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
-
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
-                  </div>
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
 
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
-                  </div>
-
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
-
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="Services">
-                <div className="Services-item">
-                  <div className="Services-figure">
-                    <img className="Services-images" src={sizars} alt="" />
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
+
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
+
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
+                </div>
 
-                  <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <basefont className="Text--red">Print </basefont> Design
-                    </h3>
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
+
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="Services">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
+
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
+
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
