@@ -381,55 +381,16 @@ function App() {
           </div>
         </div>
 
-        <div className="Section-content">
-          <div className="OurteamSection u-pt-130">
-            <div className="OurteamSection-title">
-              <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
-              <h2 className="Text-suitableplan"><basefont className="Text--red">Fimilia </basefont> Plan</h2>
-            </div>
-
-            <div className="OurteamSection-cardflex u-pt-100 u-pb-130">
-              <div className="MemberCard">
-                <div className="MemberCard-column">
-                  <img src={imageourteam} alt="" />
-
-                  <div className="MemberCard-overlay">
-                    <div className="MemberCard-content">
-                      <div className="MemberCard-item">
-                        <a className="MemberCard-fonts" href="#">
-                          <i class="fa fa-behance" aria-hidden="true"></i>
-                        </a>
-                      </div>
-
-                      <div className="MemberCard-item">
-                        <a className="MemberCard-fonts" href="#">
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        </a>
-                      </div>
-
-                      <div className="MemberCard-item">
-                        <a className="MemberCard-fonts" href="#">
-                          <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="MemberCard-figure"></div>
-
-                  <div className="MemberCard-text">
-                    <img src={textbg} alt="" />
-
-                    <div className="Text-ourteam">
-                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">TIM </basefont> JONES</h3>
-                      <h3 className="Text-develover">Html Developer</h3>
-                    </div>
-                  </div>
-                </div>
+        <div className="Section">
+          <div className="Section-content">
+            <div className="OurteamSection u-pt-130">
+              <div className="OurteamSection-title">
+                <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
+                <p className="Text-suitableplan"><basefont className="Text--red">Fimilia </basefont> Plan</p>
               </div>
 
-              <div className="MemberCard">
-                <div className="MemberCard-column">
+              <div className="OurteamSection-cardflex u-pt-100 u-pb-130">
+                <div className="MemberCard">
                   <img src={imageourteam} alt="" />
 
                   <div className="MemberCard-overlay">
@@ -457,18 +418,12 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <img src={textbg} alt="" />
-
-                    <div className="Text-ourteam">
-                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Johnathan </basefont> Doe</h3>
-                      <h3 className="Text-develover">Front End Developer</h3>
-                    </div>
+                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">TIM </basefont> JONES</h3>
+                    <p className="Text-develover">Html Developer</p>
                   </div>
                 </div>
-              </div>
 
-              <div className="MemberCard">
-                <div className="MemberCard-column">
+                <div className="MemberCard">
                   <img src={imageourteam} alt="" />
 
                   <div className="MemberCard-overlay">
@@ -496,18 +451,12 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <img src={textbg} alt="" />
-
-                    <div className="Text-ourteam">
-                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Nina </basefont> Adams</h3>
-                      <h3 className="Text-develover">Marketing Manager</h3>
-                    </div>
+                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Johnathan </basefont> Doe</h3>
+                    <p className="Text-develover">Front End Developer</p>
                   </div>
                 </div>
-              </div>
 
-              <div className="MemberCard">
-                <div className="MemberCard-column">
+                <div className="MemberCard">
                   <img src={imageourteam} alt="" />
 
                   <div className="MemberCard-overlay">
@@ -535,12 +484,42 @@ function App() {
                   <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
-                    <img src={textbg} alt="" />
+                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Nina </basefont> Adams</h3>
+                    <p className="Text-develover">Marketing Manager</p>
+                  </div>
 
-                    <div className="Text-ourteam">
-                      <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Alexia </basefont> Doe</h3>
-                      <h3 className="Text-develover">CEO</h3>
+                </div>
+
+                <div className="MemberCard">
+                  <img src={imageourteam} alt="" />
+
+                  <div className="MemberCard-overlay">
+                    <div className="MemberCard-content">
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-behance" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        </a>
+                      </div>
+
+                      <div className="MemberCard-item">
+                        <a className="MemberCard-fonts" href="#">
+                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </div>
                     </div>
+                  </div>
+
+                  <div className="MemberCard-figure"></div>
+
+                  <div className="MemberCard-text">
+                    <h3 className="Text-timjones u-pb-15"><basefont className="Text--red">Alexia </basefont> Doe</h3>
+                    <p className="Text-develover">CEO</p>
                   </div>
                 </div>
               </div>
@@ -556,13 +535,13 @@ function App() {
                 <h2 className="Text-suitableplan"><basefont className="Text--red">Our </basefont> Services</h2>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
@@ -574,13 +553,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
@@ -592,13 +571,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
@@ -610,13 +589,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
@@ -628,13 +607,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
@@ -646,13 +625,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="ServiceSection-infoblock">
-                <div className="ServiceSection-item">
-                  <div className="ServiceSection-figure">
-                    <img className="ServiceSection-images" src={sizars} alt="" />
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="ServiceSection-textposition">
+                  <div className="Services-textposition">
                     <h3 className="Text-services u-pb-20">
                       <basefont className="Text--red">Print </basefont> Design
                     </h3>
