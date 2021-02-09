@@ -529,14 +529,46 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="ServiceSection">
+            <div className="ServiceSection u-pb-130">
               <div className="ServiceSection-column">
-                <div className="ServiceSection-title">
+                <div className="ServiceSection-title u-pb-100">
                   <h2 className="Text-pricingtable">Why Choose Us</h2>
-                  <h2 className="Text-suitableplan"><basefont className="u-color-red">Our </basefont> Services</h2>
+                  <h2 className="Text-suitableplan"><color className="u-color-red">Our </color> Services</h2>
                 </div>
 
-                <div className="Services">
+                <div className="Services u-pb-80">
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
+
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
+
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="Services-item">
+                    <div className="Services-figure">
+                      <img className="Services-images" src={sizars} alt="" />
+                    </div>
+
+                    <div className="Services-textposition">
+                      <h3 className="Text-services u-pb-20">
+                        <color className="u-color-red">Print </color> Design
+                      </h3>
+
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
+                  </div>
+
                   <div className="Services-item">
                     <div className="Services-figure">
                       <img className="Services-images" src={sizars} alt="" />
@@ -570,9 +602,7 @@ function App() {
                       </p>
                     </div>
                   </div>
-                </div>
 
-                <div className="Services">
                   <div className="Services-item">
                     <div className="Services-figure">
                       <img className="Services-images" src={sizars} alt="" />
@@ -588,45 +618,7 @@ function App() {
                       </p>
                     </div>
                   </div>
-                </div>
 
-                <div className="Services">
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
-                    </div>
-
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="Services">
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
-                    </div>
-
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="Services">
                   <div className="Services-item">
                     <div className="Services-figure">
                       <img className="Services-images" src={sizars} alt="" />
