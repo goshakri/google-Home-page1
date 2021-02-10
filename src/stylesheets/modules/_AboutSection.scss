@@ -6,11 +6,11 @@
 
   &-itemstats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &-blockstats {
-
+    padding-right: 100px;
   }
 
   &-photo {
@@ -49,10 +49,10 @@
     padding-bottom: 225px;
     padding-top: 30px;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 24px;
     letter-spacing: 0.2px;
     color: #878787;
     font-weight: 400;
-    width: 360px;
+    width: 370px;
   }
 }

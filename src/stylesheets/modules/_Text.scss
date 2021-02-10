@@ -35,8 +35,8 @@
     font-size: 14px;
     font-weight: 400;
     color: #878787;
-    line-height: 23px;
-    letter-spacing: 0.5px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
   }
 
   &-number {
@@ -69,10 +69,15 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+  }
 
-    &--color {
-      color: #fff;
-    }
+  &-projecttitile {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
   }
 
   &-design {
@@ -137,8 +142,7 @@
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     color: #878787;
-    letter-spacing: .6px;
-    line-height: 23px;
-
+    letter-spacing: .4px;
+    line-height: 24px;
   }
 }

@@ -62,7 +62,7 @@ function App() {
                     CONTACTS
                   </a>
                 </li>
-                <li className="SiteNavigation-item">
+                <li className="SiteNavigation-item u-pl-20">
                   <a className="SiteNavigation-fonts">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
@@ -127,19 +127,19 @@ function App() {
                   </div>
 
                   <div className="AboutSection-wrappers u-pt-100">
-                    <div className="AboutSection-blocknews">
+                    <div className="AboutSection-blocknews u-pr-40">
                       <img src={iconone} alt="" />
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h2>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
-                    <div className="AboutSection-blocknews">
+                    <div className="AboutSection-blocknews ">
                       <img src={icontoo} alt="" />
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h2>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
-                    <div className="AboutSection-blocknews">
+                    <div className="AboutSection-blocknews u-pl-40">
                       <img src={iconthree} alt="" />
                       <h2 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h2>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
@@ -165,7 +165,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="Row-item u-pl-10">
+              <div className="Row-item u-pl-30">
                 <h3 className="Text-aboutstudio u-pt-80 u-pb-30">
                   <basefont className="Text-aboutstudio Text-aboutstudio--red"> About </basefont> Fimilia Studio
                 </h3>
@@ -174,7 +174,7 @@ function App() {
                   Duis molestie sapien et nunc blandit elementum. Nunc in mi sit amet mi molestie sodales. Etiam a porta nisi, vel vulputate felis. Nulla tincidunt sagittis dui eget sodales.
                 </p>
 
-                <p className="Text-familiastudiop u-pb-40">
+                <p className="Text-familiastudiop">
                   Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
                 </p>
               </div>
@@ -251,7 +251,7 @@ function App() {
                     <img className="PortfolioSection-images" src={graytwoo} alt="" />
 
                     <div className="PortfolioSection-text">
-                      <h3 className="Text-ourportfolio Text-ourportfolio--color u-pb-20">Project Title</h3>
+                      <h3 className="Text-projecttitile u-pb-20">Project Title</h3>
                       <p className="Text-design">Design, Branding & Development</p>
                     </div>
                   </div>
@@ -532,7 +532,7 @@ function App() {
             <div className="ServiceSection u-pb-130">
               <div className="ServiceSection-column">
                 <div className="ServiceSection-title u-pb-100">
-                  <h2 className="Text-pricingtable">Why Choose Us</h2>
+                  <h2 className="Text-pricingtable u-pb-30">Why Choose Us</h2>
                   <h2 className="Text-suitableplan"><color className="u-color-red">Our </color> Services</h2>
                 </div>
 
@@ -555,12 +555,12 @@ function App() {
 
                   <div className="Services-item">
                     <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
+                      <img className="Services-images" src={globus} alt="" />
                     </div>
 
                     <div className="Services-textposition">
                       <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
+                        <color className="u-color-red">Web </color> Design
                       </h3>
 
                       <p className="Text-lorem">
@@ -571,12 +571,12 @@ function App() {
 
                   <div className="Services-item">
                     <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
+                      <img className="Services-images" src={sintezator} alt="" />
                     </div>
 
                     <div className="Services-textposition">
                       <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
+                        <color className="u-color-red">Wed </color> Videos
                       </h3>
 
                       <p className="Text-lorem">
@@ -589,12 +589,12 @@ function App() {
                 <div className="Services">
                   <div className="Services-item">
                     <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
+                      <img className="Services-images" src={iphone} alt="" />
                     </div>
 
                     <div className="Services-textposition">
                       <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
+                        <color className="u-color-red">Online </color> Support
                       </h3>
 
                       <p className="Text-lorem">
@@ -605,12 +605,12 @@ function App() {
 
                   <div className="Services-item">
                     <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
+                      <img className="Services-images" src={telegram} alt="" />
                     </div>
 
                     <div className="Services-textposition">
                       <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
+                        <color className="u-color-red">Hosting  </color> Services
                       </h3>
 
                       <p className="Text-lorem">
@@ -621,12 +621,12 @@ function App() {
 
                   <div className="Services-item">
                     <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
+                      <img className="Services-images" src={safari} alt="" />
                     </div>
 
                     <div className="Services-textposition">
                       <h3 className="Text-services u-pb-20">
-                        <color className="u-color-red">Print </color> Design
+                        <color className="u-color-red">SEO </color> Services
                       </h3>
 
                       <p className="Text-lorem">
