@@ -17,6 +17,13 @@ import sintezator from "./images/sintezator.png";
 import iphone from "./images/iphone.png";
 import telegram from "./images/telegram.png";
 import safari from "./images/safari.png";
+import logoone from "./images/logoone.png";
+import logotoo from "./images/logotoo.png";
+import logothree from "./images/logothree.png";
+import logofor from "./images/logofor.png";
+import logofive from "./images/logofive.png";
+import logosix from "./images/logosix.png";
+
 import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -524,8 +531,8 @@ function App() {
             <div className="ServiceSection u-pb-130">
               <div className="ServiceSection-column">
                 <div className="ServiceSection-title u-pb-100">
-                  <h2 className="Text-pricingtable u-pb-30">Why Choose Us</h2>
-                  <h2 className="Text-suitableplan"><color className="u-color-red">Our </color> Services</h2>
+                  <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
+                  <p className="Text-suitableplan"><color className="u-color-red">Our </color> Services</p>
                 </div>
 
                 <div className="Services u-pb-80">
@@ -627,6 +634,76 @@ function App() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Section Section--bgprice">
+          <div className="Section-content">
+            <div className="TestimonialsSection u-pt-130">
+              <div className="TestimonialsSection-title u-pb-100">
+                <h3 className="Text-pricingtable u-pb-30">Testimonials</h3>
+                <p className="Text-suitableplan"><color className="u-color-red">What</color> Client Says</p>
+              </div>
+            </div>
+
+            <div className="Row u-pb-130">
+              <div className="Row-item">
+                <div className="u-pb-75">
+                  <img  src={logoone} alt="" />
+                  <img className="u-pl-60" src={logotoo} alt="" />
+                  <img className="u-pl-60" src={logothree} alt="" />
+                </div>
+
+                <div className="">
+                  <img src={logofor} alt="" />
+                  <img className="u-pl-65" src={logofive} alt="" />
+                  <img className="u-pl-90" src={logosix} alt="" />
+                </div>
+              </div>
+
+              <div className="Row-item">
+                <div className="TestimonialsSection-flex u-pb-20">
+                  <div className="u-pr-25">
+                    <div className="TestimonialsSection-figure TestimonialsSection-figure--size"></div>
+                  </div>
+
+                  <div className="u-pr-25">
+                    <div className="TestimonialsSection-figure"></div>
+                  </div>
+
+                  <div>
+                    <div className="TestimonialsSection-figure TestimonialsSection-figure--size"></div>
+                  </div>
+                </div>
+
+                <div className="TestimonialsSection-text">
+                  <h3 className="Text-nametom u-pb-10">
+                    Tom Smith
+                  </h3>
+
+                  <p className="Text-webdisigner u-color-red u-pb-30">
+                    Web Designer
+                  </p>
+
+                  <p className="Text-lorem u-pb-45">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra velit non dolor congue mollis. Sed efficitur diam eget eleifend venenatis. Cum sociis natoque penatibus et magnis.
+                  </p>
+
+                  <ul className="TestimonialsSection-navigation">
+                    <li className="TestimonialsSection-navigationItem">
+                      <input className="Form-input" id="radio-1" type="radio" name="radio" value="1" checked />
+                    </li>
+                    <li className="TestimonialsSection-navigationItem isActive">
+                      <input className="Form-input" id="radio-2" type="radio" name="radio" value="2" checked />
+                    </li>
+                    <li className="TestimonialsSection-navigationItem">
+                      <input className="Form-input" id="radio-3" type="radio" name="radio" value="3" checked />
+                    </li>
+                  </ul>
+                </div>
+
               </div>
             </div>
           </div>

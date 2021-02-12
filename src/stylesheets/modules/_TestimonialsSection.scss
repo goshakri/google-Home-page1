@@ -1,0 +1,34 @@
+.TestimonialsSection {
+
+  &-title {
+    text-align: center;
+  }
+
+  &-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-figure {
+    height: 97px;
+    width: 97px;
+    border-radius: 50%;
+    border: 2px solid #ff5552;
+    background-color: black;
+
+    &--size {
+      height: 77px;
+      width:  77px;
+    }
+  }
+
+  &-text {
+    text-align: center;
+  }
+
+  &-navigation {
+    display: flex;
+    justify-content: center;
+  }
+}
