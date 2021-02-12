@@ -656,7 +656,7 @@ function App() {
                   <img className="u-pl-60" src={logothree} alt="" />
                 </div>
 
-                <div className="">
+                <div>
                   <img src={logofor} alt="" />
                   <img className="u-pl-65" src={logofive} alt="" />
                   <img className="u-pl-90" src={logosix} alt="" />
@@ -687,7 +687,7 @@ function App() {
                     Web Designer
                   </p>
 
-                  <p className="Text-lorem u-pb-45">
+                  <p className="Text-loremt u-pb-45">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra velit non dolor congue mollis. Sed efficitur diam eget eleifend venenatis. Cum sociis natoque penatibus et magnis.
                   </p>
 
@@ -703,8 +703,105 @@ function App() {
                     </li>
                   </ul>
                 </div>
-
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Section">
+          <div className="Section-content">
+            <div className="BlogsSection u-pt-130">
+              <div className="BlogsSection-title u-pb-100">
+                <h3 className="Text-pricingtable u-pb-30">Our Blogs</h3>
+                <p className="Text-suitableplan"><color className="u-color-red">Latest </color> News</p>
+              </div>
+
+              <div className="BlogsSection-column">
+                <div className="BlogsSection-blog">
+                  <div className="BlogsSection-text">
+                    <h3 className="">
+                      Post With Static Image
+                    </h3>
+
+                    <p className="">
+                      FEBRUARY 27, 2016 | 6 Comments
+                    </p>
+                  </div>
+
+                  <div className="BlogsSection-video">
+                    <video width="370" height="300" controls>
+                      <source src="movie.mp4" type="video/mp4" />
+                      <source src="movie.ogg" type="video/ogg" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+
+                  <p className="">
+                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                  </p>
+
+                  <a className="Button" href="#">
+
+                  </a>
+                </div>
+
+                <div className="BlogsSection-blog">
+                  <div className="BlogsSection-text">
+                    <h3 className="">
+                      Post With A Slider Gallery
+                    </h3>
+
+                    <p className="">
+                      MARCH 21, 2016 | 2 Comments
+                    </p>
+                  </div>
+
+                  <div className="BlogsSection-video">
+                    <video width="370" height="300" controls>
+                      <source src="movie.mp4" type="video/mp4" />
+                      <source src="movie.ogg" type="video/ogg" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+
+                  <p className="">
+                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                  </p>
+
+                  <a className="Button" href="#">
+
+                  </a>
+                </div>
+
+                <div className="BlogsSection-blog">
+                  <div className="BlogsSection-text">
+                    <h3 className="">
+                      POST WITH A YOUTUBE VIDEO
+                    </h3>
+
+                    <p className="">
+                      FAPRIL 8, 2016 | 3 Comments
+                    </p>
+                  </div>
+
+                  <div className="BlogsSection-video">
+                    <video width="370" height="300" controls>
+                      <source src="movie.mp4" type="video/mp4" />
+                      <source src="movie.ogg" type="video/ogg" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+
+                  <p className="">
+                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                  </p>
+
+                  <a className="Button" href="#">
+
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
