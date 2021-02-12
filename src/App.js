@@ -415,8 +415,6 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-figure"></div>
-
                   <div className="MemberCard-text">
                     <h3 className="Text-timjones u-pb-15"><color className="u-color-red">TIM </color> JONES</h3>
                     <p className="Text-develover">Html Developer</p>
@@ -447,8 +445,6 @@ function App() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
                     <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Johnathan </basefont> Doe</h3>
@@ -481,8 +477,6 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-figure"></div>
-
                   <div className="MemberCard-text">
                     <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Nina </basefont> Adams</h3>
                     <p className="Text-develover">Marketing Manager</p>
@@ -514,8 +508,6 @@ function App() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="MemberCard-figure"></div>
 
                   <div className="MemberCard-text">
                     <h3 className="Text-timjones u-pb-15"><basefont className="u-color-red">Alexia </basefont> Doe</h3>
