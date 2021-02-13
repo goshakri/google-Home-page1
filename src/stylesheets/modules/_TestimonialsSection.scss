@@ -31,4 +31,22 @@
     display: flex;
     justify-content: center;
   }
+
+  &-button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff5552;
+    letter-spacing: .9px;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 87px;
+      margin-top: 9px;
+      border: 1px solid #ff5552;
+    }
+  }
 }

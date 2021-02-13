@@ -710,7 +710,7 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="BlogsSection u-pt-130">
+            <div className="BlogsSection u-pt-130 u-pb-130">
               <div className="BlogsSection-title u-pb-100">
                 <h3 className="Text-pricingtable u-pb-30">Our Blogs</h3>
                 <p className="Text-suitableplan"><color className="u-color-red">Latest </color> News</p>
@@ -719,85 +719,82 @@ function App() {
               <div className="BlogsSection-column">
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="">
+                    <h3 className="Text-post u-pb-20">
                       Post With Static Image
                     </h3>
 
-                    <p className="">
-                      FEBRUARY 27, 2016 | 6 Comments
+                    <p className="Text-month u-pb-35">
+                      <color className="u-color-red">FEBRUARY 27, 2016 </color>| 6 Comments
                     </p>
                   </div>
 
-                  <div className="BlogsSection-video">
+                  <div className="BlogsSection-video u-pb-30">
                     <video width="370" height="300" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
-                      Your browser does not support the video tag.
                     </video>
                   </div>
 
-                  <p className="">
+                  <p className="Text-proin u-pb-25">
                     Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
                   </p>
 
-                  <a className="Button" href="#">
-
+                  <a className="TestimonialsSection-button" href="#">
+                    Read More
                   </a>
                 </div>
 
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="">
+                    <h3 className="Text-post u-pb-20">
                       Post With A Slider Gallery
                     </h3>
 
-                    <p className="">
-                      MARCH 21, 2016 | 2 Comments
+                    <p className="Text-month u-pb-35">
+                      <color className="u-color-red">MARCH 21, 2016 </color> | 2 Comments
                     </p>
                   </div>
 
-                  <div className="BlogsSection-video">
+                  <div className="BlogsSection-video u-pb-30">
                     <video width="370" height="300" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
-                      Your browser does not support the video tag.
                     </video>
                   </div>
 
-                  <p className="">
+                  <p className="Text-proin u-pb-25">
                     Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
                   </p>
 
-                  <a className="Button" href="#">
-
+                  <a className="TestimonialsSection-button" href="#">
+                    Read More
                   </a>
                 </div>
 
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="">
+                    <h3 className="Text-post u-pb-20">
                       POST WITH A YOUTUBE VIDEO
                     </h3>
 
-                    <p className="">
-                      FAPRIL 8, 2016 | 3 Comments
+                    <p className="Text-month u-pb-35">
+                      <color className="u-color-red">FAPRIL 8, 2016 </color>| 3 Comments
                     </p>
                   </div>
 
-                  <div className="BlogsSection-video">
+                  <div className="BlogsSection-video u-pb-30">
                     <video width="370" height="300" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
-                      Your browser does not support the video tag.
                     </video>
                   </div>
 
-                  <p className="">
+                  <p className="Text-proin u-pb-25">
                     Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
                   </p>
 
-                  <a className="Button" href="#">
-
+                  <a className="TestimonialsSection-button" href="#">
+                    Read More
                   </a>
                 </div>
               </div>
