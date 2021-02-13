@@ -23,6 +23,11 @@ import logothree from "./images/logothree.png";
 import logofor from "./images/logofor.png";
 import logofive from "./images/logofive.png";
 import logosix from "./images/logosix.png";
+import logofamilia from "./images/logofamilia.png";
+import location from "./images/location.png";
+import email from "./images/email.png";
+import phone from "./images/phone.png";
+import twitter from "./images/twitter.png";
 
 import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
@@ -119,7 +124,6 @@ function App() {
             </div>
           </div>
         </div>
-
       </header>
 
       <main className="Page-content">
@@ -130,25 +134,25 @@ function App() {
                 <div className="AboutSection-item">
                   <div className="AboutSection-title">
                     <h2 className="AboutSection-title">WHO WE ARE</h2>
-                    <h2 className="AboutSection-title AboutSection-title--text"> <color className="Slider-title Slider-title--red"> Fimilia </color> Studio</h2>
+                    <p className="AboutSection-title AboutSection-title--text"> <color className="Slider-title Slider-title--red"> Fimilia </color> Studio</p>
                   </div>
 
                   <div className="AboutSection-wrappers u-pt-100">
                     <div className="AboutSection-blocknews u-pr-40">
                       <img src={iconone} alt="" />
-                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h2>
+                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h3>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="AboutSection-blocknews ">
                       <img src={icontoo} alt="" />
-                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h2>
+                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h3>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="AboutSection-blocknews u-pl-40">
                       <img src={iconthree} alt="" />
-                      <h2 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h2>
+                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h3>
                       <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                   </div>
@@ -173,9 +177,9 @@ function App() {
               </div>
 
               <div className="Row-item u-pl-30">
-                <h3 className="Text-aboutstudio u-pt-80 u-pb-30">
-                  <basefont className="Text-aboutstudio Text-aboutstudio--red"> About </basefont> Fimilia Studio
-                </h3>
+                <h2 className="Text-aboutstudio u-pt-80 u-pb-30">
+                  <color className="Text-aboutstudio Text-aboutstudio--red"> About </color> Fimilia Studio
+                </h2>
 
                 <p className="Text-familiastudiop u-pb-40">
                   Duis molestie sapien et nunc blandit elementum. Nunc in mi sit amet mi molestie sodales. Etiam a porta nisi, vel vulputate felis. Nulla tincidunt sagittis dui eget sodales.
@@ -239,9 +243,9 @@ function App() {
 
         <div className="PortfolioSection u-pt-130 u-pb-130">
           <div className="PortfolioSection-title">
-            <h3 className="Text-ourportfolio u-pb-20">Our Portfolio</h3>
+            <h2 className="Text-ourportfolio u-pb-20">Our Portfolio</h2>
 
-            <h3 className="Text-recentworks u-pb-100"><color className=" Text Text--red"> Recent </color> Works</h3>
+            <p className="Text-recentworks u-pb-100"><color className=" Text Text--red"> Recent </color> Works</p>
           </div>
 
           <div className="PortfolioSection-item u-w-100">
@@ -295,7 +299,7 @@ function App() {
 
                 <div className="PricingSection-title u-pb-100">
                   <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
-                  <h2 className="Text-suitableplan"><color className="u-color-red">Suitable</color> Plan</h2>
+                  <p className="Text-suitableplan"><color className="u-color-red">Suitable</color> Plan</p>
                 </div>
 
                 <div className="PricingSection-pricingtable">
@@ -805,18 +809,62 @@ function App() {
       </main>
 
       <footer>
-        <div className="Section Section--zircon">
+        <div className="Section Section--bgprice">
           <div className="Section-content">
-            <div className="PageFooter">
-              <p>
-                Created by{" "}
-                <a className="Link" href="https://github.com">
-                  goshakri
-                </a>
-              </p>
+            <div className="PageFooter u-pt-85">
+              <div className="PageFooter-item">
+                <div className="PageFooter-contactblock u-pr-40">
+                  <div className="u-pb-30">
+                    <img src={logofamilia} alt="" />
+                  </div>
+
+                  <div className="PageFooter-content">
+                    <div className="PageFooter-images u-pb-30">
+                      <span> <img className="PageFooter-img u-pr-25" src={location} alt="" /></span>
+                      <p className="Text-adress">795 Folsom Ave, Suite 600, San Francisco, CA 94107</p>
+                    </div>
+
+                    <div className="PageFooter-images u-pb-30">
+                      <span><img className="PageFooter-img u-pr-15" src={email} alt="" /></span>
+                      <p className="Text-email">fimiliastudio@example.com</p>
+                    </div>
+
+                    <div className="PageFooter-images">
+                      <span><img className="PageFooter-img u-pr-20" src={phone} alt="" /></span>
+                      <p className="Text-phonenumber">(123) 456-7890</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="PageFooter-twitterblock">
+                  <div className="u-pb-40">
+                    <h3 className="Text-footerh">TWITTER FEED</h3>
+                  </div>
+
+                  <div className="PageFooter-content">
+                    <div className="PageFooter-images u-pb-35">
+                      <span><img className="PageFooter-img u-pr-15" src={twitter} alt="" /></span>
+                      <p className="Text-link">RT <color className="u-color-blue">@no1son:</color> Now this <color className="u-color-blue">http://t.co/TSfMW1qMAW</color> Awesome work guys <color className="u-color-blue">@AIRNAUTS</color></p>
+                    </div>
+
+                    <div className="PageFooter-images">
+                      <span> <img className="PageFooter-img u-pr-15" src={twitter} alt="" /> </span>
+                      <p className="Text-link">Check out the wordpress version of Tucson - <color className="u-color-blue">http://t.co/sBlU3GbapT</color></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="PageFooter-item">
+
+              </div>
+
             </div>
           </div>
         </div>
+
       </footer>
     </div>
   );

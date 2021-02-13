@@ -195,4 +195,40 @@
     color: #878787;
     letter-spacing: .9px;
   }
+
+  &-footerh {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+  }
+
+  &-adress {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: .9px;
+    line-height: 24px;
+  }
+
+  &-email {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  &-phonenumber {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  &-link {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .7px;
+  }
 }
