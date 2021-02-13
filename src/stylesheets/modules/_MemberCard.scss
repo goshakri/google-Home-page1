@@ -60,7 +60,7 @@
   &-text{
     text-align: center;
     padding: 30px 0 33px 0;
-    background-image: url(../../images/textbg.png)
+    background-image: url(../../images/textbg.png);
 
     &::before {
       content: "";
@@ -71,20 +71,8 @@
       border-right: 15px solid transparent;
       border-bottom: 27px solid #f3f3f3;
       position: absolute;
-      top: 304px;
+      top: 305px;
       left: 120px;
-    }
-
-    &::after {
-      content: "";
-       width: 0;
-       height: 0;
-       border-left: 15px solid transparent;
-       border-right: 15px solid transparent;
-       border-bottom: 27px solid #f3f3f3;
-       position: absolute;
-       top: 304px;
-       left: 120px;
     }
   }
 }
