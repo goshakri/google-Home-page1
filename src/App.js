@@ -897,11 +897,13 @@ function App() {
                   </form>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
 
+        <div className="PageFooter-title u-pb-30 u-pt-30">
+          <p className="Text-studio"><color className="u-color-red">Fimilia</color> Studio © All Rights Reserved 2016</p>
+        </div>
       </footer>
     </div>
   );
