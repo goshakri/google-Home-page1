@@ -225,10 +225,19 @@
   }
 
   &-link {
+    cursor: pointer;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: .7px;
+  }
+
+  &-subscribe {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .4px;
   }
 }

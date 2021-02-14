@@ -14,4 +14,15 @@
   &-content {
     position: relative;
   }
+
+  &-blocks {
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+  }
+
+  &-position {
+    display: flex;
+  }
+
 }

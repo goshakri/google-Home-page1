@@ -28,6 +28,7 @@ import location from "./images/location.png";
 import email from "./images/email.png";
 import phone from "./images/phone.png";
 import twitter from "./images/twitter.png";
+import square from "./images/square.png";
 
 import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
@@ -811,7 +812,7 @@ function App() {
       <footer>
         <div className="Section Section--bgprice">
           <div className="Section-content">
-            <div className="PageFooter u-pt-85">
+            <div className="PageFooter u-pt-85 u-pb-80">
               <div className="PageFooter-item">
                 <div className="PageFooter-contactblock u-pr-40">
                   <div className="u-pb-30">
@@ -834,7 +835,6 @@ function App() {
                       <p className="Text-phonenumber">(123) 456-7890</p>
                     </div>
                   </div>
-
                 </div>
 
                 <div className="PageFooter-twitterblock">
@@ -843,7 +843,7 @@ function App() {
                   </div>
 
                   <div className="PageFooter-content">
-                    <div className="PageFooter-images u-pb-35">
+                    <div className="PageFooter-images u-pb-40">
                       <span><img className="PageFooter-img u-pr-15" src={twitter} alt="" /></span>
                       <p className="Text-link">RT <color className="u-color-blue">@no1son:</color> Now this <color className="u-color-blue">http://t.co/TSfMW1qMAW</color> Awesome work guys <color className="u-color-blue">@AIRNAUTS</color></p>
                     </div>
@@ -853,12 +853,49 @@ function App() {
                       <p className="Text-link">Check out the wordpress version of Tucson - <color className="u-color-blue">http://t.co/sBlU3GbapT</color></p>
                     </div>
                   </div>
-
                 </div>
               </div>
 
               <div className="PageFooter-item">
+                <div className="PageFooter-pictureblock">
+                  <div className="u-pb-40">
+                    <h3 className="Text-footerh">PHOTOSTREAM</h3>
+                  </div>
 
+                  <div className="PageFooter-blocks">
+                    <div className="PageFooter-position u-pb-15">
+                      <img className="u-pr-15" src={square} alt="" />
+                      <img className="u-pr-15" src={square} alt="" />
+                      <img src={square} alt="" />
+                    </div>
+
+                    <div className="PageFooter-position">
+                      <img className="u-pr-15" src={square} alt="" />
+                      <img className="u-pr-15" src={square} alt="" />
+                      <img src={square} alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="PageFooter-newsletterblock u-pl-30">
+                  <div className="u-pb-40">
+                    <h3 className="Text-footerh">NEWSLETTER</h3>
+                  </div>
+
+                  <p className="Text-subscribe u-pb-20">
+                    Subscribe to our newsletter to receive <br /> our latest news and updates. We do not <br />spam.
+                  </p>
+
+                  <form action="Form">
+                    <div className="u-pb-15">
+                      <input className="Field Field--regular" type="text" placeholder="Enter Your Email Address" />
+                    </div>
+
+                    <div>
+                      <a className="Button Button--subscribe" href="#">Subscribe</a>
+                    </div>
+                  </form>
+                </div>
               </div>
 
             </div>

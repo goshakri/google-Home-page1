@@ -36,6 +36,15 @@
     font-size: 14px;
   }
 
+  &--subscribe {
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: .7px;
+  }
+
   &--spaced {
     margin: 0px 15px 0px 0;
   }
