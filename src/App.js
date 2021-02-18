@@ -94,7 +94,9 @@ function App() {
             </nav>
           </div>
         </div>
+      </header>
 
+      <main className="Page-content">
         <div className="Section Section--slider">
           <div className="Section-content">
             <div className="Slider">
@@ -125,9 +127,7 @@ function App() {
             </div>
           </div>
         </div>
-      </header>
 
-      <main className="Page-content">
         <div className="Section">
           <div className="Section-content">
             <div className="AboutSection">
