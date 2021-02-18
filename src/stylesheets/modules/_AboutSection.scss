@@ -1,8 +1,4 @@
 .AboutSection {
-  &-content {
-    padding-top: 120px;
-    text-align: center;
-  }
 
   &-itemstats {
     display: flex;
@@ -11,48 +7,5 @@
 
   &-blockstats {
     padding-right: 100px;
-  }
-
-  &-photo {
-    display: flex;
-    position: relative;
-    bottom: 700px;
-  }
-
-  &-title {
-    padding-top: 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-
-    &--text {
-      font-size: 25px;
-    }
-  }
-
-  &-wrappers {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  &-blocknews {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-
-    &--text {
-      padding-top: 30px;
-      font-size: 20px;
-    }
-  }
-
-  &-textp {
-    padding-bottom: 225px;
-    padding-top: 30px;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #878787;
-    font-weight: 400;
-    width: 370px;
   }
 }

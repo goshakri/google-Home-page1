@@ -103,7 +103,7 @@ function App() {
               <div className="Slider-item isActive">
                 <div className="Slider-title">
                   <h1 className="Slider-title Slider-title--one">GOOD <span className="Slider-title Slider-title--red"> BUSINNES </span> INSIDE YOU </h1>
-                  <h1 className="Slider-title  Slider-title--too">FIMILIA <span className="Slider-title Slider-title--red"> STUDIO </span></h1>
+                  <h2 className="Slider-title  Slider-title--too">FIMILIA <span className="Slider-title Slider-title--red"> STUDIO </span></h2>
                 </div>
 
                 <div className="Slider-btn">
@@ -129,31 +129,31 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="AboutSection">
-              <div className="AboutSection-content">
-                <div className="AboutSection-item">
-                  <div className="AboutSection-title">
-                    <h2 className="AboutSection-title">WHO WE ARE</h2>
-                    <p className="AboutSection-title AboutSection-title--text"> <span className="Slider-title Slider-title--red"> Fimilia </span> Studio</p>
+            <div className="InfoSection u-pt-130">
+              <div className="InfoSection-content">
+                <div className="InfoSection-item">
+                  <div className="InfoSection-title">
+                    <h2 className="InfoSection-title u-pb-20">WHO WE ARE</h2>
+                    <p className="InfoSection-title InfoSection-title--text"> <span className="Slider-title Slider-title--red"> Fimilia </span> Studio</p>
                   </div>
 
-                  <div className="AboutSection-wrappers u-pt-100">
-                    <div className="AboutSection-blocknews u-pr-40">
+                  <div className="InfoSection-wrappers u-pt-100">
+                    <div className="InfoSection-blockNews u-pr-40">
                       <img src={iconone} alt="" />
-                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">GRAPHIC DESIGN</h3>
-                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">GRAPHIC DESIGN</h3>
+                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
-                    <div className="AboutSection-blocknews ">
+                    <div className="InfoSection-blockNews ">
                       <img src={icontoo} alt="" />
-                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">DEVELOPMENT</h3>
-                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">DEVELOPMENT</h3>
+                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
-                    <div className="AboutSection-blocknews u-pl-40">
+                    <div className="InfoSection-blockNews u-pl-40">
                       <img src={iconthree} alt="" />
-                      <h3 className="AboutSection-blocknews AboutSection-blocknews--text">MARKETING</h3>
-                      <p className="AboutSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">MARKETING</h3>
+                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                   </div>
                 </div>
@@ -170,10 +170,12 @@ function App() {
                   <img className="Row-images" src={noneimage} alt=""/>
                 </div>
 
-                <p className="Text-familiastuido u-pb-90">
-                <span className="Text-familiastuido Text-familiastuido--red" >Fimilia </span> Studio is Creative PSD Theme
-                Design & <span className="Text-familiastuido Text-familiastuido--red"> Development</span>
-                </p>
+                <div className="Text">
+                  <p className="Text-familiastuido u-pb-90">
+                  <span className="Text-familiastuido Text-familiastuido--red" >Fimilia </span> Studio is Creative PSD Theme
+                  Design & <span className="Text-familiastuido Text-familiastuido--red"> Development</span>
+                  </p>
+                </div>
               </div>
 
               <div className="Row-item u-pl-30">
@@ -295,97 +297,94 @@ function App() {
         <div className="Section Section--bgprice">
           <div className="Section-content">
             <div className="PricingSection u-pt-130">
-              <div className="PricingSection-column">
+              <div className="PricingSection-title u-pb-100">
+                <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
+                <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
+              </div>
 
-                <div className="PricingSection-title u-pb-100">
-                  <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
-                  <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
+              <div className="PricingSection-pricingtable">
+                <div className="PricingCard">
+                  <div className="u-pb-40">
+                    <h3 className="PricingCard-text">Basic</h3>
+                  </div>
+
+                  <div className="PricingCard-figure">
+                    <p className="PricingCard-numeral">$19</p>
+                    <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
+                  </div>
+
+                  <ul className="PricingCard-column">
+                    <li className="PricingCard-item">1 Website</li>
+                    <li className="PricingCard-item">1 GB Storage</li>
+                    <li className="PricingCard-item">10GB Bandwidth</li>
+                    <li className="PricingCard-item">3 Month Support</li>
+                    <li className="PricingCard-item">Unlimited Sub-Domains</li>
+                    <li className="PricingCard-item">5 Database</li>
+                  </ul>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
 
-                <div className="PricingSection-pricingtable">
-                  <div className="PricingCard">
-                    <div className="u-pb-40">
-                      <h3 className="PricingCard-text">Basic</h3>
-                    </div>
-
-                    <div className="PricingCard-figure">
-                      <p className="PricingCard-numeral">$19</p>
-                      <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
-                    </div>
-
-                    <ul className="PricingCard-column">
-                      <li className="PricingCard-item">1 Website</li>
-                      <li className="PricingCard-item">1 GB Storage</li>
-                      <li className="PricingCard-item">10GB Bandwidth</li>
-                      <li className="PricingCard-item">3 Month Support</li>
-                      <li className="PricingCard-item">Unlimited Sub-Domains</li>
-                      <li className="PricingCard-item">5 Database</li>
-                    </ul>
-                    <a className="Button Button--price" href="#">Buy Now</a>
+                <div className="PricingCard">
+                  <div className="u-pb-40">
+                    <h3 className="PricingCard-text" >Standard</h3>
                   </div>
 
-                  <div className="PricingCard">
-                    <div className="u-pb-40">
-                      <h3 className="PricingCard-text" >Standard</h3>
-                    </div>
-
-                    <div className="PricingCard-figure">
-                      <p className="PricingCard-numeral">$49</p>
-                      <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
-                    </div>
-
-                    <ul className="PricingCard-column">
-                      <li className="PricingCard-item">5 Website</li>
-                      <li className="PricingCard-item">5 GB Storage</li>
-                      <li className="PricingCard-item">500GB Bandwidth</li>
-                      <li className="PricingCard-item">6 Month Support</li>
-                      <li className="PricingCard-item">Unlimited Sub-Domains</li>
-                      <li className="PricingCard-item">10 Database</li>
-                    </ul>
-                    <a className="Button Button--price" href="#">Buy Now</a>
+                  <div className="PricingCard-figure">
+                    <p className="PricingCard-numeral">$49</p>
+                    <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
                   </div>
 
-                  <div className="PricingCard">
-                    <div className="u-pb-40">
-                      <h3 className="PricingCard-text">Premium</h3>
-                    </div>
+                  <ul className="PricingCard-column">
+                    <li className="PricingCard-item">5 Website</li>
+                    <li className="PricingCard-item">5 GB Storage</li>
+                    <li className="PricingCard-item">500GB Bandwidth</li>
+                    <li className="PricingCard-item">6 Month Support</li>
+                    <li className="PricingCard-item">Unlimited Sub-Domains</li>
+                    <li className="PricingCard-item">10 Database</li>
+                  </ul>
+                  <a className="Button Button--price" href="#">Buy Now</a>
+                </div>
 
-                    <div className="PricingCard-figure">
-                      <p className="PricingCard-numeral">$69</p>
-                      <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
-                    </div>
-
-                    <ul className="PricingCard-column">
-                      <li className="PricingCard-item">20 Website</li>
-                      <li className="PricingCard-item">20 GB Storage</li>
-                      <li className="PricingCard-item">200GB Bandwidth</li>
-                      <li className="PricingCard-item">9 Month Support</li>
-                      <li className="PricingCard-item">Unlimited Sub-Domains</li>
-                      <li className="PricingCard-item">50 Database</li>
-                    </ul>
-                    <a className="Button Button--price" href="#">Buy Now</a>
+                <div className="PricingCard">
+                  <div className="u-pb-40">
+                    <h3 className="PricingCard-text">Premium</h3>
                   </div>
 
-                  <div className="PricingCard">
-                    <div className="u-pb-40">
-                      <h3 className="PricingCard-text">Professional</h3>
-                    </div>
-
-                   <div className="PricingCard-figure">
-                     <p className="PricingCard-numeral">$99</p>
-                     <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
-                   </div>
-
-                    <ul className="PricingCard-column">
-                      <li className="PricingCard-item">Unlimited Website</li>
-                      <li className="PricingCard-item">100 GB Storage</li>
-                      <li className="PricingCard-item">Unlimited Bandwidth</li>
-                      <li className="PricingCard-item">1 Year Support</li>
-                      <li className="PricingCard-item">Unlimited Domains</li>
-                      <li className="PricingCard-item">Unlimited Database</li>
-                    </ul>
-                    <a className="Button Button--price" href="#">Buy Now</a>
+                  <div className="PricingCard-figure">
+                    <p className="PricingCard-numeral">$69</p>
+                    <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
                   </div>
+
+                  <ul className="PricingCard-column">
+                    <li className="PricingCard-item">20 Website</li>
+                    <li className="PricingCard-item">20 GB Storage</li>
+                    <li className="PricingCard-item">200GB Bandwidth</li>
+                    <li className="PricingCard-item">9 Month Support</li>
+                    <li className="PricingCard-item">Unlimited Sub-Domains</li>
+                    <li className="PricingCard-item">50 Database</li>
+                  </ul>
+                  <a className="Button Button--price" href="#">Buy Now</a>
+                </div>
+
+                <div className="PricingCard">
+                  <div className="u-pb-40">
+                    <h3 className="PricingCard-text">Professional</h3>
+                  </div>
+
+                 <div className="PricingCard-figure">
+                   <p className="PricingCard-numeral">$99</p>
+                   <p className="PricingCard-numeral PricingCard-numeral--mo">/mo</p>
+                 </div>
+
+                  <ul className="PricingCard-column">
+                    <li className="PricingCard-item">Unlimited Website</li>
+                    <li className="PricingCard-item">100 GB Storage</li>
+                    <li className="PricingCard-item">Unlimited Bandwidth</li>
+                    <li className="PricingCard-item">1 Year Support</li>
+                    <li className="PricingCard-item">Unlimited Domains</li>
+                    <li className="PricingCard-item">Unlimited Database</li>
+                  </ul>
+                  <a className="Button Button--price" href="#">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -394,13 +393,13 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="OurteamSection u-pt-130">
+            <div className="OurteamSection u-pt-130 u-pb-130">
               <div className="OurteamSection-title">
                 <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
                 <p className="Text-suitableplan"><span className="u-color-red">Fimilia </span> Plan</p>
               </div>
 
-              <div className="OurteamSection-cardflex u-pt-100 u-pb-130">
+              <div className="OurteamSection-cardflex u-pt-100">
                 <div className="MemberCard">
                   <img src={imageourteam} alt="" />
 
@@ -533,109 +532,107 @@ function App() {
         <div className="Section">
           <div className="Section-content">
             <div className="ServiceSection u-pb-130">
-              <div className="ServiceSection-column">
-                <div className="ServiceSection-title u-pb-100">
-                  <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
-                  <p className="Text-suitableplan"><span className="u-color-red">Our </span> Services</p>
-                </div>
+              <div className="ServiceSection-title u-pb-100">
+                <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
+                <p className="Text-suitableplan"><span className="u-color-red">Our </span> Services</p>
+              </div>
 
-                <div className="Services u-pb-80">
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={sizars} alt="" />
-                    </div>
-
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Print </span> Design
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+              <div className="Services u-pb-80">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={globus} alt="" />
-                    </div>
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">Print </span> Design
+                    </h3>
 
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Web </span> Design
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={sintezator} alt="" />
-                    </div>
-
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Wed </span> Videos
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
 
-                <div className="Services">
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={iphone} alt="" />
-                    </div>
-
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Online </span> Support
-                      </h3>
-
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={globus} alt="" />
                   </div>
 
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={telegram} alt="" />
-                    </div>
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">Web </span> Design
+                    </h3>
 
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Hosting  </span> Services
-                      </h3>
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={sintezator} alt="" />
                   </div>
 
-                  <div className="Services-item">
-                    <div className="Services-figure">
-                      <img className="Services-images" src={safari} alt="" />
-                    </div>
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">Wed </span> Videos
+                    </h3>
 
-                    <div className="Services-textposition">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">SEO </span> Services
-                      </h3>
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+              <div className="Services">
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={iphone} alt="" />
+                  </div>
+
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">Online </span> Support
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={telegram} alt="" />
+                  </div>
+
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">Hosting  </span> Services
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="Services-item">
+                  <div className="Services-figure">
+                    <img className="Services-images" src={safari} alt="" />
+                  </div>
+
+                  <div className="Services-textposition">
+                    <h3 className="Text-services u-pb-20">
+                      <span className="u-color-red">SEO </span> Services
+                    </h3>
+
+                    <p className="Text-lorem">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
               </div>
