@@ -100,19 +100,18 @@ function App() {
         <div className="Section Section--slider">
           <div className="Section-content">
             <div className="Slider">
-              <div className="Slider-content">
-                <div className="Slider-item isActive">
-                  <div className="Slider-title">
-                    <h1 className="Slider-title Slider-title--one">GOOD <span className="Slider-title Slider-title--red"> BUSINNES </span> INSIDE YOU </h1>
-                    <h1 className="Slider-title  Slider-title--too">FIMILIA <span className="Slider-title Slider-title--red"> STUDIO </span></h1>
-                  </div>
+              <div className="Slider-item isActive">
+                <div className="Slider-title">
+                  <h1 className="Slider-title Slider-title--one">GOOD <span className="Slider-title Slider-title--red"> BUSINNES </span> INSIDE YOU </h1>
+                  <h1 className="Slider-title  Slider-title--too">FIMILIA <span className="Slider-title Slider-title--red"> STUDIO </span></h1>
+                </div>
 
-                  <div className="Slider-btn">
-                    <a className="Button Button--spaced">BUY NOW</a>
-                    <a className="Button">START A PROJECT</a>
-                  </div>
+                <div className="Slider-btn">
+                  <a className="Button Button--spaced">BUY NOW</a>
+                  <a className="Button">START A PROJECT</a>
                 </div>
               </div>
+
               <ul className="Slider-navigation">
                 <li className="Slider-navigationItem">
                   <input className="Form-input" id="radio-1" type="radio" name="radio" value="1" checked />
