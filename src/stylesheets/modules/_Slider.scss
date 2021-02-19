@@ -1,0 +1,36 @@
+.Slider {
+  padding-top: 240px;
+  padding-bottom: 342px;
+  max-height: 810px;
+
+  &-btn {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  &-navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 240px;
+  }
+
+  &-title {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+
+    &--one {
+      font-size: 60px;
+      font-weight: 400;
+    }
+
+    &--too {
+      font-weight: 700;
+      font-size: 85px;
+      padding-top: 30px;
+    }
+
+    &--red {
+      color: #ff5552;
+    }
+  }
+}

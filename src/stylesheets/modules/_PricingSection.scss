@@ -1,0 +1,12 @@
+.PricingSection {
+
+  &-title {
+    text-align: center;
+  }
+
+  &-pricingtable {
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

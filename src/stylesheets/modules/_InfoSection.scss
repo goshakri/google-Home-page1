@@ -1,0 +1,43 @@
+.InfoSection {
+
+  &-content {
+    text-align: center;
+  }
+
+  &-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
+    &--text {
+      font-size: 25px;
+    }
+  }
+
+  &-wrappers {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-blockNews {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+
+    &--text {
+      padding-top: 30px;
+      font-size: 20px;
+    }
+  }
+
+  &-textp {
+    padding-bottom: 225px;
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #878787;
+    font-weight: 400;
+    width: 370px;
+  }
+}

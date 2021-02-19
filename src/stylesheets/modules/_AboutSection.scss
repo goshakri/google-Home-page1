@@ -1,0 +1,11 @@
+.AboutSection {
+
+  &-itemstats {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-blockstats {
+    padding-right: 100px;
+  }
+}

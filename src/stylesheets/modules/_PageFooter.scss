@@ -1,5 +1,32 @@
 .PageFooter {
-  padding: 15px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
+  display: flex;
+  width: 100%;
+
+  &-item {
+    width: 50%;
+    display: flex;
+  }
+
+  &-images {
+    display: flex;
+  }
+
+  &-content {
+    position: relative;
+  }
+
+  &-blocks {
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+  }
+
+  &-position {
+    display: flex;
+  }
+
+  &-title {
+    background-color: #202020;
+    text-align: center;
+  }
 }

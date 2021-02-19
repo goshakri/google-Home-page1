@@ -1,0 +1,11 @@
+.OurteamSection {
+
+  &-title {
+    text-align: center;
+  }
+
+  &-cardflex {
+    display: flex;
+    justify-content: space-between;
+  }
+}

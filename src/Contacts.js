@@ -12,7 +12,7 @@ function Contacts() {
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/">
-                    Search
+                    HOME
                   </a>
                 </li>
                 <li className="SiteNavigation-item">

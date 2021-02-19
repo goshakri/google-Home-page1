@@ -1,10 +1,26 @@
 .Section {
   &--zircon {
-    background-color: #F4F7FF;
+    background-color: black;
+  }
+
+  &--slider {
+    background-image: url(../../images/image.png);
+  }
+
+  &--bgimage {
+    background-image: url(../../images/aboutbg.png);
+  }
+
+  &--bgstats {
+    background-image: url(../../images/statsbg.png);
+  }
+
+  &--bgprice {
+    background-image: url(../../images/bgprice.png);
   }
 
   &-content {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
   }
 }

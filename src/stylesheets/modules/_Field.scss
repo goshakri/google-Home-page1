@@ -23,13 +23,14 @@
 
   &--regular {
     display: block;
-    border: 1px solid rgba(#1089F5, 0.5);
+    border: 2px solid black;
     box-shadow: none;
-    border-radius: 5px;
-    font-size: 16px;
-    height: 34px;
+    border-radius: 1px;
+    font-size: 14px;
+    height: 35px;
     padding: 7px 15px;
     width: 100%;
+    background-image: url(../../images/textbg.png);
   }
 
   &--textarea {

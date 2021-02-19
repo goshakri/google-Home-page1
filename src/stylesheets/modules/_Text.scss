@@ -1,21 +1,249 @@
 .Text {
-  font-size: 13px;
+  font-family: 'Lato', sans-serif;
 
-  &--login {
-    font-size: 25px;
-    display: block;
-    text-align: center;
-    color: #43383e;
-    line-height: 1.2;
-    font-family: 'Oswald', sans-serif;
+  &--red {
+    color: #ff5552;
   }
 
-  &--loginwithemail {
+  &-familiastuido {
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
-    color: #333;
-    line-height: 1.2;
+    font-weight: 700;
     text-align: center;
-    display: block;
-    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+
+      &--red {
+        color: #ff5552;
+      }
+  }
+
+  &-aboutstudio {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+
+    &--red {
+      color: #ff5552;
+    }
+  }
+
+  &-familiastudiop {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #878787;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+
+  &-number {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+  &-statsh3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &-recentworks {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &-ourportfolio {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-projecttitile {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  &-design {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &-pricingtable {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-suitableplan {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700
+  }
+
+  &-numeral {
+    font-size: 40px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
+    &--mo {
+      font-size: 16px;
+    }
+  }
+
+  &-ourteam {
+    text-align: center;
+    margin-top: -75px;
+  }
+
+  &-timjones {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &-develover {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+  }
+
+  &-services {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-lorem {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #878787;
+    letter-spacing: .4px;
+    line-height: 24px;
+  }
+
+  &-nametom {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+  }
+
+  &-webdisigner {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: .3px;
+  }
+
+  &-loremt {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    letter-spacing: .9px;
+  }
+
+  &-post {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #141414;
+  }
+
+  &-month {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+  &-proin {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #878787;
+    letter-spacing: .9px;
+  }
+
+  &-footerh {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+  }
+
+  &-adress {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: .9px;
+    line-height: 24px;
+  }
+
+  &-email {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  &-phonenumber {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  &-link {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .7px;
+  }
+
+  &-subscribe {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .4px;
+  }
+
+  &-studio {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
   }
 }

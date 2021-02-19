@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
-function SignIn() {
+function AboutUs() {
   return (
     <div className="Page">
       <header>
@@ -12,12 +12,12 @@ function SignIn() {
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/">
-                    Search
+                    HOME
                   </a>
                 </li>
                 <li className="SiteNavigation-item">
-                  <a className="SiteNavigation-link" href="/contacts">
-                    Contacts
+                  <a className="SiteNavigation-link" href="/aboutus">
+                    ABOUT US
                   </a>
                 </li>
               </ul>
@@ -90,4 +90,4 @@ function SignIn() {
     </div>
   );
 }
-export default SignIn;
+export default AboutUs;
