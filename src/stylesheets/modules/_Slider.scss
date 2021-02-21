@@ -1,5 +1,5 @@
 .Slider {
-  padding-top: 240px;
+  padding-top: 230px;
   padding-bottom: 342px;
   max-height: 810px;
 
@@ -11,22 +11,27 @@
   &-navigation {
     display: flex;
     justify-content: center;
-    padding-top: 240px;
+    padding-top: 245px;
   }
 
   &-title {
     font-family: 'Lato', sans-serif;
     color: #fff;
 
+
     &--one {
       font-size: 60px;
       font-weight: 400;
+      letter-spacing: 3px;
+      margin-left: -2px;
     }
 
     &--too {
       font-weight: 700;
       font-size: 85px;
-      padding-top: 30px;
+      padding-top: 20px;
+      letter-spacing: 3.9px;
+      margin-left: -5px;
     }
 
     &--red {

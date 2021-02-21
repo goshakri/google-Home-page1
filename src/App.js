@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/logo.png";
+import logologo from "./images/logologo.png";
 import iconone from "./images/iconone.png";
 import icontoo from "./images/icontoo.png";
 import iconthree from "./images/iconthree.png";
@@ -30,6 +30,7 @@ import phone from "./images/phone.png";
 import twitter from "./images/twitter.png";
 import square from "./images/square.png";
 
+
 import textbg from "./images/textbg.png";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -41,9 +42,8 @@ function App() {
         <div className="Section Section--zircon">
           <div className="Section-content">
             <nav className="SiteNavigation">
-              <div className="HeaderPage-picture">
-                <img src={logo} alt="" />
-              </div>
+              <img src={logologo} alt="" />
+
               <ul className="SiteNavigation-column">
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/">
@@ -72,10 +72,10 @@ function App() {
                 </li>
                 <li className="SiteNavigation-item">
                   <a className="SiteNavigation-link" href="/contacts">
-                    CONTACTS
+                    CONTACT US
                   </a>
                 </li>
-                <li className="SiteNavigation-item u-pl-20">
+                <li className="SiteNavigation-item ">
                   <a className="SiteNavigation-fonts">
                     <i className="fa fa-facebook" aria-hidden="true"></i>
                   </a>
@@ -102,8 +102,8 @@ function App() {
             <div className="Slider">
               <div className="Slider-item isActive">
                 <div className="Slider-title">
-                  <h1 className="Slider-title Slider-title--one">GOOD <span className="Slider-title Slider-title--red"> BUSINNES </span> INSIDE YOU </h1>
-                  <h2 className="Slider-title  Slider-title--too">FIMILIA <span className="Slider-title Slider-title--red"> STUDIO </span></h2>
+                  <h1 className="Slider-title Slider-title--one">GOOD<span className="Slider-title Slider-title--red u-pl-20">BUSINESS</span> INSIDE YOU </h1>
+                  <h2 className="Slider-title  Slider-title--too">FIMILIA<span className="Slider-title Slider-title--red u-pl-20">STUDIO</span></h2>
                 </div>
 
                 <div className="Slider-btn">
