@@ -1,4 +1,14 @@
 .u {
+  &-mr {
+    &-100 {
+      margin-right: 100px;
+    }
+
+    &-150 {
+      margin-right: 150px;
+    }
+  }
+
   &-pb {
     &-5 {
       padding-bottom: 5px;
@@ -162,6 +172,10 @@
 
     &-65 {
       padding-left: 65px;
+    }
+
+    &-70 {
+      padding-left: 70px;
     }
 
     &-90 {
