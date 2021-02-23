@@ -40,13 +40,7 @@
     text-decoration: none;
     color: #ff5552;
     letter-spacing: .9px;
-
-    &:after {
-      content: "";
-      display: block;
-      width: 87px;
-      margin-top: 9px;
-      border: 1px solid #ff5552;
-    }
+    border-bottom: 2px solid #ff5552;
+    padding: 0 0 9px 0;
   }
 }
