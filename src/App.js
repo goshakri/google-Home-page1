@@ -129,7 +129,7 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="InfoSection u-pt-130">
+            <div className="InfoSection u-pt-130 u-pb-200">
               <div className="InfoSection-content">
                 <div className="InfoSection-item">
                   <div className="InfoSection-title">
@@ -179,17 +179,19 @@ function App() {
               </div>
 
               <div className="Row-item u-pl-30">
-                <h2 className="Text-aboutstudio u-pt-80 u-pb-30">
-                  <span className="Text-aboutstudio Text-aboutstudio--red"> About </span> Fimilia Studio
-                </h2>
+                <div className="Text">
+                  <h2 className="Text-aboutstudio u-pt-80 u-pb-30">
+                    <span className="Text-aboutstudio Text-aboutstudio--red"> About </span> Fimilia Studio
+                  </h2>
 
-                <p className="Text-familiastudiop u-pb-40">
-                  Duis molestie sapien et nunc blandit elementum. Nunc in mi sit amet mi molestie sodales. Etiam a porta nisi, vel vulputate felis. Nulla tincidunt sagittis dui eget sodales.
-                </p>
+                  <p className="Text-familiastudiop u-pb-40">
+                    Duis molestie sapien et nunc blandit elementum. Nunc in mi sit amet mi molestie sodales. Etiam a porta nisi, vel vulputate felis. Nulla tincidunt sagittis dui eget sodales.
+                  </p>
 
-                <p className="Text-familiastudiop">
-                  Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
-                </p>
+                  <p className="Text-familiastudiop">
+                    Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -245,9 +247,10 @@ function App() {
 
         <div className="PortfolioSection u-pt-130 u-pb-130">
           <div className="PortfolioSection-title">
-            <h2 className="Text-ourportfolio u-pb-20">Our Portfolio</h2>
-
-            <p className="Text-recentworks u-pb-100"><span className=" Text Text--red"> Recent </span> Works</p>
+            <div className="Text">
+              <h2 className="Text-ourportfolio u-pb-20">Our Portfolio</h2>
+              <p className="Text-recentworks u-pb-100"><span className=" Text Text--red"> Recent </span> Works</p>
+            </div>
           </div>
 
           <div className="PortfolioSection-item u-w-100">
@@ -264,8 +267,10 @@ function App() {
                     <img className="PortfolioSection-images" src={graytwoo} alt="" />
 
                     <div className="PortfolioSection-text">
-                      <h3 className="Text-projecttitile u-pb-20">Project Title</h3>
-                      <p className="Text-design">Design, Branding & Development</p>
+                      <div className="Text">
+                        <h3 className="Text-projecttitile u-pb-20">Project Title</h3>
+                        <p className="Text-design">Design, Branding & Development</p>
+                      </div>
                     </div>
                   </div>
                   <div className="d-flex u-w-100 u-h-50">
@@ -298,8 +303,10 @@ function App() {
           <div className="Section-content">
             <div className="PricingSection u-pt-130">
               <div className="PricingSection-title u-pb-100">
-                <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
-                <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
+                <div className="Text">
+                  <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
+                  <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
+                </div>
               </div>
 
               <div className="PricingSection-pricingtable">
@@ -395,8 +402,10 @@ function App() {
           <div className="Section-content">
             <div className="OurteamSection u-pt-130 u-pb-130">
               <div className="OurteamSection-title">
-                <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
-                <p className="Text-suitableplan"><span className="u-color-red">Fimilia </span> Plan</p>
+                <div className="Text">
+                  <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
+                  <p className="Text-suitableplan"><span className="u-color-red">Fimilia </span> Plan</p>
+                </div>
               </div>
 
               <div className="OurteamSection-cardflex u-pt-100">
@@ -426,8 +435,10 @@ function App() {
                   </div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><span className="u-color-red">TIM </span> JONES</h3>
-                    <p className="Text-develover">Html Developer</p>
+                    <div className="Text">
+                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">TIM </span> JONES</h3>
+                      <p className="Text-develover">Html Developer</p>
+                    </div>
                   </div>
                 </div>
 
@@ -457,8 +468,10 @@ function App() {
                   </div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Johnathan </span> Doe</h3>
-                    <p className="Text-develover">Front End Developer</p>
+                    <div className="Text">
+                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Johnathan </span> Doe</h3>
+                      <p className="Text-develover">Front End Developer</p>
+                    </div>
                   </div>
                 </div>
 
@@ -488,8 +501,10 @@ function App() {
                   </div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Nina </span> Adams</h3>
-                    <p className="Text-develover">Marketing Manager</p>
+                    <div className="Text">
+                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Nina </span> Adams</h3>
+                      <p className="Text-develover">Marketing Manager</p>
+                    </div>
                   </div>
 
                 </div>
@@ -520,8 +535,10 @@ function App() {
                   </div>
 
                   <div className="MemberCard-text">
-                    <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Alexia </span> Doe</h3>
-                    <p className="Text-develover">CEO</p>
+                    <div className="Text">
+                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Alexia </span> Doe</h3>
+                      <p className="Text-develover">CEO</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -533,8 +550,10 @@ function App() {
           <div className="Section-content">
             <div className="ServiceSection u-pb-130">
               <div className="ServiceSection-title u-pb-100">
-                <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
-                <p className="Text-suitableplan"><span className="u-color-red">Our </span> Services</p>
+                <div className="Text">
+                  <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
+                  <p className="Text-suitableplan"><span className="u-color-red">Our </span> Services</p>
+                </div>
               </div>
 
               <div className="Services u-pb-80">
@@ -544,13 +563,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">Print </span> Design
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">Print </span> Design
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -560,13 +581,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">Web </span> Design
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">Web </span> Design
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -576,13 +599,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">Wed </span> Videos
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">Wed </span> Videos
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -594,13 +619,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">Online </span> Support
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">Online </span> Support
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -610,13 +637,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">Hosting  </span> Services
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">Hosting  </span> Services
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -626,13 +655,15 @@ function App() {
                   </div>
 
                   <div className="Services-textposition">
-                    <h3 className="Text-services u-pb-20">
-                      <span className="u-color-red">SEO </span> Services
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-services u-pb-20">
+                        <span className="u-color-red">SEO </span> Services
+                      </h3>
 
-                    <p className="Text-lorem">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                    </p>
+                      <p className="Text-lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -644,8 +675,10 @@ function App() {
           <div className="Section-content">
             <div className="TestimonialsSection u-pt-130">
               <div className="TestimonialsSection-title u-pb-100">
-                <h3 className="Text-pricingtable u-pb-30">Testimonials</h3>
-                <p className="Text-suitableplan"><span className="u-color-red">What</span> Client Says</p>
+                <div className="Text">
+                  <h3 className="Text-pricingtable u-pb-30">Testimonials</h3>
+                  <p className="Text-suitableplan"><span className="u-color-red">What</span> Client Says</p>
+                </div>
               </div>
             </div>
 
@@ -680,17 +713,19 @@ function App() {
                 </div>
 
                 <div className="TestimonialsSection-text">
-                  <h3 className="Text-nametom u-pb-10">
-                    Tom Smith
-                  </h3>
+                  <div className="Text">
+                    <h3 className="Text-nametom u-pb-10">
+                      Tom Smith
+                    </h3>
 
-                  <p className="Text-webdisigner u-color-red u-pb-30">
-                    Web Designer
-                  </p>
+                    <p className="Text-webdisigner u-color-red u-pb-30">
+                      Web Designer
+                    </p>
 
-                  <p className="Text-loremt u-pb-45">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra velit non dolor congue mollis. Sed efficitur diam eget eleifend venenatis. Cum sociis natoque penatibus et magnis.
-                  </p>
+                    <p className="Text-loremt u-pb-45">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra velit non dolor congue mollis. Sed efficitur diam eget eleifend venenatis. Cum sociis natoque penatibus et magnis.
+                    </p>
+                  </div>
 
                   <ul className="TestimonialsSection-navigation">
                     <li className="TestimonialsSection-navigationItem">
@@ -713,20 +748,24 @@ function App() {
           <div className="Section-content">
             <div className="BlogsSection u-pt-130 u-pb-130">
               <div className="BlogsSection-title u-pb-100">
-                <h3 className="Text-pricingtable u-pb-30">Our Blogs</h3>
-                <p className="Text-suitableplan"><span className="u-color-red">Latest </span> News</p>
+                <div className="Text">
+                  <h3 className="Text-pricingtable u-pb-30">Our Blogs</h3>
+                  <p className="Text-suitableplan"><span className="u-color-red">Latest </span> News</p>
+                </div>
               </div>
 
               <div className="BlogsSection-column">
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="Text-post u-pb-20">
-                      Post With Static Image
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-post u-pb-20">
+                        Post With Static Image
+                      </h3>
 
-                    <p className="Text-month u-pb-35">
-                      <span className="u-color-red">FEBRUARY 27, 2016 </span>| 6 Comments
-                    </p>
+                      <p className="Text-month u-pb-35">
+                        <span className="u-color-red">FEBRUARY 27, 2016 </span>| 6 Comments
+                      </p>
+                    </div>
                   </div>
 
                   <div className="BlogsSection-video u-pb-30">
@@ -736,9 +775,11 @@ function App() {
                     </video>
                   </div>
 
-                  <p className="Text-proin u-pb-25">
-                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
-                  </p>
+                  <div className="Text">
+                    <p className="Text-proin u-pb-25">
+                      Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                    </p>
+                  </div>
 
                   <a className="TestimonialsSection-button" href="#">
                     Read More
@@ -747,13 +788,15 @@ function App() {
 
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="Text-post u-pb-20">
-                      Post With A Slider Gallery
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-post u-pb-20">
+                        Post With A Slider Gallery
+                      </h3>
 
-                    <p className="Text-month u-pb-35">
-                      <span className="u-color-red">MARCH 21, 2016 </span> | 2 Comments
-                    </p>
+                      <p className="Text-month u-pb-35">
+                        <span className="u-color-red">MARCH 21, 2016 </span> | 2 Comments
+                      </p>
+                    </div>
                   </div>
 
                   <div className="BlogsSection-video u-pb-30">
@@ -763,9 +806,11 @@ function App() {
                     </video>
                   </div>
 
-                  <p className="Text-proin u-pb-25">
-                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
-                  </p>
+                  <div className="Text">
+                    <p className="Text-proin u-pb-25">
+                      Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                    </p>
+                  </div>
 
                   <a className="TestimonialsSection-button" href="#">
                     Read More
@@ -774,13 +819,15 @@ function App() {
 
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
-                    <h3 className="Text-post u-pb-20">
-                      POST WITH A YOUTUBE VIDEO
-                    </h3>
+                    <div className="Text">
+                      <h3 className="Text-post u-pb-20">
+                        POST WITH A YOUTUBE VIDEO
+                      </h3>
 
-                    <p className="Text-month u-pb-35">
-                      <span className="u-color-red">FAPRIL 8, 2016 </span>| 3 Comments
-                    </p>
+                      <p className="Text-month u-pb-35">
+                        <span className="u-color-red">FAPRIL 8, 2016 </span>| 3 Comments
+                      </p>
+                    </div>
                   </div>
 
                   <div className="BlogsSection-video u-pb-30">
@@ -790,9 +837,11 @@ function App() {
                     </video>
                   </div>
 
-                  <p className="Text-proin u-pb-25">
-                    Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
-                  </p>
+                  <div className="Text">
+                    <p className="Text-proin u-pb-25">
+                      Proin metus diam, euismod a enim ac, gravida sodales mi. Donec varius ex nec pharetra sagittis. Ut vehicula, enim eget posuere semper.
+                    </p>
+                  </div>
 
                   <a className="TestimonialsSection-button" href="#">
                     Read More
@@ -840,12 +889,12 @@ function App() {
                   <div className="PageFooter-content">
                     <div className="PageFooter-images u-pb-40">
                       <span><img className="PageFooter-img u-pr-15" src={twitter} alt="" /></span>
-                      <p className="Text-link">RT <span className="u-color-blue">@no1son:</span> Now this <span className="u-color-blue">http://t.co/TSfMW1qMAW</span> Awesome work guys <span className="u-color-blue">@AIRNAUTS</span></p>
+                      <p className="Text-link">RT <a href="#" className="u-color-blue Text-information">@no1son:</a> Now this <a href="#" className="u-color-blue Text-information">http://t.co/TSfMW1qMAW</a> Awesome work guys <a href="#" className="u-color-blue Text-information">@AIRNAUTS</a></p>
                     </div>
 
                     <div className="PageFooter-images">
                       <span> <img className="PageFooter-img u-pr-15" src={twitter} alt="" /> </span>
-                      <p className="Text-link">Check out the wordpress version of Tucson - <span className="u-color-blue">http://t.co/sBlU3GbapT</span></p>
+                      <p className="Text-link">Check out the wordpress version of Tucson - <a href="" className="u-color-blue Text-information">http://t.co/sBlU3GbapT</a></p>
                     </div>
                   </div>
                 </div>
@@ -859,27 +908,29 @@ function App() {
 
                   <div className="PageFooter-blocks">
                     <div className="PageFooter-position u-pb-15">
-                      <img className="u-pr-15" src={square} alt="" />
-                      <img className="u-pr-15" src={square} alt="" />
+                      <img className="u-mr-15" src={square} alt="" />
+                      <img className="u-mr-15" src={square} alt="" />
                       <img src={square} alt="" />
                     </div>
 
                     <div className="PageFooter-position">
-                      <img className="u-pr-15" src={square} alt="" />
-                      <img className="u-pr-15" src={square} alt="" />
+                      <img className="u-mr-15" src={square} alt="" />
+                      <img className="u-mr-15" src={square} alt="" />
                       <img src={square} alt="" />
                     </div>
                   </div>
                 </div>
 
                 <div className="PageFooter-newsletterblock u-pl-30">
-                  <div className="u-pb-40">
+                  <div className="Text u-pb-40">
                     <h3 className="Text-footerh">NEWSLETTER</h3>
                   </div>
 
-                  <p className="Text-subscribe u-pb-20">
-                    Subscribe to our newsletter to receive <br /> our latest news and updates. We do not <br />spam.
-                  </p>
+                  <div className="Text">
+                    <p className="Text-subscribe u-pb-20">
+                      Subscribe to our newsletter to receive <br /> our latest news and updates. We do not <br />spam.
+                    </p>
+                  </div>
 
                   <form action="Form">
                     <div className="u-pb-15">
@@ -896,8 +947,12 @@ function App() {
           </div>
         </div>
 
-        <div className="PageFooter-title u-pb-30 u-pt-30">
-          <p className="Text-studio"><span className="u-color-red">Fimilia</span> Studio © All Rights Reserved 2016</p>
+        <div className="PageFooter">
+          <div className="PageFooter-bgsection u-pb-30 u-pt-30">
+            <div className="Text">
+              <p className="Text-studio"><span className="u-color-red">Fimilia</span> Studio © All Rights Reserved 2016</p>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

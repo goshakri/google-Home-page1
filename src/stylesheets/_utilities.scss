@@ -1,5 +1,9 @@
 .u {
   &-mr {
+    &-15 {
+      margin-right: 15px;
+    }
+
     &-100 {
       margin-right: 100px;
     }
@@ -77,6 +81,10 @@
     &-100 {
       padding-bottom: 100px;
     }
+
+    &-200 {
+      padding-bottom: 200px;
+    }
   }
 
   &-pt {
@@ -138,6 +146,10 @@
 
     &-490 {
       padding-top: 490px;
+    }
+
+    &-200 {
+      padding-top: 200px;
     }
 
     &-300 {
