@@ -1,18 +1,22 @@
 .SiteNavigation {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 34px 0;
   justify-content: space-between;
 
   &-column {
     display: flex;
-    margin-right: -29px;
   }
 
   &-fonts {
     color: #fff;
     cursor: pointer;
-    padding: 0 10px
+    padding: 0 0 0 20px;
+  }
+
+  &-item {
+    display: block;
+    letter-spacing: 1px;
   }
 
   &-link {
@@ -21,12 +25,12 @@
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    padding-bottom: 3px;
-    margin-left: 20px;
+    padding: 10px 0 3px 0;
+    margin: 0 25px 0 0;
   }
 
   &-link:hover {
-    border-bottom: 2px solid #ff5552;
+    border-bottom: 1px solid #ff5552;
     color: #ff5552;
   }
 }
