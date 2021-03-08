@@ -129,9 +129,9 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="InfoSection u-pt-130 u-pb-200">
-              <div className="InfoSection-content">
-                <div className="InfoSection-item">
+            <div className="InfoSection u-pt-130 u-pb-130 u-pt-md-0 u-pb-md-0">
+              <div className="InfoSection-content u-pt-md-100">
+                <div className="InfoSection-item u-pb-120">
                   <div className="InfoSection-title">
                     <h2 className="InfoSection-title u-pb-20">WHO WE ARE</h2>
                     <p className="InfoSection-title InfoSection-title--text"> <span className="Slider-title Slider-title--red"> Fimilia </span> Studio</p>
@@ -139,19 +139,19 @@ function App() {
 
                   <div className="InfoSection-wrappers u-pt-100">
                     <div className="InfoSection-blockNews u-pr-40">
-                      <img src={iconone} alt="" />
+                      <img className="InfoSection-images" src={iconone} alt="" />
                       <h3 className="InfoSection-blockNews InfoSection-blockNews--text">GRAPHIC DESIGN</h3>
                       <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="InfoSection-blockNews ">
-                      <img src={icontoo} alt="" />
+                      <img className="InfoSection-images" src={icontoo} alt="" />
                       <h3 className="InfoSection-blockNews InfoSection-blockNews--text">DEVELOPMENT</h3>
                       <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="InfoSection-blockNews u-pl-40">
-                      <img src={iconthree} alt="" />
+                      <img className="InfoSection-images" src={iconthree} alt="" />
                       <h3 className="InfoSection-blockNews InfoSection-blockNews--text">MARKETING</h3>
                       <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
@@ -189,7 +189,7 @@ function App() {
                   </p>
 
                   <p className="Text-familiastudiop">
-                    Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
+                    Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero.
                   </p>
                 </div>
               </div>
@@ -199,44 +199,44 @@ function App() {
 
         <div className="Section Section--bgstats">
           <div className="Section-content">
-            <div className="AboutSection">
-              <div className="AboutSection-itemstats u-pt-100">
+            <div className="AboutSection u-pt-100 u-pb-100 u-pt-md-0 u-pb-md-0">
+              <div className="AboutSection-itemstats u-pb-md-70 u-pt-md-70">
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40">
+                  <p className="Text-number u-pb-40 u-pb-md-0">
                     402
                   </p>
 
-                  <h3 className="Text-statsh3 u-pb-100">
+                  <h3 className="Text-statsh3 u-pt-md-20">
                     Completed Projects
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40">
+                  <p className="Text-number u-pb-40 u-pb-md-0">
                     122
                   </p>
 
-                  <h3 className="Text-statsh3 u-pb-100">
+                  <h3 className="Text-statsh3 u-pt-md-20">
                     Happy Clients
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40">
+                  <p className="Text-number u-pb-40 u-pb-md-0">
                     5471
                   </p>
 
-                  <h3 className="Text-statsh3 u-pb-100">
+                  <h3 className="Text-statsh3 u-pt-md-20">
                     Working Hours
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40">
+                  <p className="Text-number u-pb-40 u-pb-md-0">
                     395
                   </p>
 
-                  <h3 className="Text-statsh3 u-pb-100">
+                  <h3 className="Text-statsh3 u-pt-md-20">
                     Cups Of Coffee
                   </h3>
                 </div>
@@ -245,15 +245,15 @@ function App() {
           </div>
         </div>
 
-        <div className="PortfolioSection u-pt-130 u-pb-130">
-          <div className="PortfolioSection-title">
+        <div className="PortfolioSection u-pt-130 u-pb-130 u-pb-md-0 u-pt-md-0">
+          <div className="PortfolioSection-title u-pt-md-100">
             <div className="Text">
               <h2 className="Text-ourportfolio u-pb-20">Our Portfolio</h2>
               <p className="Text-recentworks u-pb-100"><span className=" Text Text--red"> Recent </span> Works</p>
             </div>
           </div>
 
-          <div className="PortfolioSection-item u-w-100">
+          <div className="PortfolioSection-item u-pb-md-100 u-w-100">
             <div className="PortfolioSection-item u-w-50">
               <div className="PortfolioSection-item u-w-100">
                 <div className="PortfolioSection-item u-w-50">
@@ -301,15 +301,15 @@ function App() {
 
         <div className="Section Section--bgprice">
           <div className="Section-content">
-            <div className="PricingSection u-pt-130">
-              <div className="PricingSection-title u-pb-100">
+            <div className="PricingSection u-pt-130 u-pt-md-0 u-pb-130 u-pb-md-0">
+              <div className="PricingSection-title u-pt-md-100 u-pb-100 u-pb-md-50">
                 <div className="Text">
                   <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
                   <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
                 </div>
               </div>
 
-              <div className="PricingSection-pricingtable">
+              <div className="PricingSection-pricingtable u-pb-md-100">
                 <div className="PricingCard">
                   <div className="u-pb-40">
                     <h3 className="PricingCard-text">Basic</h3>
@@ -400,19 +400,19 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="OurteamSection u-pt-130 u-pb-130">
-              <div className="OurteamSection-title">
+            <div className="OurteamSection u-pt-130 u-pb-130 u-pb-md-0 u-pt-md-0">
+              <div className="OurteamSection-title u-pt-md-100">
                 <div className="Text">
                   <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
                   <p className="Text-suitableplan"><span className="u-color-red">Fimilia </span> Plan</p>
                 </div>
               </div>
 
-              <div className="OurteamSection-cardflex u-pt-100">
+              <div className="OurteamSection-cardflex u-pt-100 u-pb-md-100">
                 <div className="MemberCard">
                   <img src={imageourteam} alt="" />
 
-                  <div className="MemberCard-overlay">
+                  <div className="MemberCard-overlay ">
                     <div className="MemberCard-content">
                       <div className="MemberCard-item">
                         <a className="MemberCard-fonts" href="#">
@@ -548,7 +548,7 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="ServiceSection u-pb-130">
+            <div className="ServiceSection u-pb-130 u-pb-md-130">
               <div className="ServiceSection-title u-pb-100">
                 <div className="Text">
                   <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
@@ -673,8 +673,8 @@ function App() {
 
         <div className="Section Section--bgprice">
           <div className="Section-content">
-            <div className="TestimonialsSection u-pt-130">
-              <div className="TestimonialsSection-title u-pb-100">
+            <div className="TestimonialsSection u-pt-130 u-pb-100 u-pt-md-50 u-pt-md-0">
+              <div className="TestimonialsSection-title u-pt-md-100">
                 <div className="Text">
                   <h3 className="Text-pricingtable u-pb-30">Testimonials</h3>
                   <p className="Text-suitableplan"><span className="u-color-red">What</span> Client Says</p>
@@ -682,18 +682,15 @@ function App() {
               </div>
             </div>
 
-            <div className="Row u-pb-130">
+            <div className="Row u-pb-130 u-pb-md-0">
               <div className="Row-item">
                 <div className="u-pb-75">
-                  <img  src={logoone} alt="" />
-                  <img className="u-pl-60" src={logotoo} alt="" />
-                  <img className="u-pl-60" src={logothree} alt="" />
-                </div>
-
-                <div>
-                  <img src={logofor} alt="" />
-                  <img className="u-pl-65" src={logofive} alt="" />
-                  <img className="u-pl-90" src={logosix} alt="" />
+                  <img className="u-mb-40 u-mr-md-30" src={logoone} alt="" />
+                  <img className="u-ml-60 u-mb-40 u-ml-md-0" src={logotoo} alt="" />
+                  <img className="u-ml-60 u-mb-40 u-ml-md-0 u-mr-md-30" src={logothree} alt="" />
+                  <img className="u-ml-md-0" src={logofor} alt="" />
+                  <img className="u-ml-65 u-mt-40 u-ml-md-0 u-mr-md-70" src={logofive} alt="" />
+                  <img className="u-ml-90 u-mt-40 u-ml-md-0" src={logosix} alt="" />
                 </div>
               </div>
 
@@ -746,15 +743,15 @@ function App() {
 
         <div className="Section">
           <div className="Section-content">
-            <div className="BlogsSection u-pt-130 u-pb-130">
-              <div className="BlogsSection-title u-pb-100">
+            <div className="BlogsSection u-pt-130 u-pb-130 u-pt-md-0 u-pb-md-0">
+              <div className="BlogsSection-title u-pt-md-100 u-pb-100 ">
                 <div className="Text">
                   <h3 className="Text-pricingtable u-pb-30">Our Blogs</h3>
                   <p className="Text-suitableplan"><span className="u-color-red">Latest </span> News</p>
                 </div>
               </div>
 
-              <div className="BlogsSection-column">
+              <div className="BlogsSection-column u-pb-md-100">
                 <div className="BlogsSection-blog">
                   <div className="BlogsSection-text">
                     <div className="Text">
@@ -768,8 +765,8 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="BlogsSection-video u-pb-30">
-                    <video width="370" height="300" controls>
+                  <div className="BlogsSection u-pb-30">
+                    <video className="BlogsSection-video" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
                     </video>
@@ -799,8 +796,8 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="BlogsSection-video u-pb-30">
-                    <video width="370" height="300" controls>
+                  <div className="BlogsSection u-pb-30">
+                    <video className="BlogsSection-video" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
                     </video>
@@ -830,8 +827,8 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="BlogsSection-video u-pb-30">
-                    <video width="370" height="300" controls>
+                  <div className="BlogsSection u-pb-30">
+                    <video className="BlogsSection-video" controls>
                       <source src="movie.mp4" type="video/mp4" />
                       <source src="movie.ogg" type="video/ogg" />
                     </video>
@@ -856,21 +853,21 @@ function App() {
       <footer>
         <div className="Section Section--bgprice">
           <div className="Section-content">
-            <div className="PageFooter u-pt-85 u-pb-80">
+            <div className="PageFooter u-pt-85 u-pb-80 u-pb-md-60">
               <div className="PageFooter-item">
-                <div className="PageFooter-contactblock u-pr-40">
-                  <div className="u-pb-30">
-                    <img src={logofamilia} alt="" />
+                <div className="PageFooter-contactblock u-pr-40 u-pr-md-20">
+                  <div className="u-pb-30 u-pb-md-15">
+                    <img className="PageFooter-logo" src={logofamilia} alt="" />
                   </div>
 
                   <div className="PageFooter-content">
-                    <div className="PageFooter-images u-pb-30">
-                      <div> <img className="PageFooter-img u-pr-25" src={location} alt="" /></div>
+                    <div className="PageFooter-images u-pb-30 u-pb-md-15 =">
+                      <div> <img className="PageFooter-img u-pr-25 u-pr-md-15" src={location} alt="" /></div>
                       <p className="Text-adress">795 Folsom Ave, Suite 600, San Francisco, CA 94107</p>
                     </div>
 
-                    <div className="PageFooter-images u-pb-30">
-                      <div><img className="PageFooter-img u-pr-15" src={email} alt="" /></div>
+                    <div className="PageFooter-images u-pb-30 u-pb-md-15">
+                      <div><img className="PageFooter-img u-pr-15 u-pr-md-15" src={email} alt="" /></div>
                       <p className="Text-email">fimiliastudio@example.com</p>
                     </div>
 
@@ -882,18 +879,18 @@ function App() {
                 </div>
 
                 <div className="PageFooter-twitterblock">
-                  <div className="u-pb-40">
+                  <div className="u-pb-40 u-pb-md-20">
                     <h3 className="Text-footerh">TWITTER FEED</h3>
                   </div>
 
                   <div className="PageFooter-content">
-                    <div className="PageFooter-images u-pb-40">
-                      <span><img className="PageFooter-img u-pr-15" src={twitter} alt="" /></span>
+                    <div className="PageFooter-images u-pb-40 u-pb-md-20">
+                      <span><img className="PageFooter-img u-pr-15 u-pr-md-10" src={twitter} alt="" /></span>
                       <p className="Text-link">RT <a href="#" className="u-color-blue Text-information">@no1son:</a> Now this <a href="#" className="u-color-blue Text-information">http://t.co/TSfMW1qMAW</a> Awesome work guys <a href="#" className="u-color-blue Text-information">@AIRNAUTS</a></p>
                     </div>
 
                     <div className="PageFooter-images">
-                      <span> <img className="PageFooter-img u-pr-15" src={twitter} alt="" /> </span>
+                      <span> <img className="PageFooter-img u-pr-15 u-pr-md-10" src={twitter} alt="" /> </span>
                       <p className="Text-link">Check out the wordpress version of Tucson - <a href="" className="u-color-blue Text-information">http://t.co/sBlU3GbapT</a></p>
                     </div>
                   </div>
@@ -902,27 +899,27 @@ function App() {
 
               <div className="PageFooter-item">
                 <div className="PageFooter-pictureblock">
-                  <div className="u-pb-40">
+                  <div className="u-pb-40 u-pb-md-20">
                     <h3 className="Text-footerh">PHOTOSTREAM</h3>
                   </div>
 
                   <div className="PageFooter-blocks">
                     <div className="PageFooter-position u-pb-15">
-                      <img className="u-mr-15" src={square} alt="" />
-                      <img className="u-mr-15" src={square} alt="" />
-                      <img src={square} alt="" />
+                      <img className="PageFooter-cub u-mr-15" src={square} alt="" />
+                      <img className="PageFooter-cub u-mr-15" src={square} alt="" />
+                      <img className="PageFooter-cub" src={square} alt="" />
                     </div>
 
                     <div className="PageFooter-position">
-                      <img className="u-mr-15" src={square} alt="" />
-                      <img className="u-mr-15" src={square} alt="" />
-                      <img src={square} alt="" />
+                      <img className="PageFooter-cub u-mr-15" src={square} alt="" />
+                      <img className="PageFooter-cub u-mr-15" src={square} alt="" />
+                      <img className="PageFooter-cub" src={square} alt="" />
                     </div>
                   </div>
                 </div>
 
                 <div className="PageFooter-newsletterblock u-pl-30">
-                  <div className="Text u-pb-40">
+                  <div className="Text u-pb-40 u-pb-md-20">
                     <h3 className="Text-footerh">NEWSLETTER</h3>
                   </div>
 

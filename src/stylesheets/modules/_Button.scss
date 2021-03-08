@@ -17,6 +17,18 @@
   font-size: 12px;
   letter-spacing: 1px;
 
+  @media (max-width: 1200px) {
+    height: 35px;
+    width: 160px;
+    font-size: 10px;
+  }
+
+  @media (max-width: 768px) {
+    height: 30px;
+    width: 150px;
+    font-size: 8px;
+  }
+
   &:hover {
     background-color:#fff;
     color: #ff5552;
@@ -44,6 +56,11 @@
     font-size: 10px;
     font-weight: 400;
     letter-spacing: .7px;
+
+    @media (max-width: 768px) {
+      letter-spacing: none;
+      font-size: 9px;
+    }
   }
 
   &--spaced {

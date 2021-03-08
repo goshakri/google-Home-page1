@@ -1,6 +1,10 @@
 .MemberCard {
   position: relative;
 
+  @media (max-width: 768px) {
+    margin: 30px 20px 0 20px;
+  }
+
   &:hover {
     .MemberCard-overlay {
       opacity: 1;

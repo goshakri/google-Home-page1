@@ -13,6 +13,10 @@
 
   &--bgstats {
     background-image: url(../../images/statsbg.png);
+
+    @media (max-width: 768px) {
+      max-height: 250px;
+    }
   }
 
   &--bgprice {
@@ -22,5 +26,13 @@
   &-content {
     max-width: 1170px;
     margin: 0 auto;
+
+    @media (max-width: 1200px) {
+      padding: 0 20px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0 20px;
+    }
   }
 }

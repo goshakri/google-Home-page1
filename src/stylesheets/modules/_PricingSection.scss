@@ -5,8 +5,12 @@
   }
 
   &-pricingtable {
-    padding-bottom: 130px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 }
