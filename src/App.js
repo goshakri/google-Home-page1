@@ -107,8 +107,8 @@ function App() {
                 </div>
 
                 <div className="Slider-btn">
-                  <a className="Button Button--spaced">BUY NOW</a>
-                  <a className="Button">START A PROJECT</a>
+                  <a className="Button Button--slider">BUY NOW</a>
+                  <a className="Button Button--slider">START A PROJECT</a>
                 </div>
               </div>
 
@@ -778,7 +778,7 @@ function App() {
                     </p>
                   </div>
 
-                  <a className="TestimonialsSection-button" href="#">
+                  <a className="Button--readmore" href="#">
                     Read More
                   </a>
                 </div>
@@ -809,7 +809,7 @@ function App() {
                     </p>
                   </div>
 
-                  <a className="TestimonialsSection-button" href="#">
+                  <a className="Button--readmore" href="#">
                     Read More
                   </a>
                 </div>
@@ -840,7 +840,7 @@ function App() {
                     </p>
                   </div>
 
-                  <a className="TestimonialsSection-button" href="#">
+                  <a className="Button--readmore" href="#">
                     Read More
                   </a>
                 </div>

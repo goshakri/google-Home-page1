@@ -7,27 +7,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: none;
-  height: 45px;
-  border-radius: 1px;
-  width: 180px;
   color: #fff;
   background-color: #ff5552;
   cursor: pointer;
-  font-size: 12px;
-  letter-spacing: 1px;
-
-  @media (max-width: 1200px) {
-    height: 35px;
-    width: 160px;
-    font-size: 10px;
-  }
-
-  @media (max-width: 768px) {
-    height: 30px;
-    width: 150px;
-    font-size: 8px;
-  }
+  text-transform: uppercase;
 
   &:hover {
     background-color:#fff;
@@ -35,24 +18,51 @@
     transition: .2s;
   }
 
+  &--slider {
+    border: none;
+    height: 45px;
+    border-radius: 1px;
+    width: 180px;
+    font-size: 12px;
+    margin: 0px 10px 0px 0;
+    letter-spacing: 1px;
+
+    @media (max-width: 1200px) {
+      height: 35px;
+      width: 160px;
+      font-size: 10px;
+    }
+
+    @media (max-width: 768px) {
+      height: 30px;
+      width: 140px;
+      font-size: 8px;
+    }
+  }
+
+  &--readmore {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff5552;
+    letter-spacing: .9px;
+    border-bottom: 2px solid #ff5552;
+    padding: 0 0 9px 0;
+  }
+
   &--price {
     letter-spacing: 1px;
     width: 270px;
     height: 50px;
     background-color: black;
-    text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
-  }
-
-  &--tituleblock {
-    font-size: 14px;
   }
 
   &--subscribe {
     width: 120px;
     height: 30px;
-    text-transform: uppercase;
     font-size: 10px;
     font-weight: 400;
     letter-spacing: .7px;
@@ -61,9 +71,5 @@
       letter-spacing: none;
       font-size: 9px;
     }
-  }
-
-  &--spaced {
-    margin: 0px 10px 0px 0;
   }
 }
