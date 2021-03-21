@@ -25,6 +25,11 @@
     text-transform: uppercase;
     letter-spacing: 0.9px;
 
+    @media (max-width: 768px) {
+      font-size: 15px;
+      padding-left: 60px;
+    }
+
     &--red {
       color: #ff5552;
     }
@@ -37,6 +42,12 @@
     color: #878787;
     line-height: 24px;
     letter-spacing: 0.4px;
+
+    @media (max-width: 768px) {
+      padding-left: 100px;
+      font-size: 12px;
+      letter-spacing: 0.1px;
+    }
   }
 
   &-number {
@@ -45,6 +56,14 @@
     font-weight: 400;
     color: #fff;
     letter-spacing: 3px;
+
+    @media (max-width: 1200px) {
+      font-size: 55px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 45px;
+    }
   }
 
   &-statsh3 {
@@ -54,6 +73,15 @@
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    @media (max-width: 1200px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 10px;
+      letter-spacing: 0.3px;
+    }
   }
 
   &-recentworks {
@@ -77,6 +105,14 @@
     font-weight: 700;
     color: #fff;
     letter-spacing: 1px;
+
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 15px;
+    }
   }
 
   &-design {
@@ -85,6 +121,14 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
+
+    @media (max-width: 1200px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 10px;
+    }
   }
 
   &-pricingtable {
@@ -134,6 +178,11 @@
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      font-size: 13px;
+      letter-spacing: .4px;
+    }
   }
 
   &-lorem {
@@ -143,6 +192,11 @@
     color: #878787;
     letter-spacing: .4px;
     line-height: 24px;
+
+    @media (max-width: 768px) {
+      line-height: 20px;
+      font-size: 12px;
+    }
   }
 
   &-nametom {
@@ -167,6 +221,11 @@
     line-height: 24px;
     color: black;
     letter-spacing: .9px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      letter-spacing: 0;
+    }
   }
 
   &-post {
@@ -176,6 +235,10 @@
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: #141414;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 
   &-month {
@@ -184,6 +247,10 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #141414;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   &-proin {
@@ -193,6 +260,10 @@
     line-height: 24px;
     color: #878787;
     letter-spacing: .9px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   &-footerh {
@@ -201,6 +272,11 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .9px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+      letter-spacing: .5px;
+    }
   }
 
   &-adress {
@@ -209,18 +285,31 @@
     font-weight: 400;
     letter-spacing: .9px;
     line-height: 24px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      letter-spacing: .5px;
+    }
   }
 
   &-email {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   &-phonenumber {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   &-link {
@@ -229,6 +318,11 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: .7px;
+
+    @media (max-width: 768px) {
+      font-size: 10px;
+      line-height: 20px;
+    }
   }
 
   &-subscribe {
@@ -237,6 +331,10 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: .4px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   &-studio {
@@ -244,6 +342,11 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      letter-spacing: .9px;
+    }
   }
 
   &-information {

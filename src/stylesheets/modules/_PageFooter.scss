@@ -30,4 +30,17 @@
     text-align: center;
     width: 100%;
   }
+
+  &-logo {
+    @media (max-width: 768px) {
+      width: 150px;
+    }
+  }
+
+  &-cub {
+    @media (max-width: 768px) {
+      width: 60px;
+      height: 60px;
+    }
+  }
 }

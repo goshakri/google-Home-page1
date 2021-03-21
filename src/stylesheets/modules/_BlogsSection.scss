@@ -7,4 +7,14 @@
   &-column {
     display: flex;
   }
+
+  &-video {
+    width: 370px;
+    height: 300px;
+
+    @media (max-width: 768px) {
+      width: 240px;
+      height: 200px;
+    }
+  }
 }
