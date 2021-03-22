@@ -131,28 +131,28 @@ function App() {
             <div className="InfoSection u-pt-130 u-pb-130 u-pt-md-0 u-pb-md-0">
               <div className="InfoSection-content u-pt-md-100">
                 <div className="InfoSection-item u-pb-120">
-                  <div className="InfoSection-title">
-                    <h2 className="InfoSection-title u-pb-20">WHO WE ARE</h2>
-                    <p className="InfoSection-title InfoSection-title--text"> <span className="Slider-title Slider-title--red"> Fimilia </span> Studio</p>
+                  <div className="Text">
+                    <h2 className="Text--title u-pb-20">WHO WE ARE</h2>
+                    <p className="Text--smallTitle"><span className="u-color-red">Fimilia</span> Studio</p>
                   </div>
 
                   <div className="InfoSection-wrappers u-pt-100">
                     <div className="InfoSection-blockNews u-pr-40">
-                      <img className="InfoSection-images" src={iconone} alt="" />
-                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">GRAPHIC DESIGN</h3>
-                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <img className="InfoSection-images u-pb-30" src={iconone} alt="" />
+                      <h3 className="InfoSection-text u-pb-30">GRAPHIC DESIGN</h3>
+                      <p className="Text--verdana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="InfoSection-blockNews ">
-                      <img className="InfoSection-images" src={icontoo} alt="" />
-                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">DEVELOPMENT</h3>
-                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <img className="InfoSection-images u-pb-30" src={icontoo} alt="" />
+                      <h3 className="InfoSection-text u-pb-30">DEVELOPMENT</h3>
+                      <p className="Text--verdana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
 
                     <div className="InfoSection-blockNews u-pl-40">
-                      <img className="InfoSection-images" src={iconthree} alt="" />
-                      <h3 className="InfoSection-blockNews InfoSection-blockNews--text">MARKETING</h3>
-                      <p className="InfoSection-textp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
+                      <img className="InfoSection-images u-pb-30" src={iconthree} alt="" />
+                      <h3 className="InfoSection-text u-pb-30">MARKETING</h3>
+                      <p className="Text--verdana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices, enim dolor commodo nulla, fringilla egestas.</p>
                     </div>
                   </div>
                 </div>
