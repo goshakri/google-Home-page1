@@ -245,10 +245,10 @@ function App() {
         </div>
 
         <div className="PortfolioSection u-pt-130 u-pb-130 u-pb-md-0 u-pt-md-0">
-          <div className="PortfolioSection-title u-pt-md-100">
+          <div className="u-text-center u-pt-md-100">
             <div className="Text">
-              <h2 className="Text-ourportfolio u-pb-20">Our Portfolio</h2>
-              <p className="Text-recentworks u-pb-100"><span className=" Text Text--red"> Recent </span> Works</p>
+              <h2 className="Text--title u-pb-20">OUR PORTFOLIO</h2>
+              <p className="Text--smallTitle u-pb-100"><span className="u-color-red"> Recent </span> Works</p>
             </div>
           </div>
 
@@ -265,11 +265,9 @@ function App() {
                   <div className="PortfolioSection-item u-w-100 u-h-50">
                     <img className="PortfolioSection-images" src={graytwoo} alt="" />
 
-                    <div className="PortfolioSection-text">
-                      <div className="Text">
-                        <h3 className="Text-projecttitile u-pb-20">Project Title</h3>
-                        <p className="Text-design">Design, Branding & Development</p>
-                      </div>
+                    <div className="PortfolioSection-title">
+                      <h3 className="PortfolioSection--text u-pb-20">PROJECT TITLE</h3>
+                      <p className="PortfolioSection--podtitle">DESIGN, BRANDING & DEVELOPMENT</p>
                     </div>
                   </div>
                   <div className="d-flex u-w-100 u-h-50">
