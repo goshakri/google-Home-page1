@@ -8,11 +8,13 @@
   &--title {
     font-size: 35px;
     font-weight: 700;
+    letter-spacing: 0.5px;
   }
 
   &--smallTitle {
     font-size: 25px;
     font-weight: 700;
+    letter-spacing: 0.5px;
   }
 
   &--verdana {
@@ -22,6 +24,21 @@
     line-height: 24px;
     letter-spacing: 0.2px;
   }
+
+  &--noName {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  &--nonameFimilia {
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+
+
 
 
   &-familiastuido {

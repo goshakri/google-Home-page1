@@ -170,17 +170,17 @@ function App() {
                 </div>
 
                 <div className="Text">
-                  <p className="Text-familiastuido u-pb-90">
-                  <span className="Text-familiastuido Text-familiastuido--red" >Fimilia </span> Studio is Creative PSD Theme
-                  Design & <span className="Text-familiastuido Text-familiastuido--red"> Development</span>
+                  <p className="Text--nonameFimilia u-text-center u-pb-90">
+                  <span className="u-color-red " >FIMILIA </span> STUDIO IS CREATIVE PSD THEME
+                  DESIGN & <span className="u-color-red"> DEVELOPMENT</span>
                   </p>
                 </div>
               </div>
 
               <div className="Row-item u-pl-30">
                 <div className="Text">
-                  <h2 className="Text-aboutstudio u-pt-80 u-pb-30">
-                    <span className="Text-aboutstudio Text-aboutstudio--red"> About </span> Fimilia Studio
+                  <h2 className="Text--noName u-pt-80 u-pb-30">
+                    <span className="u-color-red"> ABOUT </span> FIMILIA STUDIO
                   </h2>
 
                   <p className="Text-familiastudiop u-pb-40">
@@ -188,7 +188,7 @@ function App() {
                   </p>
 
                   <p className="Text-familiastudiop">
-                    Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero.
+                    Nam volutpat est eu mollis pharetra. Vestibulum ultrices venenatis dolor a ornare. Sed et metus risus. Sed sagittis, nulla porta ultricies aliquet, sem lorem convallis arcu, id egestas libero libero et libero. Vivamus at eros in libero gravida mollis a eget odio. Quisque mattis molestie urna, eget bibendum neque.
                   </p>
                 </div>
               </div>
@@ -201,41 +201,41 @@ function App() {
             <div className="AboutSection u-pt-100 u-pb-100 u-pt-md-0 u-pb-md-0">
               <div className="AboutSection-itemstats u-pb-md-70 u-pt-md-70">
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40 u-pb-md-0">
+                  <p className="AboutSection--number u-pb-40 u-pb-md-0">
                     402
                   </p>
 
-                  <h3 className="Text-statsh3 u-pt-md-20">
+                  <h3 className="AboutSection--text u-pt-md-20">
                     Completed Projects
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40 u-pb-md-0">
+                  <p className="AboutSection--number u-pb-40 u-pb-md-0">
                     122
                   </p>
 
-                  <h3 className="Text-statsh3 u-pt-md-20">
+                  <h3 className="AboutSection--text u-pt-md-20">
                     Happy Clients
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40 u-pb-md-0">
+                  <p className="AboutSection--number u-pb-40 u-pb-md-0">
                     5471
                   </p>
 
-                  <h3 className="Text-statsh3 u-pt-md-20">
+                  <h3 className="AboutSection--text u-pt-md-20">
                     Working Hours
                   </h3>
                 </div>
 
                 <div className="AboutSection-blockstats">
-                  <p className="Text-number u-pb-40 u-pb-md-0">
+                  <p className="AboutSection--number u-pb-40 u-pb-md-0">
                     395
                   </p>
 
-                  <h3 className="Text-statsh3 u-pt-md-20">
+                  <h3 className="AboutSection--text u-pt-md-20">
                     Cups Of Coffee
                   </h3>
                 </div>
