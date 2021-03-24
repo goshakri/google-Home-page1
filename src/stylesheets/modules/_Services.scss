@@ -1,5 +1,6 @@
 .Services {
   display: flex;
+  font-family: 'Lato', sans-serif;
 
   &-item {
     display: flex;
@@ -21,5 +22,12 @@
 
   &-textposition {
     padding-left: 30px;
+  }
+
+  &--text {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }

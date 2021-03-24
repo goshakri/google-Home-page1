@@ -548,8 +548,8 @@ function App() {
             <div className="ServiceSection u-pb-130 u-pb-md-130">
               <div className="ServiceSection-title u-pb-100">
                 <div className="Text">
-                  <h3 className="Text-pricingtable u-pb-30">Why Choose Us</h3>
-                  <p className="Text-suitableplan"><span className="u-color-red">Our </span> Services</p>
+                  <h3 className="Text--title u-pb-30">WHY CHOOSE US</h3>
+                  <p className="Text--smallTitle"><span className="u-color-red">Our </span> Services</p>
                 </div>
               </div>
 
@@ -559,16 +559,14 @@ function App() {
                     <img className="Services-images" src={sizars} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
-                    <div className="Text">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Print </span> Design
-                      </h3>
+                  <div className="u-pl-30">
+                    <h3 className="Services--text u-pb-20">
+                      <span className="u-color-red">Print </span> Design
+                    </h3>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text--verdana">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
 
@@ -577,16 +575,14 @@ function App() {
                     <img className="Services-images" src={globus} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
-                    <div className="Text">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Web </span> Design
-                      </h3>
+                  <div className="u-pl-30">
+                    <h3 className="Services--text u-pb-20">
+                      <span className="u-color-red">Web </span> Design
+                    </h3>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text--verdana">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
 
@@ -595,16 +591,14 @@ function App() {
                     <img className="Services-images" src={sintezator} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
-                    <div className="Text">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Wed </span> Videos
-                      </h3>
+                  <div className="u-pl-30">
+                    <h3 className="Services--text u-pb-20">
+                      <span className="u-color-red">Wed </span> Videos
+                    </h3>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text--verdana">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -615,13 +609,13 @@ function App() {
                     <img className="Services-images" src={iphone} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
+                  <div className="u-pl-30">
                     <div className="Text">
-                      <h3 className="Text-services u-pb-20">
+                      <h3 className="Services--text u-pb-20">
                         <span className="u-color-red">Online </span> Support
                       </h3>
 
-                      <p className="Text-lorem">
+                      <p className="Text--verdana">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
                       </p>
                     </div>
@@ -633,16 +627,14 @@ function App() {
                     <img className="Services-images" src={telegram} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
-                    <div className="Text">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">Hosting  </span> Services
-                      </h3>
+                  <div className="u-pl-30">
+                    <h3 className="Services--text u-pb-20">
+                      <span className="u-color-red">Hosting  </span> Services
+                    </h3>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text--verdana">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
 
@@ -651,16 +643,14 @@ function App() {
                     <img className="Services-images" src={safari} alt="" />
                   </div>
 
-                  <div className="Services-textposition">
-                    <div className="Text">
-                      <h3 className="Text-services u-pb-20">
-                        <span className="u-color-red">SEO </span> Services
-                      </h3>
+                  <div className="u-pl-30">
+                    <h3 className="Services--text u-pb-20">
+                      <span className="u-color-red">SEO </span> Services
+                    </h3>
 
-                      <p className="Text-lorem">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
-                      </p>
-                    </div>
+                    <p className="Text--verdana">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit, nisl nec interdum ultrices.
+                    </p>
                   </div>
                 </div>
               </div>
