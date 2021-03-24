@@ -301,8 +301,8 @@ function App() {
             <div className="PricingSection u-pt-130 u-pt-md-0 u-pb-130 u-pb-md-0">
               <div className="PricingSection-title u-pt-md-100 u-pb-100 u-pb-md-50">
                 <div className="Text">
-                  <h2 className="Text-pricingtable u-pb-20">Pricing Table</h2>
-                  <p className="Text-suitableplan"><span className="u-color-red">Suitable</span> Plan</p>
+                  <h2 className="Text--title u-pb-20">PRICING TABLE</h2>
+                  <p className="Text--smallTitle"><span className="u-color-red">Suitable</span> Plan</p>
                 </div>
               </div>
 
