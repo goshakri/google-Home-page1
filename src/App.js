@@ -400,8 +400,8 @@ function App() {
             <div className="OurteamSection u-pt-130 u-pb-130 u-pb-md-0 u-pt-md-0">
               <div className="OurteamSection-title u-pt-md-100">
                 <div className="Text">
-                  <h2 className="Text-pricingtable u-pb-20">Our Team</h2>
-                  <p className="Text-suitableplan"><span className="u-color-red">Fimilia </span> Plan</p>
+                  <h2 className="Text--title u-pb-20">OUR TEAM</h2>
+                  <p className="Text--smallTitle"><span className="u-color-red">Fimilia </span> Plan</p>
                 </div>
               </div>
 
@@ -431,10 +431,10 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-text">
+                  <div className="MemberCard-title">
                     <div className="Text">
-                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">TIM </span> JONES</h3>
-                      <p className="Text-develover">Html Developer</p>
+                      <h3 className="MemberCard--text u-pb-15"><span className="u-color-red">TIM </span> JONES</h3>
+                      <p className="MemberCard--smallText">Html Developer</p>
                     </div>
                   </div>
                 </div>
@@ -464,10 +464,10 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-text">
+                  <div className="MemberCard-title">
                     <div className="Text">
-                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Johnathan </span> Doe</h3>
-                      <p className="Text-develover">Front End Developer</p>
+                      <h3 className="MemberCard--text u-pb-15"><span className="u-color-red">JOHNATHAN </span> DOE</h3>
+                      <p className="MemberCard--smallText">Front End Developer</p>
                     </div>
                   </div>
                 </div>
@@ -497,10 +497,10 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-text">
+                  <div className="MemberCard-title">
                     <div className="Text">
-                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Nina </span> Adams</h3>
-                      <p className="Text-develover">Marketing Manager</p>
+                      <h3 className="MemberCard--text u-pb-15"><span className="u-color-red">NINA </span> ADAMS</h3>
+                      <p className="MemberCard--smallText">Marketing Manager</p>
                     </div>
                   </div>
 
@@ -531,10 +531,10 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="MemberCard-text">
+                  <div className="MemberCard-title">
                     <div className="Text">
-                      <h3 className="Text-timjones u-pb-15"><span className="u-color-red">Alexia </span> Doe</h3>
-                      <p className="Text-develover">CEO</p>
+                      <h3 className="MemberCard--text u-pb-15"><span className="u-color-red">ALEXIA </span> DOE</h3>
+                      <p className="MemberCard--smallText">CEO</p>
                     </div>
                   </div>
                 </div>
