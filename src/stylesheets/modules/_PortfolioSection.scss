@@ -1,10 +1,11 @@
 .PortfolioSection {
+  font-family: 'Lato', sans-serif;
 
   &-item {
     display: flex;
   }
 
-  &-text {
+  &-title {
     position: absolute;
     padding: 50px 0px 0px 40px;
 
@@ -13,8 +14,18 @@
     }
   }
 
-  &-title {
-    text-align: center;
+  &--text {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  &--podtitle {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ffffff;
   }
 
   &-images {
@@ -40,5 +51,4 @@
   .flex-column {
     flex-direction: column;
   }
-
 }
